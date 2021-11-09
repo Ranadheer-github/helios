@@ -18,7 +18,7 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	color: rgb(208, 230, 238);
+	color: rgb(232, 240, 243);
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -84,7 +84,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #d0ecec;
+		background: #187777;
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -117,7 +117,7 @@ input, select, textarea {
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-		color: rgb(140, 140, 235);
+		color: rgb(58, 58, 206);
 		text-decoration: none;
 		border-bottom-color: transparent;
 	}
@@ -1789,6 +1789,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			height:60%:
 		}
 
 		.image.fit {
@@ -1956,10 +1957,10 @@ input, select, textarea {
 		-webkit-appearance: none;
 		display: block;
 		border: 0;
-		background: #fafafa;
+		background: #c23e3e;
 		width: 100%;
 		border-radius: 0.5em;
-		border: solid 1px #E5E5E5;
+		border: solid 1px #3d2e2e;
 		padding: 1em;
 		-moz-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
@@ -2218,7 +2219,8 @@ input, select, textarea {
 		}
 
 			#header h1 a {
-				color: inherit;
+				font-family: 'Times New Roman', Times, serif;
+				color:rgb(204, 217, 236);
 			}
 
 		#header .button {
@@ -2616,7 +2618,8 @@ input, select, textarea {
 				margin-bottom: 3em;
 			}
 
-			.carousel article p {
+			.carousel article p { 
+				color: rgb(165, 23, 13);
 				text-align: center;
 			}
 
