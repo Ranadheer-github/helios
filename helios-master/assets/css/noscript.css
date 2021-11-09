@@ -14,4 +14,8 @@
 
 	body.homepage.is-preload #header:after {
 		opacity: 0;
-	}
+	
+}
+h1{
+	color: rgb(172, 66, 172);
+}
