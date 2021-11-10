@@ -15,7 +15,7 @@ small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
+canvas, details, embed, figure,.image.vision, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	color: rgb(4, 35, 46);
@@ -1789,17 +1789,23 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
-			height:250px;
+			height:230px;
 		}
 
 		.image.fit {
 			display: block;
 			width: 100%;
 		}
-
-		.image.featured {
+		.image.centered{
 			display: block;
-			width: 100%;
+			width:100%;
+			height:100px;
+			
+		}
+
+		.image.vision img {
+			width: 1200px;
+			height: 400px;
 			margin: 0 0 4em 0;
 		}
 
