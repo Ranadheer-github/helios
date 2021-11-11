@@ -18,7 +18,7 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure,.image.vision, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	color: rgb(4, 35, 46);
+	color: rgb(12, 79, 224);
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -117,7 +117,7 @@ input, select, textarea {
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-		color: rgb(58, 58, 206);
+		color: rgb(22, 61, 94);
 		text-decoration: none;
 		border-bottom-color: transparent;
 	}
@@ -149,7 +149,7 @@ input, select, textarea {
 	}
 
 	a {
-		color: inherit;
+		color: rgb(4, 54, 56);
 		border-bottom: solid 1px rgba(128, 128, 128, 0.15);
 		text-decoration: none;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -1804,7 +1804,7 @@ input, select, textarea {
 		}
 
 		.image.vision img {
-			width: 1200px;
+			width: 100%;
 			height: 400px;
 			margin: 0 0 4em 0;
 		}
