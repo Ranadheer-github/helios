@@ -2215,9 +2215,11 @@ input, select, textarea {
 
 			#header header > p {
 				font-size: 1.25em;
+				color:white;
 				margin: 0;
 			}
-
+			
+			
 		#header h1 {
 			color: #fff;
 			font-size: 3em;
