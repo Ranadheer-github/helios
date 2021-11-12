@@ -10,7 +10,7 @@
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
+code, del, dfn, em, img,ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
@@ -18,7 +18,7 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure,.image.vision, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	color: rgb(12, 79, 224);
+	color: rgb(8, 18, 39);
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -117,7 +117,7 @@ input, select, textarea {
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-		color: rgb(22, 61, 94);
+		color: rgb(63, 148, 218);
 		text-decoration: none;
 		border-bottom-color: transparent;
 	}
@@ -1804,11 +1804,11 @@ input, select, textarea {
 		}
 
 		.image.vision img {
-			width: 100%;
+			width: 150%;
 			height: 400px;
 			margin: 0 0 4em 0;
 		}
-
+		
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
@@ -3275,3 +3275,8 @@ span.psw {
      width: 100%;
   }
 }
+
+#borderimg {
+	border-image-source: url(border.png);
+	border-image-outset: 10px;
+  }
