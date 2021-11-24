@@ -1,0 +1,314 @@
+<style>
+	<!-- remove -->
+	<font name="SplashScreenPhoneFontF" family="Arial;segoeui;Helvetica;Tahoma;sans-serif;ChalkboardBold" size="14" bold="1"/>
+   <font name="SplashScreenBoldF" family="Arial;segoeui;Helvetica;Tahoma;sans-serif;ChalkboardBold" size="11" bold="1"/>   
+   <font name="SplashScreenBottomUnderlineF" family="Arial;segoeui;Helvetica;Tahoma;sans-serif;ChalkboardBold" size="10" bold="1" underline="1"/>
+   <font name="SplashScreenErrorF" family="Arial;segoeui;Helvetica;Tahoma;sans-serif;ChalkboardBold" size="12" bold="1"/>
+   <!-- remove -->
+   <font name="ProductKeyEditFont" family="Courier New" size="11" bold="0" no_subpix="1"/>
+   <font name="SplashLineEditFont" family="Courier New" size="11" bold="0" no_subpix="1"/>
+   <font name="SplashScreenBottomF" family="Arial;segoeui;Helvetica;Tahoma;sans-serif;ChalkboardBold" size="11"/>
+   <font name="SplashScreenButtonF" family="Arial;segoeui;Helvetica;Tahoma;sans-serif;Chalkboard" size="12" bold="1"/>
+   <font name="SplashScreenStandartF" family="Arial;segoeui;Helvetica;Tahoma;sans-serif;ChalkboardBold" size="11" bold="0"/>      
+   
+   <!-- remove -->
+   <color name="SSTrialDaysColor" value="0.97;0.7;0.13;1"/>
+   <!-- remove -->
+   
+   <color name="SplashScreenFontColor" value="0.45;0.45;0.45;1"/>
+   <color name="SplashScreenHighlightFontColor" value="1.0;1.0;1.0;1"/>   
+   <color name="SSBlackShadow" value="0.0;0.0;0.0;0.9"/>
+   <color name="SSWhiteShadow" value="1.0;1.0;1.0;0.4"/>   
+   <color name="SplashAcknowledgmentsColor" value="0.29;0.43;1;1"/>
+   
+  <widget name="SplashLineEdit">
+    <metric name="LeftMargin" value="3"/>
+    <metric name="RightMargin" value="3"/>
+    <metric name="TopMargin" value="3"/>
+    <metric name="BottomMargin" value="3"/>
+  </widget>
+  <widget name="SplashStyleSwitchButtonBold">
+    <metric name="LeftMargin" value="0"/>
+    <metric name="RightMargin" value="5"/>
+    <metric name="TopMargin" value="2"/>
+    <metric name="BottomMargin" value="2"/>
+    <string name="FontStyle" value="Bold" />
+  </widget>
+  <widget name="SplashStyleSwitchButton">
+    <metric name="LeftMargin" value="0"/>
+    <metric name="RightMargin" value="5"/>
+    <metric name="TopMargin" value="2"/>
+    <metric name="BottomMargin" value="2"/>
+    <string name="FontStyle" value="Default" />
+  </widget>
+  <widget name="SplashAcknowledgmentsLabel">
+	<metric name="LeftMargin" value="0"/>
+    <metric name="RightMargin" value="0"/>
+    <metric name="TopMargin" value="0"/>
+    <metric name="BottomMargin" value="0"/>
+  </widget>
+  <widget name="SplashScreen">	
+	<metric name="TopImageWidth" value="320"/>
+	<metric name="TopImageHeight" value="90"/>	
+	<metric name="TotalSplashWidth" value="500"/>
+	<metric name="TotalSplashHeigh" value="500"/>
+	<metric name="TopImageMarginLeft" value="97"/>
+	<metric name="TextBodyHorizontalPadding" value="102"/>
+	<metric name="GapTopFontToMiddlePart" value="1"/>
+	<metric name="GapTrialTextToButtons" value="17"/>
+	<metric name="GapButtonsToBottom" value="18"/>
+	<metric name="GapBetweenButtons" value="6"/>
+	<metric name="MinimalMiddleGap" value="41"/>
+  </widget>
+  <widget name="SplashScreenButton">
+	<metric name="LeftMargin" value="30"/>
+	<metric name="RightMargin" value="30"/>
+	<metric name="TopMargin" value="11"/>
+	<metric name="BottomMargin" value="12"/>
+  </widget>
+
+  <part name="SplashLineEdit">
+    <state name="normal">
+      <use template="LineEditSplash" border="2;2;2;4"/>
+    </state>
+    <state name="focused">
+      <use state="normal"/>
+    </state>
+    <state name="disabled">
+      <use template="LineEditSplash" border="2;2;2;4"/>
+    </state>
+  </part>
+	<!-- remove -->   
+  <part name="SplashScreenPhoneFont">
+      <state name="normal">
+	  <text font="SplashScreenPhoneFontF" margin="0;1;0;-1" flags="center;top" color="SSWhiteShadow" wrapmode="WrapWord"/>
+	  <text font="SplashScreenPhoneFontF" margin="0;0;0;0" flags="center;top" color="SplashScreenFontColor" wrapmode="WrapWord"/>
+      </state>
+    </part>
+   <part name="SplashScreenStandart">
+      <state name="normal">
+	  <text font="SplashScreenStandartF" margin="0;1;0;-1" flags="left;top" color="SSWhiteShadow" wrapmode="WrapWord"/>
+	  <text font="SplashScreenStandartF" margin="0;0;0;0" flags="left;top" color="SplashScreenFontColor" wrapmode="WrapWord"/>
+      </state>
+    </part>
+   <part name="SplashScreenStandartHCenter">
+      <state name="normal">
+	  <text font="SplashScreenStandartF" margin="0;1;0;-1" flags="center;top" color="SSWhiteShadow" wrapmode="WrapWord"/>
+	  <text font="SplashScreenStandartF" margin="0;0;0;0" flags="center;top" color="SplashScreenFontColor" wrapmode="WrapWord"/>
+      </state>
+    </part>
+   <part name="SplashScreenStandartVCenter">
+      <state name="normal">
+	  <text font="SplashScreenStandartF" margin="0;1;0;-1" flags="left;middle" color="SSWhiteShadow" wrapmode="WrapWord"/>
+	  <text font="SplashScreenStandartF" margin="0;0;0;0" flags="left;middle" color="SplashScreenFontColor" wrapmode="WrapWord"/>
+      </state>
+    </part> 
+   <part name="SplashScreenBold">
+      <state name="normal">
+	  <text font="SplashScreenBoldF" margin="0;1;0;-1" flags="left;top" color="SSWhiteShadow" wrapmode="WrapWord"/>
+	  <text font="SplashScreenBoldF" margin="0;0;0;0" flags="left;top" color="SplashScreenFontColor" wrapmode="WrapWord"/>
+      </state>
+    </part>
+	<part name="SplashScreenTrialDaysColored">
+      <state name="normal">
+	  <text font="SplashScreenBoldF" margin="0;1;0;-1" flags="left;top" color="SSWhiteShadow" wrapmode="WrapWord"/>
+	  <text font="SplashScreenBoldF" margin="0;0;0;0" flags="left;top" color="SSTrialDaysColor" wrapmode="WrapWord"/>
+      </state>
+    </part>
+   <part name="SplashScreenBoldHCenter">
+      <state name="normal">
+	  <text font="SplashScreenBoldF" margin="0;1;0;-1" flags="center;middle" color="SSWhiteShadow" wrapmode="WrapWord"/>
+	  <text font="SplashScreenBoldF" margin="0;0;0;0" flags="center;middle" color="SplashScreenFontColor" wrapmode="WrapWord"/>
+      </state>
+    </part>
+   <part name="SplashScreenBoldVCenter">
+      <state name="normal">
+	  <text font="SplashScreenBoldF" margin="0;1;0;-1" flags="left;middle" color="SSWhiteShadow" wrapmode="WrapWord"/>
+	  <text font="SplashScreenBoldF" margin="0;0;0;0" flags="left;middle" color="SplashScreenFontColor" wrapmode="WrapWord"/>
+      </state>
+    </part>
+	<part name="SplashScreenBottomRightAligned">
+      <state name="normal">
+	  <text font="SplashScreenBottomF" margin="0;1;0;-1" flags="right;top" color="SSWhiteShadow" wrapmode="WrapWord"/>
+	  <text font="SplashScreenBottomF" margin="0;0;0;0" flags="right;top" color="SplashScreenFontColor" wrapmode="WrapWord"/>
+      </state>
+    </part>
+   <part name="SplashScreenBottomError">
+      <state name="normal">
+	  <text font="SplashScreenErrorF" margin="0;1;0;-1" flags="left;top" color="SSWhiteShadow" wrapmode="WrapWord"/>
+	  <text font="SplashScreenErrorF" margin="0;0;0;0" flags="left;top" color="1;0;0;1" wrapmode="WrapWord"/>
+      </state>
+    </part>
+<!-- remove -->
+   <part name="SplashScreenBottom">
+      <state name="normal">
+	  <text font="SplashScreenBottomF" margin="0;0;0;0" flags="left;top" color="SplashScreenFontColor" wrapmode="WrapWord"/>
+      </state>
+    </part>
+	<part name="SplashScreenButton">
+		<state name="normal">
+			<use template="GoogleBtn-Norm"/>
+			<text font="SplashScreenButtonF" margin="0;-1;0;0" flags="center;middle" color="DialogText" />
+		</state>
+		<state name="normal.hover">
+			<use template="GoogleBtn-Hover"/>
+			<text font="SplashScreenButtonF" margin="0;-1;0;0" flags="center;middle" color="DialogText" />
+		</state>
+		<state name="normal.pressed">
+			<use template="GoogleBtn-Down"/>
+			<text font="SplashScreenButtonF" margin="0;-1;0;0" flags="center;middle" color="DialogText" />
+		</state>
+		<state name="normal.pressed.hover">
+			<use state="normal.pressed"/>
+		</state>
+		<state name="normal.focused">
+			<use state="normal"/>
+		</state>
+		<state name="normal.focused.hover">
+			<use state="normal.hover"/>
+		</state>
+		<state name="activated">
+			<use state="normal.pressed"/>
+		</state>
+		<state name="activated.hover">
+			<use state="activated"/>
+		</state>
+		<state name="activated.pressed">
+			<use state="activated"/>
+		</state>
+		<state name="activated.focused">
+			<use state="activated"/>
+		</state>
+		<state name="activated.focused.hover">
+			<use state="activated.hover"/>
+		</state>
+		<state name="activated.pressed.hover">
+			<use state="activated.hover"/>
+		</state>
+	</part>
+	<part name="SplashScreenLabelButton">
+		<substate>
+			<state name="normal">
+				<text font="SplashScreenStandartF" margin="0;1;0;-1" flags="left;middle" color="SSWhiteShadow" />
+				<text font="SplashScreenStandartF" margin="0;0;0;0" flags="left;middle" color="SplashScreenFontColor" />
+			</state>
+			<state name="activated">
+				<text font="SplashScreenStandartF" margin="0;1;0;-1" flags="left;middle" color="SSWhiteShadow" />
+				<text font="SplashScreenStandartF" margin="0;0;0;0" flags="left;middle" color="SplashScreenFontColor" />
+			</state>
+			<state name="activated.disabled">
+				<text font="SplashScreenStandartF" margin="0;1;0;-1" flags="left;middle" color="SSWhiteShadow" />
+				<text font="SplashScreenStandartF" margin="0;0;0;0" flags="left;middle" color="SplashScreenFontColor" />
+			</state>
+		</substate>
+		<substate>
+			<state name="pressed"></state>
+			<state name="focused"></state>
+		</substate>
+		<substate>
+			<state name="hover">
+				<text font="SplashScreenStandartF" margin="0;1;0;-1" flags="left;middle" color="SSBlackShadow" />
+				<text font="SplashScreenStandartF" margin="0;0;0;0" flags="left;middle" color="SplashScreenFontColor" />
+			</state>
+		</substate>
+		<state name="normal.disabled" tinting="1;1;1;0.6">
+			<text font="SplashScreenStandartF" margin="0;1;0;-1" flags="left;middle" color="SSWhiteShadow" />
+			<text font="SplashScreenStandartF" margin="0;0;0;0" flags="left;middle" color="SplashScreenFontColor" />
+		</state>
+	</part>
+	<!-- remove -->
+	<part name="SplashScreenLabelButtonBold">
+		<substate>
+			<state name="normal">
+				<text font="SplashScreenBoldF" margin="0;1;0;-1" flags="left;middle" color="SSWhiteShadow" />
+				<text font="SplashScreenBoldF" margin="0;0;0;0" flags="left;middle" color="SplashScreenFontColor" />
+			</state>
+			<state name="activated">
+				<text font="SplashScreenBoldF" margin="0;1;0;-1" flags="left;middle" color="SSWhiteShadow" />
+				<text font="SplashScreenBoldF" margin="0;0;0;0" flags="left;middle" color="SplashScreenFontColor" />
+			</state>
+			<state name="activated.disabled">
+				<text font="SplashScreenBoldF" margin="0;1;0;-1" flags="left;middle" color="SSWhiteShadow" />
+				<text font="SplashScreenBoldF" margin="0;0;0;0" flags="left;middle" color="SplashScreenFontColor" />
+			</state>
+			<state name="pressed">
+				<text font="SplashScreenBoldF" margin="0;1;0;-1" flags="left;middle" color="SSWhiteShadow" />
+				<text font="SplashScreenBoldF" margin="0;0;0;0" flags="left;middle" color="SplashScreenFontColor" />
+			</state>
+			<state name="focused">
+				<text font="SplashScreenBoldF" margin="0;1;0;-1" flags="left;middle" color="SSWhiteShadow" />
+				<text font="SplashScreenBoldF" margin="0;0;0;0" flags="left;middle" color="SplashScreenFontColor" />
+			</state>
+			<state name="hover">
+				<text font="SplashScreenBoldF" margin="0;1;0;-1" flags="left;middle" color="SSWhiteShadow" />
+				<text font="SplashScreenBoldF" margin="0;0;0;0" flags="left;middle" color="SplashScreenFontColor" />
+			</state>
+		</substate>
+		<state name="normal.pressed">
+			<text font="SplashScreenBoldF" margin="0;1;0;-1" flags="left;middle" color="SSWhiteShadow" />
+			<text font="SplashScreenBoldF" margin="0;0;0;0" flags="left;middle" color="SplashScreenFontColor" />
+		</state>
+		<state name="normal.pressed.hover">
+			<text font="SplashScreenBoldF" margin="0;1;0;-1" flags="left;middle" color="SSWhiteShadow" />
+			<text font="SplashScreenBoldF" margin="0;0;0;0" flags="left;middle" color="SplashScreenFontColor" />
+		</state>
+		<state name="normal.hover">
+			<text font="SplashScreenBoldF" margin="0;1;0;-1" flags="left;middle" color="SSWhiteShadow" />
+			<text font="SplashScreenBoldF" margin="0;0;0;0" flags="left;middle" color="SplashScreenFontColor" />
+		</state>
+		<state name="normal.disabled">
+			<text font="SplashScreenBoldF" margin="0;1;0;-1" flags="left;middle" color="SSWhiteShadow" />
+			<text font="SplashScreenBoldF" margin="0;0;0;0" flags="left;middle" color="SplashScreenFontColor" />
+		</state>
+	</part>
+	<part name="SplashAcknowledgmentsLabel">
+        <state name="normal">
+            <text font="SplashScreenBottomUnderlineF" margin="0;1;0;-1" flags="left;top" color="SSWhiteShadow"/>
+            <text font="SplashScreenBottomUnderlineF" margin="0;0;0;0" flags="left;top" color="SplashScreenFontColor"/>
+        </state>
+        <state name="normal.hover">
+            <text font="SplashScreenBottomUnderlineF" margin="0;-1;0;1" flags="left;top" color="SSBlackShadow"/>
+            <text font="SplashScreenBottomUnderlineF" margin="0;0;0;0" flags="left;top" color="SplashScreenHighlightFontColor"/>
+        </state>
+        <state name="normal.pressed">
+            <use state="normal.hover"/>
+        </state>
+        <state name="normal.pressed.hover">
+            <use state="normal.hover"/>
+        </state>	
+	</part>
+	<!-- remove -->
+	<part name="SplashAcknowledgmentsLabelNoUnderline">
+        <state name="normal">
+            <text font="SplashScreenBottomF" margin="0;0;0;0" flags="left;top" color="SplashAcknowledgmentsColor"/>
+        </state>
+        <state name="normal.hover">
+            <use state="normal"/>
+        </state>
+        <state name="normal.pressed">
+            <use state="normal"/>
+        </state>
+        <state name="normal.pressed.hover">
+            <use state="normal"/>
+        </state>	
+	</part>
+	
+	<template name="SplashBackgroundImage">
+		<xrect border="499;499;0;0" subrect="0;0;500;500" img="../SplashBottom.png"/>
+	</template>
+	<template name="SplashTopImage">
+		<xrect border="320;90;0;0" subrect="0;0;320;90" img="../SplashTop.png"/>
+	</template>
+	<part name="SplashBackground">
+		<state name="normal">
+			<use template="SplashBackgroundImage"/>
+		</state>
+	</part>
+	<part name="SplashTopImage">
+		<state name="normal">
+			<use template="SplashTopImage"/>
+		</state>
+	</part>
+ </style>
+
+  

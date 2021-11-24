@@ -1,0 +1,2065 @@
+# Language zht translations for leonis_v package.
+# Copyright (C) 2011 2010 Google. All rights reserved.
+# This file is distributed under the same license as the leonis_v package.
+# Automatically generated, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Leonis 1.0\n"
+"Report-Msgid-Bugs-To: dbarten@niksoftware.com\n"
+"POT-Creation-Date: 2012-08-15 08:32+0200\n"
+"PO-Revision-Date: 2012-08-15 08:40+0100\n"
+"Last-Translator: \n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ../src/fgraph/Model.cpp:55
+#: ../src/fgraph/Model.cpp:145
+msgid "Brightness"
+msgstr "亮度"
+
+#: ../src/fgraph/Model.cpp:56
+#: ../src/fgraph/Model.cpp:65
+#: ../src/fgraph/Model.cpp:70
+msgid "Highlights"
+msgstr "亮點"
+
+#: ../src/fgraph/Model.cpp:56
+msgid "Brightness (Highlights)"
+msgstr "亮度（亮點）"
+
+#: ../src/fgraph/Model.cpp:57
+#: ../src/fgraph/Model.cpp:66
+msgid "Midtones"
+msgstr "中調"
+
+#: ../src/fgraph/Model.cpp:57
+msgid "Brightness (Midtones)"
+msgstr "亮度（中調）"
+
+#: ../src/fgraph/Model.cpp:58
+#: ../src/fgraph/Model.cpp:67
+#: ../src/fgraph/Model.cpp:69
+msgid "Shadows"
+msgstr "陰影"
+
+#: ../src/fgraph/Model.cpp:58
+msgid "Brightness (Shadows)"
+msgstr "亮度（陰影)"
+
+#: ../src/fgraph/Model.cpp:59
+msgid "Dynamic Brightness"
+msgstr "動態亮度"
+
+#: ../src/fgraph/Model.cpp:60
+#: ../src/fgraph/Model.cpp:147
+msgid "Contrast"
+msgstr "對比度"
+
+#: ../src/fgraph/Model.cpp:61
+msgid "Soft Contrast"
+msgstr "柔和對比度"
+
+#: ../src/fgraph/Model.cpp:62
+#: ../src/fgraph/Model.cpp:151
+msgid "Amplify Whites"
+msgstr "放大白色"
+
+#: ../src/fgraph/Model.cpp:63
+#: ../src/fgraph/Model.cpp:153
+msgid "Amplify Blacks"
+msgstr "放大黑色"
+
+#: ../src/fgraph/Model.cpp:64
+#: ../src/fgraph/Model.cpp:149
+msgid "Structure"
+msgstr "細節強度"
+
+#: ../src/fgraph/Model.cpp:65
+msgid "Structure (Highlights)"
+msgstr "細節強度（亮點）"
+
+#: ../src/fgraph/Model.cpp:66
+msgid "Structure (Midtones)"
+msgstr "細節強度（中調）"
+
+#: ../src/fgraph/Model.cpp:67
+msgid "Structure (Shadows)"
+msgstr "細節強度（陰影）"
+
+#: ../src/fgraph/Model.cpp:68
+#: ../src/fgraph/Model.cpp:155
+msgid "Fine Structure"
+msgstr "精細細節強度"
+
+#: ../src/fgraph/Model.cpp:69
+msgid "Shadow Protection"
+msgstr "暗影防護"
+
+#: ../src/fgraph/Model.cpp:70
+msgid "Highlight Protection"
+msgstr "亮度防護"
+
+#: ../src/fgraph/Model.cpp:71
+msgid "Hue"
+msgstr "色調"
+
+#: ../src/fgraph/Model.cpp:71
+msgid "Color Filter Hue"
+msgstr "顏色濾鏡色調"
+
+#: ../src/fgraph/Model.cpp:72
+#: ../src/fgraph/Model.cpp:89
+#: ../src/fgraph/Model.cpp:90
+#: ../src/fgraph/Model.cpp:91
+#: ../src/fgraph/Model.cpp:92
+#: ../src/fgraph/Model.cpp:93
+msgid "Strength"
+msgstr "強度"
+
+#: ../src/fgraph/Model.cpp:72
+msgid "Color Filter Strength"
+msgstr "顏色濾鏡強度"
+
+#: ../src/fgraph/Model.cpp:73
+#: ../src/gui/ColorFilterPanel.cpp:229
+msgid "Red"
+msgstr "紅色"
+
+#: ../src/fgraph/Model.cpp:73
+msgid "Film Sensitivity (Red)"
+msgstr "膠片靈敏度（紅色）"
+
+#: ../src/fgraph/Model.cpp:74
+#: ../src/gui/ColorFilterPanel.cpp:239
+msgid "Yellow"
+msgstr "黃色"
+
+#: ../src/fgraph/Model.cpp:74
+msgid "Film Sensitivity (Yellow)"
+msgstr "膠片靈敏度（黃色）"
+
+#: ../src/fgraph/Model.cpp:75
+#: ../src/gui/ColorFilterPanel.cpp:244
+msgid "Green"
+msgstr "綠色"
+
+#: ../src/fgraph/Model.cpp:75
+msgid "Film Sensitivity (Green)"
+msgstr "膠片靈敏度（綠色）"
+
+#: ../src/fgraph/Model.cpp:76
+msgid "Cyan"
+msgstr "青色"
+
+#: ../src/fgraph/Model.cpp:76
+msgid "Film Sensitivity (Cyan)"
+msgstr "膠片靈敏度（青色）"
+
+#: ../src/fgraph/Model.cpp:77
+#: ../src/gui/ColorFilterPanel.cpp:249
+msgid "Blue"
+msgstr "藍色"
+
+#: ../src/fgraph/Model.cpp:77
+msgid "Film Sensitivity (Blue)"
+msgstr "膠片靈敏度（藍色）"
+
+#: ../src/fgraph/Model.cpp:78
+msgid "Violet"
+msgstr "紫羅蘭色"
+
+#: ../src/fgraph/Model.cpp:78
+msgid "Film Sensitivity (Violet)"
+msgstr "膠片靈敏度（紫羅蘭色）"
+
+#: ../src/fgraph/Model.cpp:79
+msgid "Amount"
+msgstr "數量"
+
+#: ../src/fgraph/Model.cpp:79
+msgid "Vignette Amount"
+msgstr "黑角數量"
+
+#: ../src/fgraph/Model.cpp:80
+msgid "Circle"
+msgstr "圓圈"
+
+#: ../src/fgraph/Model.cpp:80
+msgid "Vignette Shape"
+msgstr "黑角形狀"
+
+#. TRANSLATORS: The string "Size" is what is displayed in the history
+#. browser when the size / diameter of a control point is changed.
+#: ../src/fgraph/Model.cpp:81
+#: ../src/fgraph/Model.cpp:94
+#: ../src/fgraph/Model.cpp:95
+#: ../src/fgraph/Model.cpp:96
+#: ../src/fgraph/Model.cpp:97
+#: ../src/fgraph/Model.cpp:102
+#: ../src/fgraph/Model.cpp:143
+msgid "Size"
+msgstr "大小"
+
+#: ../src/fgraph/Model.cpp:81
+msgid "Vignette Size"
+msgstr "黑角大小"
+
+#: ../src/fgraph/Model.cpp:82
+msgid "Grain per pixel"
+msgstr "每像素的微粒"
+
+#: ../src/fgraph/Model.cpp:83
+msgid "Soft"
+msgstr "柔和"
+
+#: ../src/fgraph/Model.cpp:83
+msgid "Grain Hardness"
+msgstr "微粒粗度"
+
+#: ../src/fgraph/Model.cpp:84
+msgid "Silver Hue"
+msgstr "銀色色調"
+
+#: ../src/fgraph/Model.cpp:85
+msgid "Paper Hue"
+msgstr "紙張色調"
+
+#: ../src/fgraph/Model.cpp:86
+msgid "Balance"
+msgstr "平衡"
+
+#: ../src/fgraph/Model.cpp:86
+msgid "Toning Balance"
+msgstr "調平衡"
+
+#: ../src/fgraph/Model.cpp:87
+msgid "Silver Toning"
+msgstr "銀色調"
+
+#: ../src/fgraph/Model.cpp:88
+msgid "Paper Toning"
+msgstr "紙色調"
+
+#: ../src/fgraph/Model.cpp:89
+msgid "Toning Strength"
+msgstr "調強度"
+
+#: ../src/fgraph/Model.cpp:90
+msgid "Burn Edges Strength (Left)"
+msgstr "燃燒邊緣強度（左邊）"
+
+#: ../src/fgraph/Model.cpp:91
+msgid "Burn Edges Strength (Right)"
+msgstr "燃燒邊緣強度（右邊）"
+
+#: ../src/fgraph/Model.cpp:92
+msgid "Burn Edges Strength (Top)"
+msgstr "燃燒邊緣強度（上方）"
+
+#: ../src/fgraph/Model.cpp:93
+msgid "Burn Edges Strength (Bottom)"
+msgstr "燃燒邊緣強度（下方）"
+
+#: ../src/fgraph/Model.cpp:94
+msgid "Burn Edges Size (Left)"
+msgstr "燃燒邊緣大小（左邊）"
+
+#: ../src/fgraph/Model.cpp:95
+msgid "Burn Edges Size (Right)"
+msgstr "燃燒邊緣大小（右邊）"
+
+#: ../src/fgraph/Model.cpp:96
+msgid "Burn Edges Size (Top)"
+msgstr "燃燒邊緣大小（上方）"
+
+#: ../src/fgraph/Model.cpp:97
+msgid "Burn Edges Size (Bottom)"
+msgstr "燃燒邊緣大小（下方）"
+
+#: ../src/fgraph/Model.cpp:98
+#: ../src/fgraph/Model.cpp:99
+#: ../src/fgraph/Model.cpp:100
+#: ../src/fgraph/Model.cpp:101
+msgid "Transition"
+msgstr "過渡"
+
+#: ../src/fgraph/Model.cpp:98
+msgid "Burn Edges Transition (Left)"
+msgstr "燃燒邊緣過渡（左邊）"
+
+#: ../src/fgraph/Model.cpp:99
+msgid "Burn Edges Transition (Right)"
+msgstr "燃燒邊緣過渡（右邊）"
+
+#: ../src/fgraph/Model.cpp:100
+msgid "Burn Edges Transition (Top)"
+msgstr "燃燒邊緣過渡（上方）"
+
+#: ../src/fgraph/Model.cpp:101
+msgid "Burn Edges Transition (Bottom)"
+msgstr "燃燒邊緣過渡（下方）"
+
+#: ../src/fgraph/Model.cpp:102
+msgid "Border Size"
+msgstr "邊框大小"
+
+#: ../src/fgraph/Model.cpp:103
+msgid "Spread"
+msgstr "鋪蓋"
+
+#: ../src/fgraph/Model.cpp:103
+msgid "Border Spread"
+msgstr "邊框鋪蓋"
+
+#. TRANSLATORS: this is a string for the left hand side of a "Grunge" slider for the image borders (Clean..Rough)
+#: ../src/fgraph/Model.cpp:105
+msgid "Clean"
+msgstr "清澈"
+
+#: ../src/fgraph/Model.cpp:105
+msgid "Border Roughness"
+msgstr "邊框粗糙度w"
+
+#. TRANSLATORS: The abbreviation "Br" stands for "Brightness".
+#: ../src/fgraph/Model.cpp:145
+msgid "Br"
+msgstr "Br"
+
+#. TRANSLATORS: The abbreviation "Co" stands for "Contrast".
+#: ../src/fgraph/Model.cpp:147
+msgid "Co"
+msgstr "Co"
+
+#. TRANSLATORS: The abbreviation "St" stands for "Structure".
+#: ../src/fgraph/Model.cpp:149
+msgid "St"
+msgstr "St"
+
+#. TRANSLATORS: The abbreviation "AW" stands for "Amplify Whites".
+#: ../src/fgraph/Model.cpp:151
+msgid "AW"
+msgstr "AW"
+
+#. TRANSLATORS: The abbreviation "AB" stands for "Amplify Blacks".
+#: ../src/fgraph/Model.cpp:153
+msgid "AB"
+msgstr "AB"
+
+#. TRANSLATORS: The abbreviation "FS" stands for "Fine Structure".
+#: ../src/fgraph/Model.cpp:155
+msgid "FS"
+msgstr "FS"
+
+#. TRANSLATORS: The abbreviation "SCl" stands for "Selective Colorization".
+#: ../src/fgraph/Model.cpp:157
+msgid "SC"
+msgstr "SC"
+
+#: ../src/fgraph/Model.cpp:157
+msgid "Selective Colorization"
+msgstr "選擇性著色"
+
+#: ../src/fgraph/Model.cpp:206
+#: ../src/gui/LeonisApplication.cpp:1925
+#: ../src/preset_translations.cpp:3
+#: ../host_integration/photoshop/common/LeonisApplicationPhotoshop.cpp:63
+msgid "000 Neutral"
+msgstr "000 中性"
+
+#: ../src/fgraph/Model.cpp:828
+msgid "TONE CURVE"
+msgstr "調曲線"
+
+#: ../src/fgraph/Model.cpp:828
+msgid "Adjust curve"
+msgstr "調整曲線"
+
+#: ../src/gui/ColorFilterPanel.cpp:37
+msgid "Details"
+msgstr "詳情"
+
+#: ../src/gui/ColorFilterPanel.cpp:104
+#: ../src/gui/ColorFilterPanel.cpp:218
+#: ../src/gui/LeonisSidePanel.cpp:192
+#: ../src/gui/LeonisSidePanel.cpp:587
+#: ../src/gui/LeonisSidePanel.cpp:835
+msgid "COLOR FILTER"
+msgstr "彩色濾鏡"
+
+#: ../src/gui/ColorFilterPanel.cpp:218
+msgid "Filter"
+msgstr "濾鏡"
+
+#: ../src/gui/ColorFilterPanel.cpp:225
+#: ../src/gui/FilmTypesPanel.cpp:163
+#: ../src/gui/StylizingPanel.cpp:212
+msgid "Neutral"
+msgstr "中性"
+
+#: ../src/gui/ColorFilterPanel.cpp:234
+msgid "Orange"
+msgstr "橙色"
+
+#. TRANSLATORS: "Move" is an action that is carried out on items
+#: ../src/gui/ControlPointCommands.cpp:171
+msgid "Move"
+msgstr "移動"
+
+#: ../src/gui/ControlPointListWidget.cpp:49
+msgid "Show / hide selection of Control Point"
+msgstr "顯示 / 隱藏選擇的控制點"
+
+#: ../src/gui/ControlPointListWidget.cpp:50
+msgid "Show / hide effect of Control Point"
+msgstr "顯示 / 隱藏控制點的效果"
+
+#: ../src/gui/ControlPointListWidget.cpp:138
+msgid "Control Points"
+msgstr "控制點"
+
+#: ../src/gui/ControlPointListWidget.cpp:188
+msgid "Add a Control Point to the image"
+msgstr "添加控制點到圖像"
+
+#: ../src/gui/ControlPointListWidget.cpp:190
+msgid "Add Control Point"
+msgstr "添加控制點"
+
+#: ../src/gui/ControlPointListWidget.cpp:229
+msgid "Show / hide selection for all Control Points"
+msgstr "顯示 / 隱藏所有選擇的控制點"
+
+#: ../src/gui/ControlPointListWidget.cpp:250
+msgid "Click to group the selected Control Points"
+msgstr "點選來編組選擇度控制點"
+
+#: ../src/gui/ControlPointListWidget.cpp:251
+msgid "Click to ungroup Control Points"
+msgstr "點選來拆散控制點組群"
+
+#: ../src/gui/ControlPointListWidget.cpp:252
+msgid "Click to duplicate Control Points"
+msgstr "點選來復制控制點"
+
+#: ../src/gui/ControlPointListWidget.cpp:253
+msgid "Click to delete all selected Control Points"
+msgstr "點選來刪除所有選擇的控制點"
+
+#. TRANSLATORS: The string "Activate" appears in the history browser
+#. when a control point is activated
+#: ../src/gui/ControlPointListWidget.cpp:376
+#: ../src/gui/LeonisSidePanel.cpp:387
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:43
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:91
+msgid "Activate"
+msgstr "啟用"
+
+#. TRANSLATORS: The string "Deactivate" appears in the history browser
+#. when a control point is deactivated
+#: ../src/gui/ControlPointListWidget.cpp:380
+#: ../src/gui/LeonisSidePanel.cpp:387
+msgid "Deactivate"
+msgstr "停用"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc. as they are because they
+#. are needed by the program.
+#: ../src/gui/ControlPointNamer.cpp:47
+#: ../src/gui/ControlPointNamer.cpp:108
+msgid "Control Point %*"
+msgid_plural "Control Points %*"
+msgstr[0] "控制點 %*"
+msgstr[1] "控制點 %*"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc. as they are because they
+#. are needed by the program.
+#. TRANSLATORS: The "%*" will be replaced by a list of items to
+#. group (e.g. "Control Points 1, 2"). Please put a "%*" at the
+#. appropriate place in your translation.
+#: ../src/gui/ControlPointNamer.cpp:54
+#: ../src/gui/ControlPointNamer.cpp:117
+#: ../src/gui/UndoControlPointOverlay.cpp:150
+msgid "Group %*"
+msgid_plural "Groups %*"
+msgstr[0] "組群 %*"
+msgstr[1] "組群 %*"
+
+#: ../src/gui/FilmTypesPanel.cpp:30
+msgid "Grain"
+msgstr "微粒"
+
+#: ../src/gui/FilmTypesPanel.cpp:33
+msgid "Sensitivity"
+msgstr "靈敏度"
+
+#: ../src/gui/FilmTypesPanel.cpp:36
+msgid "Levels and Curves"
+msgstr "層次和曲線"
+
+#: ../src/gui/FilmTypesPanel.cpp:109
+#: ../src/gui/FilmTypesPanel.cpp:160
+#: ../src/gui/LeonisSidePanel.cpp:195
+#: ../src/gui/LeonisSidePanel.cpp:632
+#: ../src/gui/LeonisSidePanel.cpp:844
+msgid "FILM TYPES"
+msgstr "膠片種類"
+
+#: ../src/gui/FilmTypesPanel.cpp:140
+msgid "Hard"
+msgstr "粗"
+
+#: ../src/gui/FilmTypesPanel.cpp:160
+#: ../src/gui/LeonisApplication.cpp:1925
+#: ../host_integration/photoshop/common/LeonisApplicationPhotoshop.cpp:63
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1441
+msgid "Preset"
+msgstr "預設"
+
+#: ../src/gui/FilmTypesPanel.cpp:164
+msgid "Kodak ISO 32 Panatomic X"
+msgstr "Kodak ISO 32 Panatomic X"
+
+#: ../src/gui/FilmTypesPanel.cpp:164
+msgid "ISO 32"
+msgstr "ISO 32"
+
+#: ../src/gui/FilmTypesPanel.cpp:165
+msgid "Ilford PAN F Plus 50"
+msgstr "Ilford PAN F Plus 50"
+
+#: ../src/gui/FilmTypesPanel.cpp:165
+msgid "ISO 50"
+msgstr "ISO 50"
+
+#: ../src/gui/FilmTypesPanel.cpp:166
+msgid "Agfa APX Pro 100"
+msgstr "Agfa APX Pro 100"
+
+#: ../src/gui/FilmTypesPanel.cpp:166
+msgid "ISO 100"
+msgstr "ISO 100"
+
+#: ../src/gui/FilmTypesPanel.cpp:167
+msgid "Fuji Neopan ACROS 100"
+msgstr "Fuji Neopan ACROS 100"
+
+#: ../src/gui/FilmTypesPanel.cpp:168
+msgid "Ilford Delta 100 Pro"
+msgstr "Ilford Delta 100 Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:169
+msgid "Kodak 100 TMAX Pro"
+msgstr "Kodak 100 TMAX Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:170
+msgid "Ilford FP4 Plus 125"
+msgstr "Ilford FP4 Plus 125"
+
+#: ../src/gui/FilmTypesPanel.cpp:170
+msgid "ISO 125"
+msgstr "ISO 125"
+
+#: ../src/gui/FilmTypesPanel.cpp:171
+msgid "Kodak Plus-X 125PX Pro"
+msgstr "Kodak Plus-X 125PX Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:172
+msgid "Agfa APX 400"
+msgstr "Agfa APX 400"
+
+#: ../src/gui/FilmTypesPanel.cpp:172
+msgid "ISO 400"
+msgstr "ISO 400"
+
+#: ../src/gui/FilmTypesPanel.cpp:173
+msgid "Ilford Delta 400 Pro"
+msgstr "Ilford Delta 400 Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:174
+msgid "Ilford HP5 Plus 400"
+msgstr "Ilford HP5 Plus 400"
+
+#: ../src/gui/FilmTypesPanel.cpp:175
+msgid "Ilford XP2 Super 400"
+msgstr "Ilford XP2 Super 400"
+
+#: ../src/gui/FilmTypesPanel.cpp:176
+msgid "Kodak 400 TMAX Pro"
+msgstr "Kodak 400 TMAX Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:177
+msgid "Kodak BW 400CN Pro"
+msgstr "Kodak BW 400CN Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:178
+msgid "Kodak Tri-X 400TX Pro"
+msgstr "Kodak Tri-X 400TX Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:179
+msgid "Fuji Neopan Pro 1600"
+msgstr "Fuji Neopan Pro 1600"
+
+#: ../src/gui/FilmTypesPanel.cpp:179
+msgid "ISO 1600"
+msgstr "ISO 1600"
+
+#: ../src/gui/FilmTypesPanel.cpp:180
+msgid "Ilford Delta 3200 Pro"
+msgstr "Ilford Delta 3200 Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:180
+msgid "ISO 3200"
+msgstr "ISO 3200"
+
+#: ../src/gui/FilmTypesPanel.cpp:181
+msgid "Kodak P3200 TMAX Pro"
+msgstr "Kodak P3200 TMAX Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:182
+#: ../src/gui/StylizingPanel.cpp:236
+#: ../src/gui/StylizingPanel.cpp:308
+#: ../src/gui/StylizingPanel.cpp:385
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1328
+msgid "Custom"
+msgstr "自定義"
+
+#: ../src/gui/HistoryBrowser.cpp:221
+msgid "Original Image"
+msgstr "正本圖像"
+
+#. TRANSLATORS: this is the term to describe the group of the Stylebrowser (when applying a new style).
+#: ../src/gui/HistoryBrowser.cpp:226
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1441
+msgid "PRESETS"
+msgstr "預設"
+
+#: ../src/gui/HistorySlider.cpp:31
+msgid "Click and drag to set the before state"
+msgstr "點選來拖動到之前的狀態"
+
+#: ../src/gui/LeonisApplication.cpp:1339
+#: ../src/gui/LeonisApplication.cpp:1375
+#: ../src/gui/LeonisApplication.cpp:1395
+#: ../src/gui/LeonisApplication.cpp:1398
+#: ../src/gui/LeonisApplication.cpp:1422
+#: ../src/gui/LeonisApplication.cpp:1442
+msgid "Loading image"
+msgstr "載入圖像"
+
+#: ../src/gui/LeonisApplication.cpp:1368
+#: ../src/gui/LeonisApplication.cpp:1426
+msgid "Could not open image file"
+msgstr "不能打開圖像文檔"
+
+#: ../src/gui/LeonisApplication.cpp:1388
+#: ../src/gui/LeonisApplication.cpp:1410
+msgid "The file could not be opened because the color mode is not supported. Please check the color mode of the image, and ensure it is an RGB (8 or 16-bit) file."
+msgstr "不能打開文檔因為不是支援的彩色模式。請查看圖像的彩色模式，並確保是 RGB（8 或者16位元）文檔。"
+
+#: ../src/gui/LeonisApplication.cpp:1449
+#: ../src/gui/LeonisApplication.cpp:1453
+#: ../src/gui/LeonisApplication.cpp:1461
+msgid "Precalculating"
+msgstr "預先計算"
+
+#. TRANSLATORS: this is a text for a message box after failing to compile a GPU shader. A SEP2 restart is necessary to fall back to CPU processing.
+#: ../src/gui/LeonisApplication.cpp:1501
+#: ../src/gui/LeonisApplication.cpp:1963
+#: ../src/gui/LeonisApplication.cpp:1969
+#: ../src/gui/LeonisApplication.cpp:1974
+msgid "Error"
+msgstr "錯誤"
+
+#. TRANSLATORS: "Saving image" is used as progress indicator text when saving.
+#: ../src/gui/LeonisApplication.cpp:1833
+#: ../host_integration/photoshop/filter/PhotoshopLeonis.cpp:246
+msgid "Saving image"
+msgstr "儲存圖像"
+
+#: ../src/gui/LeonisApplication.cpp:1874
+msgid "Not enough memory available to create a full resolution image for saving"
+msgstr "沒有足夠的記憶體來建立一個完整的高分辨率圖像"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../src/gui/LeonisApplication.cpp:1879
+#: ../src/gui/LeonisApplication.cpp:1884
+msgid "File cannot be written. Please check to ensure you have write access. The location that the file was tried to access was '%*'."
+msgstr "不能寫入文檔。請檢查以確保你有寫入權限。該文檔試圖連接的位置是 '%*'。"
+
+#: ../src/gui/LeonisApplication.cpp:1888
+msgid "An unexpected error occurred while saving your image."
+msgstr "當儲存你的圖像時候發生了錯誤。"
+
+#: ../src/gui/LeonisApplication.cpp:1963
+msgid "The available graphics card does not meet the requirements and will have to be disabled. Please restart Silver Efex Pro 2, it will then process the images using the CPU."
+msgstr "可用的顯示卡不符合要求並將會被禁用。請重新啟動 Silver Efex Pro 2，圖像將會通過 CPU 來處理。"
+
+#: ../src/gui/LeonisApplication.cpp:1969
+msgid "There was not enough memory available to process the image."
+msgstr "沒有足夠的記憶體來處理圖像。"
+
+#: ../src/gui/LeonisImageWidget.cpp:73
+msgid "Navigator"
+msgstr "導航器"
+
+#. TRANSLATORS: Please put the translation for "SELECTIVE ADJUSTMENTS" in
+#. upper case if that is possible in the writing system you are translating to
+#. TRANSLATORS: Please put the translation for "SELECTIVE ADJUSTMENTS" in
+#. upper case if that is possible in the writing system you are
+#. translating to
+#: ../src/gui/LeonisImageWidget.cpp:302
+#: ../src/gui/LeonisSidePanel.cpp:189
+#: ../src/gui/LeonisSidePanel.cpp:542
+#: ../src/gui/UndoControlPointOverlay.cpp:122
+#: ../src/gui/UndoControlPointOverlay.cpp:146
+#: ../src/gui/UndoControlPointOverlay.cpp:156
+#: ../src/gui/UndoControlPointOverlay.cpp:187
+#: ../src/gui/UndoControlPointOverlay.cpp:198
+msgid "SELECTIVE ADJUSTMENTS"
+msgstr "選擇性調整"
+
+#: ../src/gui/LeonisImageWidget.cpp:302
+#: ../src/gui/LeonisSidePanel.cpp:819
+#: ../src/gui/LeonisSidePanel.cpp:835
+#: ../src/gui/LeonisSidePanel.cpp:844
+#: ../src/gui/LeonisSidePanel.cpp:862
+msgid "Reset"
+msgstr "重設"
+
+#: ../src/gui/LeonisImageWidget.cpp:303
+msgid "Do you really want to delete all control points?"
+msgstr "你是否要刪除所有的控制點？"
+
+#: ../src/gui/LeonisMenuBar.cpp:39
+msgid "About"
+msgstr "關於"
+
+#: ../src/gui/LeonisMenuBar.cpp:45
+msgid "Hide %1"
+msgstr "隱藏 %1"
+
+#: ../src/gui/LeonisMenuBar.cpp:53
+msgid "Hide Others"
+msgstr "隱藏其它"
+
+#: ../src/gui/LeonisMenuBar.cpp:58
+msgid "Show All"
+msgstr "顯示所有"
+
+#: ../src/gui/LeonisMenuBar.cpp:70
+msgid "File"
+msgstr "文檔"
+
+#: ../src/gui/LeonisMenuBar.cpp:72
+msgid "Open Images..."
+msgstr "開啟圖像..."
+
+#: ../src/gui/LeonisMenuBar.cpp:83
+msgid "Quit"
+msgstr "退出"
+
+#: ../src/gui/LeonisSidePanel.cpp:175
+#: ../src/gui/LeonisSidePanel.cpp:178
+#: ../src/gui/LeonisSidePanel.cpp:418
+#: ../src/gui/LeonisSidePanel.cpp:819
+msgid "GLOBAL ADJUSTMENTS"
+msgstr "調整所有"
+
+#: ../src/gui/LeonisSidePanel.cpp:197
+#: ../src/gui/LeonisSidePanel.cpp:666
+#: ../src/gui/LeonisSidePanel.cpp:862
+#: ../src/gui/StylizingPanel.cpp:144
+#: ../src/gui/StylizingPanel.cpp:206
+#: ../src/gui/StylizingPanel.cpp:295
+#: ../src/gui/StylizingPanel.cpp:375
+#: ../src/gui/StylizingPanel.cpp:469
+#: ../src/gui/StylizingPanel.cpp:561
+#: ../src/gui/StylizingPanel.cpp:627
+msgid "FINISHING ADJUSTMENTS"
+msgstr "完成調整"
+
+#: ../src/gui/LeonisSidePanel.cpp:209
+msgid "LOUPE & HISTOGRAM"
+msgstr "放大鏡和直方圖"
+
+#: ../src/gui/LeonisSidePanel.cpp:387
+#: ../src/preset_translations.cpp:43
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:328
+msgid "All"
+msgstr "所有"
+
+#: ../src/gui/LeonisSidePanel.cpp:505
+msgid "Tonality Protection"
+msgstr "調性保護"
+
+#: ../src/gui/LoupeHistogramWidget.cpp:88
+#: ../src/gui/LoupeHistogramWidget.cpp:106
+msgid "Lock the position of the Loupe"
+msgstr "鎖定放大鏡的位置"
+
+#: ../src/gui/LoupeHistogramWidget.cpp:104
+msgid "Unlock the position of the Loupe"
+msgstr "解鎖放大鏡的位置"
+
+#: ../src/gui/LoupeHistogramWidget.cpp:182
+msgid "Histogram"
+msgstr "直方圖"
+
+#: ../src/gui/LoupeHistogramWidget.cpp:187
+msgid "Loupe"
+msgstr "放大鏡"
+
+#: ../src/gui/StylizingPanel.cpp:29
+msgid "Toning"
+msgstr "調"
+
+#: ../src/gui/StylizingPanel.cpp:31
+msgid "Vignette"
+msgstr "黑角"
+
+#: ../src/gui/StylizingPanel.cpp:33
+msgid "Burn Edges"
+msgstr "燃燒邊緣"
+
+#: ../src/gui/StylizingPanel.cpp:34
+msgid "Image Borders"
+msgstr "圖像邊框"
+
+#: ../src/gui/StylizingPanel.cpp:47
+#: ../src/gui/StylizingPanel.cpp:627
+msgid "Vary Border"
+msgstr "變化邊框"
+
+#. TRANSLATORS: this is a string for the right hand side of a "Grunge" slider for the image borders (Clean..Rough)
+#: ../src/gui/StylizingPanel.cpp:175
+msgid "Rough"
+msgstr "粗糙"
+
+#: ../src/gui/StylizingPanel.cpp:179
+msgid "Rectangle"
+msgstr "長方形"
+
+#: ../src/gui/StylizingPanel.cpp:206
+msgid "Toning Preset"
+msgstr "調預設"
+
+#: ../src/gui/StylizingPanel.cpp:212
+msgid "1"
+msgstr "1"
+
+#: ../src/gui/StylizingPanel.cpp:213
+msgid "2"
+msgstr "2"
+
+#: ../src/gui/StylizingPanel.cpp:213
+msgid "Split Toners"
+msgstr "分體式調"
+
+#: ../src/gui/StylizingPanel.cpp:214
+msgid "3"
+msgstr "3"
+
+#: ../src/gui/StylizingPanel.cpp:215
+msgid "4"
+msgstr "4"
+
+#: ../src/gui/StylizingPanel.cpp:215
+msgid "Selenium"
+msgstr "硒"
+
+#: ../src/gui/StylizingPanel.cpp:216
+msgid "5"
+msgstr "5"
+
+#: ../src/gui/StylizingPanel.cpp:217
+msgid "6"
+msgstr "6"
+
+#: ../src/gui/StylizingPanel.cpp:218
+msgid "7"
+msgstr "7"
+
+#: ../src/gui/StylizingPanel.cpp:218
+msgid "Blue Toner"
+msgstr "藍色調"
+
+#: ../src/gui/StylizingPanel.cpp:219
+msgid "8"
+msgstr "8"
+
+#: ../src/gui/StylizingPanel.cpp:220
+msgid "9"
+msgstr "9"
+
+#: ../src/gui/StylizingPanel.cpp:221
+msgid "10"
+msgstr "10"
+
+#: ../src/gui/StylizingPanel.cpp:221
+msgid "Cyanotype"
+msgstr "冷色調"
+
+#: ../src/gui/StylizingPanel.cpp:222
+msgid "11"
+msgstr "11"
+
+#: ../src/gui/StylizingPanel.cpp:223
+msgid "12"
+msgstr "12"
+
+#: ../src/gui/StylizingPanel.cpp:224
+msgid "13"
+msgstr "13"
+
+#: ../src/gui/StylizingPanel.cpp:224
+msgid "Coffee"
+msgstr "咖啡"
+
+#: ../src/gui/StylizingPanel.cpp:225
+msgid "14"
+msgstr "14"
+
+#: ../src/gui/StylizingPanel.cpp:226
+msgid "15"
+msgstr "15"
+
+#: ../src/gui/StylizingPanel.cpp:227
+msgid "16"
+msgstr "16"
+
+#: ../src/gui/StylizingPanel.cpp:227
+msgid "Copper Toner"
+msgstr "銅色調"
+
+#: ../src/gui/StylizingPanel.cpp:228
+msgid "17"
+msgstr "17"
+
+#: ../src/gui/StylizingPanel.cpp:229
+msgid "18"
+msgstr "18"
+
+#: ../src/gui/StylizingPanel.cpp:230
+msgid "19"
+msgstr "19"
+
+#: ../src/gui/StylizingPanel.cpp:230
+msgid "Sepia"
+msgstr "褐色"
+
+#: ../src/gui/StylizingPanel.cpp:231
+msgid "20"
+msgstr "20"
+
+#: ../src/gui/StylizingPanel.cpp:232
+msgid "21"
+msgstr "21"
+
+#: ../src/gui/StylizingPanel.cpp:233
+msgid "22"
+msgstr "22"
+
+#: ../src/gui/StylizingPanel.cpp:233
+msgid "Ambrotype"
+msgstr "Ambrotype"
+
+#: ../src/gui/StylizingPanel.cpp:234
+msgid "23"
+msgstr "23"
+
+#: ../src/gui/StylizingPanel.cpp:235
+msgid "24"
+msgstr "24"
+
+#: ../src/gui/StylizingPanel.cpp:236
+msgid "25"
+msgstr "25"
+
+#: ../src/gui/StylizingPanel.cpp:295
+msgid "Vignette Preset"
+msgstr "黑角預設"
+
+#: ../src/gui/StylizingPanel.cpp:300
+#: ../src/gui/StylizingPanel.cpp:380
+#: ../src/gui/StylizingPanel.cpp:474
+msgid "Off"
+msgstr "關閉"
+
+#: ../src/gui/StylizingPanel.cpp:301
+msgid "Lens Falloff 1"
+msgstr "鏡頭跌落 1"
+
+#: ../src/gui/StylizingPanel.cpp:302
+msgid "Lens Falloff 2"
+msgstr "鏡頭跌落 2"
+
+#: ../src/gui/StylizingPanel.cpp:303
+msgid "Lens Falloff 3"
+msgstr "鏡頭跌落 3"
+
+#: ../src/gui/StylizingPanel.cpp:304
+msgid "White Frame 1"
+msgstr "白色框架 1"
+
+#: ../src/gui/StylizingPanel.cpp:305
+msgid "White Frame 2"
+msgstr "白色框架 2"
+
+#: ../src/gui/StylizingPanel.cpp:306
+msgid "Black Frame 1"
+msgstr "黑色框架 1"
+
+#: ../src/gui/StylizingPanel.cpp:307
+msgid "Black Frame 2"
+msgstr "黑色框架 2"
+
+#: ../src/gui/StylizingPanel.cpp:330
+msgid "Select the center of the effect in the image preview"
+msgstr "在預覽圖像選擇效果的中心"
+
+#: ../src/gui/StylizingPanel.cpp:332
+msgid "Place Center"
+msgstr "放置中心"
+
+#: ../src/gui/StylizingPanel.cpp:375
+msgid "Burn Edges Preset"
+msgstr "燃燒邊緣預設"
+
+#: ../src/gui/StylizingPanel.cpp:381
+msgid "All Edges 1"
+msgstr "所有邊緣 1"
+
+#: ../src/gui/StylizingPanel.cpp:382
+msgid "All Edges 2"
+msgstr "所有邊緣 2"
+
+#: ../src/gui/StylizingPanel.cpp:383
+msgid "All Edges (Soft) 1"
+msgstr "所有邊緣（柔和）1"
+
+#: ../src/gui/StylizingPanel.cpp:384
+msgid "All Edges (Soft) 2"
+msgstr "所有邊緣（柔和）2"
+
+#: ../src/gui/StylizingPanel.cpp:410
+msgid "Adjust the left edge"
+msgstr "調整左方邊緣"
+
+#: ../src/gui/StylizingPanel.cpp:412
+msgid "Adjust the top edge"
+msgstr "調整上方邊緣"
+
+#: ../src/gui/StylizingPanel.cpp:414
+msgid "Adjust the right edge"
+msgstr "調整右方邊緣"
+
+#: ../src/gui/StylizingPanel.cpp:416
+msgid "Adjust the bottom edge"
+msgstr "調整下方邊緣"
+
+#: ../src/gui/StylizingPanel.cpp:469
+msgid "Border Type"
+msgstr "邊框種類"
+
+#: ../src/gui/StylizingPanel.cpp:475
+msgid "Type 1"
+msgstr "種類 1"
+
+#: ../src/gui/StylizingPanel.cpp:476
+msgid "Type 2"
+msgstr "種類  2"
+
+#: ../src/gui/StylizingPanel.cpp:477
+msgid "Type 3"
+msgstr "種類 3"
+
+#: ../src/gui/StylizingPanel.cpp:478
+msgid "Type 4"
+msgstr "種類 4"
+
+#: ../src/gui/StylizingPanel.cpp:479
+msgid "Type 5"
+msgstr "種類 5"
+
+#: ../src/gui/StylizingPanel.cpp:480
+msgid "Type 6"
+msgstr "種類 6"
+
+#: ../src/gui/StylizingPanel.cpp:481
+msgid "Type 7"
+msgstr "種類 7"
+
+#: ../src/gui/StylizingPanel.cpp:482
+msgid "Type 8"
+msgstr "種類 8"
+
+#: ../src/gui/StylizingPanel.cpp:483
+msgid "Type 9"
+msgstr "種類 9"
+
+#: ../src/gui/StylizingPanel.cpp:484
+msgid "Type 10"
+msgstr "種類 10"
+
+#: ../src/gui/StylizingPanel.cpp:485
+msgid "Type 11"
+msgstr "種類 11"
+
+#: ../src/gui/StylizingPanel.cpp:486
+msgid "Type 12"
+msgstr "種類 12"
+
+#: ../src/gui/StylizingPanel.cpp:487
+msgid "Type 13"
+msgstr "種類 13"
+
+#: ../src/gui/StylizingPanel.cpp:488
+msgid "Type 14"
+msgstr "種類 14"
+
+#: ../src/gui/StylizingPanel.cpp:521
+msgid "Click to vary the border automatically"
+msgstr "點選自動改變邊框"
+
+#: ../src/gui/StylizingPanel.cpp:561
+msgid "Set Vignette Center"
+msgstr "設置黑角中心"
+
+#: ../src/gui/UndoControlPointOverlay.cpp:79
+#: ../host_integration/photoshop/common/LeonisApplicationPhotoshop.cpp:249
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1501
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1535
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1644
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1681
+msgid "Warning"
+msgstr "警告"
+
+#. TRANSLATORS: The "%*" will be replaced by a list of items to delete
+#. (e.g. "Control Points 1, 2"). Please put a "%*" at the appropriate
+#. place in your translation.
+#: ../src/gui/UndoControlPointOverlay.cpp:126
+msgid "Delete %*"
+msgstr "刪除 %*"
+
+#: ../src/gui/UndoControlPointOverlay.cpp:127
+msgid "Do you really want to delete all selected control points?"
+msgstr "你是否要刪除所有選擇的控制點？"
+
+#. TRANSLATORS: The "%*" will be replaced by a list of items to
+#. ungroup (e.g. "Control Points 1, 2"). Please put a "%*" at
+#. the appropriate place in your translation.
+#: ../src/gui/UndoControlPointOverlay.cpp:160
+msgid "Ungroup %*"
+msgstr "拆散 %*"
+
+#. TRANSLATORS: The "%*" will be replaced by a list of items to
+#. add (e.g. "Control Points 1, 2"). Please put a "%*" at
+#. the appropriate place in your translation.
+#: ../src/gui/UndoControlPointOverlay.cpp:191
+msgid "Add %*"
+msgstr "添加 %*"
+
+#. TRANSLATORS: The "%*" will be replaced by a list of items to
+#. duplicate (e.g. "Control Points 1, 2"). Please put a "%*" at
+#. the appropriate place in your translation.
+#: ../src/gui/UndoControlPointOverlay.cpp:202
+msgid "Duplicate %*"
+msgstr "復制 %*"
+
+#: ../src/gui/ZoneWidget.cpp:39
+msgid "Show Zone %* area"
+msgstr "顯示 %* 區"
+
+#. TRANSLATORS: This is a text part from the installer welcome page. The key text is "text1"
+#: ../src/installer_and_LR.cpp:6
+msgid "Welcome!"
+msgstr "歡迎！"
+
+#. TRANSLATORS: This is a text part from the installer welcome page. The key text is "text2"
+#: ../src/installer_and_LR.cpp:8
+msgid "Thank you for choosing Silver Efex Pro 2 from Google. To install your software, please click on the 'Continue' button below. The installer will automatically find the correct host locations to install Silver Efex Pro 2 to. To learn more about Silver Efex Pro 2, please visit www.niksoftware.com/sep2."
+msgstr "多謝選用 Google 的 Silver Efex Pro 2。要安裝你的軟體，請點選以下的‘繼續’按鈕。安裝向導會自動尋找安裝 Silver Efex Pro 2 的路徑。要瞭解更多關於 Silver Efex Pro 2，請連接 www.niksoftware.com/sep2。"
+
+#: ../src/preset_translations.cpp:4
+msgid "001 Underexposed (EV -1)"
+msgstr "001 曝光不足 (EV -1)"
+
+#: ../src/preset_translations.cpp:5
+msgid "002 Overexposed (EV +1)"
+msgstr "002 過度曝光 (EV +1)"
+
+#: ../src/preset_translations.cpp:6
+msgid "003 High Contrast (harsh)"
+msgstr "003 高對比度（嚴格）"
+
+#: ../src/preset_translations.cpp:7
+msgid "004 High Contrast (smooth)"
+msgstr "004 高對比度（平滑）"
+
+#: ../src/preset_translations.cpp:8
+msgid "005 High Structure (harsh)"
+msgstr "005 高細節強度（嚴格）"
+
+#: ../src/preset_translations.cpp:9
+msgid "006 High Structure (smooth)"
+msgstr "006 高細節強度（平滑）"
+
+#: ../src/preset_translations.cpp:10
+msgid "007 High Key 1"
+msgstr "007 高調 1"
+
+#: ../src/preset_translations.cpp:11
+msgid "008 High Key 2"
+msgstr "008 高調 2"
+
+#: ../src/preset_translations.cpp:12
+msgid "009 Low Key 1"
+msgstr "009 低調 1"
+
+#: ../src/preset_translations.cpp:13
+msgid "010 Low Key 2"
+msgstr "010 低調 2"
+
+#: ../src/preset_translations.cpp:14
+msgid "011 Push Process (N +1.5)"
+msgstr "011 推處理 (N +1.5)"
+
+#: ../src/preset_translations.cpp:15
+msgid "012 Push Process (N +3.0)"
+msgstr "012 推處理 (N +3.0)"
+
+#: ../src/preset_translations.cpp:16
+msgid "013 Grad ND (EV -1)"
+msgstr "013 漸變鏡 (EV -1)"
+
+#: ../src/preset_translations.cpp:17
+msgid "014 Grad ND (EV -2)"
+msgstr "014 漸變鏡 (EV -2)"
+
+#: ../src/preset_translations.cpp:18
+msgid "015 Full Dynamic (harsh)"
+msgstr "015 完全動態（嚴格）"
+
+#: ../src/preset_translations.cpp:19
+msgid "016 Full Dynamic (smooth)"
+msgstr "016 完全動態（平滑）"
+
+#: ../src/preset_translations.cpp:20
+msgid "017 Full Spectrum"
+msgstr "017 全光譜"
+
+#: ../src/preset_translations.cpp:21
+msgid "018 Full Spectrum Inverse"
+msgstr "018 逆全光譜"
+
+#: ../src/preset_translations.cpp:22
+msgid "019 Fine Art Process"
+msgstr "019 精細藝術處理"
+
+#: ../src/preset_translations.cpp:23
+msgid "020 Fine Art (high key, framed)"
+msgstr "020 精細藝術（高調，分幅）"
+
+#: ../src/preset_translations.cpp:24
+msgid "021 Triste 1"
+msgstr "021 悲傷 1"
+
+#: ../src/preset_translations.cpp:25
+msgid "022 Triste 2"
+msgstr "022 悲傷 2"
+
+#: ../src/preset_translations.cpp:26
+msgid "023 Wet Rocks"
+msgstr "023 濕巖石"
+
+#: ../src/preset_translations.cpp:27
+msgid "024 Full Contrast and Structure"
+msgstr "024 完整對比度和細節強度"
+
+#: ../src/preset_translations.cpp:28
+msgid "025 Silhouette EV +0.5"
+msgstr "025 剪影 EV +0.5"
+
+#: ../src/preset_translations.cpp:29
+msgid "026 Dark Sepia"
+msgstr "026 黑褐色"
+
+#: ../src/preset_translations.cpp:30
+msgid "027 Soft Sepia"
+msgstr "027 軟褐色"
+
+#: ../src/preset_translations.cpp:31
+msgid "028 Cool Tones 1"
+msgstr "028 冷調 1"
+
+#: ../src/preset_translations.cpp:32
+msgid "029 Cool Tones 2"
+msgstr "029 冷調 2"
+
+#: ../src/preset_translations.cpp:33
+msgid "030 Film Noir 1"
+msgstr "030 悲觀色彩 1"
+
+#: ../src/preset_translations.cpp:34
+msgid "031 Film Noir 2"
+msgstr "031 悲觀色彩 2"
+
+#: ../src/preset_translations.cpp:35
+msgid "032 Film Noir 3"
+msgstr "032 悲觀色彩 3"
+
+#: ../src/preset_translations.cpp:36
+msgid "033 Yellowed 1"
+msgstr "033 泛黃 1"
+
+#: ../src/preset_translations.cpp:37
+msgid "034 Yellowed 2"
+msgstr "034 泛黃 2"
+
+#: ../src/preset_translations.cpp:38
+msgid "035 Antique Plate I"
+msgstr "035 仿古板 I"
+
+#: ../src/preset_translations.cpp:39
+msgid "036 Antique Plate II"
+msgstr "036 仿古板 II"
+
+#: ../src/preset_translations.cpp:40
+msgid "037 Pinhole"
+msgstr "037 針孔"
+
+#: ../src/preset_translations.cpp:44
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:329
+msgid "Classic"
+msgstr "經典"
+
+#: ../src/preset_translations.cpp:45
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:330
+msgid "Modern"
+msgstr "現代"
+
+#: ../src/preset_translations.cpp:46
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:331
+msgid "Vintage"
+msgstr "復古"
+
+#: ../host_integration/photoshop/common/LeonisApplicationPhotoshop.cpp:61
+msgid "Initial Adjustments"
+msgstr "初始調整"
+
+#: ../host_integration/photoshop/common/LeonisApplicationPhotoshop.cpp:248
+msgid "Silver Efex Pro 2 has identified that the active layer is a Smart Object and will now operate as a Smart Filter. The Brush button will be deactivated, and the effect will be applied to the current layer."
+msgstr "Silver Efex Pro 2 鑒定活性層是智能對象並把它當作為智能濾鏡處理。畫筆按鈕將會停用，效果將被應用到當前層。"
+
+#: ../plugin_common/activation/ActivationException.cpp:11
+#: ../plugin_common/activation/ActivationException.cpp:85
+msgid "The product key entered does not seem to be valid. Please check the key and try again."
+msgstr "輸入的產品序號無效。請檢查序號然後再嘗試。"
+
+#: ../plugin_common/activation/ActivationException.cpp:13
+msgid "Please enter a Phone Activation Code"
+msgstr "請輸入電話的啟用代碼"
+
+#: ../plugin_common/activation/ActivationException.cpp:15
+msgid "Please enter a name"
+msgstr "請輸入名字"
+
+#: ../plugin_common/activation/ActivationException.cpp:17
+msgid "Incorrect host application"
+msgstr "主機應用程式錯誤"
+
+#: ../plugin_common/activation/ActivationException.cpp:19
+msgid "%1 is already activated with this product key, however the host application does not match."
+msgstr "%1 已經使用這產品啟用序號，但是主機應用程式不匹配。"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/activation/ActivationException.cpp:22
+msgid "An internal error occured. Errorcode( %1 )."
+msgstr "發送內部錯誤。錯誤碼（%1）。"
+
+#: ../plugin_common/activation/ActivationException.cpp:30
+msgid "The Phone Activation Code entered does not seem to be valid.  Please check the code and try again."
+msgstr "輸入的電話啟用代碼無效。請檢查後重新嘗試。"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/activation/ActivationException.cpp:33
+#: ../plugin_common/activation/ActivationException.cpp:43
+#: ../plugin_common/activation/ActivationException.cpp:52
+#: ../plugin_common/activation/ActivationException.cpp:57
+#: ../plugin_common/activation/ActivationException.cpp:64
+#: ../plugin_common/activation/ActivationException.cpp:96
+#: ../plugin_common/activation/ActivationException.cpp:106
+#: ../plugin_common/activation/ActivationException.cpp:110
+msgid "An error occurred. Errorcode( %1 )."
+msgstr "發生錯誤。錯誤碼（%1）。"
+
+#: ../plugin_common/activation/ActivationException.cpp:37
+msgid "The maximum number of activations for this Product Key have been reached.  Please contact Customer Support for further information."
+msgstr "此產品啟用序號的最大啟用次數已經達到。請聯絡客戶支援組獲取進一步資訊。"
+
+#: ../plugin_common/activation/ActivationException.cpp:47
+msgid "An error occurred during the activation of the product. There might be a conflict with the installation of another program.  Please find more information in the FAQs at http://www.niksoftware.com/sep2/faq  or contact Customer Service."
+msgstr "產品啟用過程中出現錯誤。有可能是與另一個安裝的程式沖突。請連接 http://www.niksoftware.com/sep2/faq 的常見問題或聯系客戶服務中心獲取更多資訊。"
+
+#: ../plugin_common/activation/ActivationException.cpp:69
+#: ../plugin_common/activation/ActivationException.cpp:81
+msgid "No internet connection.  Please check your network settings."
+msgstr "沒有互聯網連接。請檢查你的網絡設置。"
+
+#: ../plugin_common/activation/ActivationException.cpp:73
+msgid "No internet connection.  Please check your proxy settings."
+msgstr "沒有互聯網連接。請檢查你的代理設置。"
+
+#: ../plugin_common/activation/ActivationException.cpp:77
+msgid "No internet connection.  Please check your firewall settings."
+msgstr "沒有互聯網連接。請檢查你的防火牆設置。"
+
+#: ../plugin_common/gui/BottomBar.cpp:22
+msgid "HELP"
+msgstr "幫助"
+
+#: ../plugin_common/gui/BottomBar.cpp:23
+msgid "Visit Silver Efex Pro 2 Help"
+msgstr "連接 Silver Efex Pro 2 幫助"
+
+#: ../plugin_common/gui/BottomBar.cpp:28
+msgid "SETTINGS"
+msgstr "設置"
+
+#: ../plugin_common/gui/BottomBar.cpp:29
+msgid "Access the Settings Window"
+msgstr "連接設置窗口"
+
+#: ../plugin_common/gui/BottomBar.cpp:38
+msgid "PREVIOUS"
+msgstr "前一步"
+
+#: ../plugin_common/gui/BottomBar.cpp:39
+msgid "Click here to edit the previous image"
+msgstr "點選這裡編輯前一張圖像"
+
+#: ../plugin_common/gui/BottomBar.cpp:43
+msgid "1 of 42 images"
+msgstr "圖像 42 之 1"
+
+#: ../plugin_common/gui/BottomBar.cpp:48
+msgid "NEXT"
+msgstr "下一步"
+
+#: ../plugin_common/gui/BottomBar.cpp:49
+msgid "Click here to edit the next image"
+msgstr "點選這裡編輯下一張圖像"
+
+#: ../plugin_common/gui/BottomBar.cpp:65
+#: ../plugin_common/gui/MessageDialog.cpp:99
+#: ../plugin_common/gui/MessageDialog.cpp:103
+#: ../plugin_common/gui/OptionsDialog.cpp:82
+msgid "OK"
+msgstr "確定"
+
+#: ../plugin_common/gui/BottomBar.cpp:66
+msgid "Click to apply the filter"
+msgstr "點選來應用濾鏡"
+
+#: ../plugin_common/gui/BottomBar.cpp:68
+#: ../plugin_common/gui/BottomBar.cpp:158
+msgid "SAVE"
+msgstr "存儲"
+
+#: ../plugin_common/gui/BottomBar.cpp:69
+#: ../plugin_common/gui/BottomBar.cpp:159
+msgid "Click to save your image"
+msgstr "點選來存儲圖像"
+
+#: ../plugin_common/gui/BottomBar.cpp:76
+#: ../plugin_common/gui/MessageDialog.cpp:100
+#: ../plugin_common/gui/OptionsDialog.cpp:83
+msgid "CANCEL"
+msgstr "取消"
+
+#. TRANSLATORS: please leave Silver Efex Pro 2 in here, its the preliminary name of the program
+#: ../plugin_common/gui/BottomBar.cpp:79
+msgid "Click to exit Silver Efex Pro 2 without applying a filter to the image"
+msgstr "點選退出 Silver Efex Pro 2 而不應用濾鏡於圖像"
+
+#. TRANSLATORS: please leave Silver Efex Pro 2 in here, its the preliminary name of the program
+#: ../plugin_common/gui/BottomBar.cpp:82
+msgid "Click to exit Silver Efex Pro 2 without saving your image"
+msgstr "點選退出 Silver Efex Pro 2 而不存儲圖像"
+
+#: ../plugin_common/gui/BottomBar.cpp:99
+msgid "BRUSH"
+msgstr "畫筆"
+
+#: ../plugin_common/gui/BottomBar.cpp:100
+msgid "Click to apply the filter selectively to the image"
+msgstr "點選來選擇性應用濾鏡到圖像"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program, "e.g.: 2 of 7 images"
+#: ../plugin_common/gui/BottomBar.cpp:142
+msgid "%1 of %2 images"
+msgstr "圖像 %2 之 %1"
+
+#: ../plugin_common/gui/BottomBar.cpp:155
+msgid "SAVE ALL"
+msgstr "存儲所有"
+
+#: ../plugin_common/gui/BottomBar.cpp:156
+msgid "Click to apply the filter to %* images"
+msgstr "點選應用濾鏡到 %* 圖像"
+
+#: ../plugin_common/gui/BusyIndicatorWidget.h:31
+msgid "Calculating"
+msgstr "計算中"
+
+#: ../plugin_common/gui/MessageDialog.cpp:80
+msgid "Do not show again"
+msgstr "不要再顯示"
+
+#: ../plugin_common/gui/MessageDialog.cpp:95
+msgid "Yes"
+msgstr "是"
+
+#: ../plugin_common/gui/MessageDialog.cpp:96
+msgid "No"
+msgstr "否"
+
+#: ../plugin_common/gui/OptionsDialog.cpp:113
+msgid "Settings"
+msgstr "設置"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:94
+msgid "English (US)"
+msgstr "English (US)"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:96
+msgid "English (UK)"
+msgstr "English (UK)"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:98
+msgid "Deutsch"
+msgstr "Deutsch"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:100
+msgid "Francais"
+msgstr "Français"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:102
+msgid "Espanol"
+msgstr "Español"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:104
+msgid "Japanese"
+msgstr "日本語"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:106
+msgid "Italiano"
+msgstr "Italiano"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogAfterOKClickSettingsPage.cpp:37
+msgid "After Clicking OK"
+msgstr "點選確認後"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogAfterOKClickSettingsPage.cpp:38
+msgid "apply the filtered effect to the current layer"
+msgstr "應用濾鏡效果到當前層"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogAfterOKClickSettingsPage.cpp:39
+msgid "apply the filtered effect to a separate layer"
+msgstr "應用濾鏡效果到另一層"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogAfterOKClickSettingsPage.h:34
+msgid "After clicking OK"
+msgstr "點選確認後"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:43
+msgid "Default Language:"
+msgstr "默認語言："
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:53
+msgid "Default Preview Mode:"
+msgstr "默認預覽模式"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:54
+#: ../plugin_common/gui/TopBar.cpp:102
+msgid "Single image view"
+msgstr "單獨圖像視圖"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:55
+#: ../plugin_common/gui/TopBar.cpp:103
+msgid "Split preview"
+msgstr "分割預覽"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:56
+#: ../plugin_common/gui/TopBar.cpp:104
+msgid "Side-by-side preview"
+msgstr "端側預覽"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:57
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:65
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:75
+msgid "Use Last Settings"
+msgstr "使用最新設置"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:61
+msgid "Default Background Color:"
+msgstr "默認背景顏色"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:62
+msgid "White"
+msgstr "白色"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:63
+msgid "Gray"
+msgstr "灰色"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:64
+msgid "Black"
+msgstr "黑色"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:69
+msgid "Default Zoom State:"
+msgstr "默認縮放狀態"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.h:35
+msgid "Interface Settings"
+msgstr "接口設置"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGPUSettingsPage.cpp:39
+msgid "Enable GPU processing"
+msgstr "啟用 GPU 處理"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGPUSettingsPage.cpp:41
+msgid "Click to use your graphics card to help process your image"
+msgstr "點選使用你的圖形卡，以幫助處理你的圖像"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGPUSettingsPage.cpp:46
+msgid "The available graphics card does not meet the requirements and therefore has been disabled. Silver Efex Pro 2 will process the images using the CPU."
+msgstr "可用的圖形卡不符合要求因此已被禁用。Silver Efex Pro 2 軟體將會使用 CPU 處理圖像。"
+
+#. TRANSLATORS: this is the caption for the Settings Dialog Page in which to enable/disable the use of the GPU option.
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGPUSettingsPage.h:34
+msgid "GPU"
+msgstr "GPU"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:35
+msgid "Check for updates now"
+msgstr "立即檢查更新"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:37
+msgid "Click to check for updates now"
+msgstr "點選立即檢查更新"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:47
+msgid "Software Update Interval:"
+msgstr "軟體更新區間："
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:61
+msgid "Checking for updates"
+msgstr "檢查更新"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:72
+msgid "Updates found"
+msgstr "有更新"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:75
+msgid "No updates available"
+msgstr "沒有更新"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:107
+msgid "Software Update Settings"
+msgstr "軟體更新設置"
+
+#: ../plugin_common/gui/PluginTwirlerButton.cpp:52
+msgid "Toggle the effect of the section."
+msgstr "切換分區的效果。"
+
+#: ../plugin_common/gui/PluginTwirlerButton.cpp:53
+msgid "Reset all settings in this section to their defaults"
+msgstr "重設本分區中的所有設置回默認值"
+
+#: ../plugin_common/gui/SplashScreenBottom.cpp:72
+msgid "Version: "
+msgstr "版本："
+
+#: ../plugin_common/gui/SplashScreenBottom.cpp:72
+msgid "Revision: "
+msgstr "修訂："
+
+#: ../plugin_common/gui/SplashScreenBottom.cpp:73
+msgid ""
+"© 2000-2013 Google. All rights reserved."
+msgstr ""
+"© 2000-2013 Google. 保留所有權利。"
+
+#: ../plugin_common/gui/SplashScreenBottom.cpp:75
+msgid "Protected by one or more US Patents. 6,728,421; 6,865,300; 7,031,547; 7,602,968; 7,602,991 and other patents pending"
+msgstr "被受一個或多個美國專利保護。6,728,421；6,865,300；7,031,547；7,602,968；7,602,991 和其它正在申請中的專利"
+
+#: ../plugin_common/gui/SplashScreenBottom.cpp:77
+msgid "Splash Screen Credits"
+msgstr "Daniel Fenner, Daniela Barten, Nils Kokemohr, Hendrik Janz, Carsten Schiemann, Nils Krückemeier, Thorsten Kraack, Thomas Schweitzer, Şükriye Das, Martin Böhme, Sönke Ludwig, Bogdan Graur, Meikel Steiding, Jens Denger, Jerlyn Jareunpoon, Denis Rice, Detlef Raddatz, Iulian Cioacá, Andreea Balan, Marian Melinte, Simone Henseler-Wilczek, Erzsebet Nyiri, Vivek Verma, Meike Bendel, Frank Schröter, André Hesse, Dirk Kaeding, Tiberiu Arhire, Christian Pesch, Nagarajan Thulasiraman, Bhuvana Vijayan, Sebastian Stan, Kevin Young, Josh Haftel"
+
+#: ../plugin_common/gui/SplashScreenBottom.cpp:77
+msgid "and many more"
+msgstr "還有其它"
+
+#: ../plugin_common/gui/SplashScreenDialogController.cpp:70
+msgid "The installation encountered a problem, please try to reinstall."
+msgstr "安裝時遇到問題，請嘗試重新安裝。"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:33
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:105
+msgid "Product Key: "
+msgstr "產品序號："
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:36
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:80
+msgid "Enter your Product Key"
+msgstr "輸入產品序號"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:39
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:81
+msgid "Name"
+msgstr "名字"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:41
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:82
+msgid "Enter your name"
+msgstr "輸入名字"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:45
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:93
+msgid "Press to activate"
+msgstr "按下啟動"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:47
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:99
+msgid "Activate by Phone"
+msgstr "電話啟動"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:49
+msgid "Switch to phone activation"
+msgstr "切換到電話啟動"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:51
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:95
+msgid "Activate by Internet"
+msgstr "網上啟動"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:85
+msgid "Phone Activation Code"
+msgstr "電話啟用代碼"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:86
+msgid "Enter the code you received from Customer Service."
+msgstr "輸入你從客戶服務收到的代碼"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:97
+msgid "Switch to internet activation"
+msgstr "切換到互聯網啟動"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:109
+msgid "EU: +49-40-471135-0"
+msgstr "歐洲： +49-40-471135-0"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:114
+msgid "USA: +1-619-725-3150"
+msgstr "美國 +1-619-725-3150"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:119
+msgid "Mo-Fr 9:00 AM - 5:00 PM (CET)"
+msgstr "星期一至五早上 9 時到下午 5 時（CET）"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:123
+msgid "M-F 8:30 AM - 5:00 PM (PST)"
+msgstr "星期一至五早上 8時30分到下午 5 時（PST）"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:129
+msgid "Outside of the EU and the USA please visit: http://www.niksoftware.com/internationalsupport"
+msgstr "歐盟和美國之外，請連接：http://www.niksoftware.com/internationalsupport"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:243
+msgid "Installation ID: "
+msgstr "安裝 ID："
+
+#. TRANSLATORS: Splashscreen: This is the label shown in front of the product key when the product is activated already.
+#: ../plugin_common/gui/SplashScreenMiddleActive.cpp:30
+msgid "ProductKey.Show"
+msgstr "產品序號："
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/gui/SplashScreenTop.cpp:109
+msgid "You have %1 day of your trial remaining."
+msgid_plural "You have %1 days trial left."
+msgstr[0] "你的試用期剩下 %1 天。"
+msgstr[1] "你剩下 %1 天試用期。"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:114
+msgid "Your trial has expired."
+msgstr "你的試用版已過期。"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/gui/SplashScreenTop.cpp:120
+msgid "%1, thank you for choosing %2."
+msgstr "%1，多謝選用 %2。"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:135
+msgid "Buy"
+msgstr "購買"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:136
+msgid "Press to visit Google"
+msgstr "請連接 Google"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:180
+msgid "Exit"
+msgstr "退出"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:181
+msgid "Closes the plugin"
+msgstr "關閉插件"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:183
+msgid "Close"
+msgstr "關閉"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:184
+#: ../plugin_common/gui/SplashScreenTop.cpp:187
+msgid "Closes the splash screen"
+msgstr "關閉啟動畫面"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:186
+msgid "Demo"
+msgstr "演示"
+
+#: ../plugin_common/gui/TopBar.cpp:87
+msgid "Show Image Only"
+msgstr "僅顯示圖像"
+
+#: ../plugin_common/gui/TopBar.cpp:88
+msgid "Show Preset Browser"
+msgstr "顯示預設瀏覽器"
+
+#: ../plugin_common/gui/TopBar.cpp:89
+msgid "Show History Browser"
+msgstr "顯示歷史記錄瀏覽器"
+
+#: ../plugin_common/gui/TopBar.cpp:115
+msgid "Compare"
+msgstr "比較"
+
+#: ../plugin_common/gui/TopBar.cpp:116
+msgid "Show image with former settings"
+msgstr "以先前設置顯示圖像"
+
+#: ../plugin_common/gui/TopBar.cpp:121
+msgid "Hide or view adjustment panels (Tab Key)"
+msgstr "隱藏或查看調整面板（Tab 鍵）"
+
+#: ../plugin_common/gui/TopBar.cpp:126
+msgid "Change background color"
+msgstr "更改背景顏色"
+
+#: ../plugin_common/gui/TopBar.cpp:133
+msgid "Click to toggle between Zoom and Fit To Screen (Space)"
+msgstr "點選在縮放和適合銀幕之間切換（Space）"
+
+#: ../plugin_common/gui/TopBar.cpp:133
+msgid "Click to select a zoom percentage"
+msgstr "點選以選擇縮放的百分比"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:332
+#: ../plugin_common/stylebrowser/PresetData.cpp:470
+#: ../plugin_common/stylebrowser/PresetData.cpp:471
+#: ../plugin_common/stylebrowser/PresetData.cpp:493
+msgid "Favorites"
+msgstr "收藏夾"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:358
+msgid "Select %* Category"
+msgstr "選擇 %* 分類"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:522
+msgid "Preset Categories"
+msgstr "預設分類"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:552
+msgid "Select Category"
+msgstr "選擇分類"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:555
+msgid "Import"
+msgstr "導入"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:556
+msgid "Click to import a preset"
+msgstr "點選導入預設"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:557
+msgid "Add Preset"
+msgstr "添加預設"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:558
+msgid "Click to add a new preset"
+msgstr "點選添加一個新預設"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:576
+msgid "Click to reset tags"
+msgstr "點選重置標簽"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:781
+msgid "Custom Preset"
+msgstr "自定義預設"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:782
+msgid "Please enter a preset name"
+msgstr "請輸入預設的名稱"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:870
+msgid "All Presets (%*)"
+msgstr "所有預設 (%*)"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:873
+msgid "Search Results (%*)"
+msgstr "尋找預設 (%*)"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:899
+msgid "Apply Preset %*"
+msgstr "應用預設 %*"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1070
+msgid "Custom Presets"
+msgstr "自定義預設"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1097
+msgid "Apply Custom Preset %*"
+msgstr "應用自定義預設 %*"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1146
+msgid "Imported Presets"
+msgstr "導入的預設"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1167
+msgid "Apply Imported Preset %*"
+msgstr "應用導入的預設 %*"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1327
+msgid "Presets"
+msgstr "預設"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1502
+msgid "Preset can not be imported. Wrong file format."
+msgstr "預設無法導入。錯誤文檔格式。"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1536
+msgid "Are you sure you want to replace this preset?"
+msgstr "你確定要替換此預設嗎？"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1645
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1682
+msgid "Are you sure you want to delete this preset?"
+msgstr "你確定要刪除此預設嗎？"
+
+#: ../plugin_common/stylebrowser/PresetImageOverlay.cpp:37
+msgid "Click to update this preset with the current settings"
+msgstr "點選更新當前設置到此預設"
+
+#: ../plugin_common/stylebrowser/PresetImageOverlay.cpp:47
+msgid "Click to delete this preset"
+msgstr "點選刪除此預設"
+
+#: ../plugin_common/stylebrowser/PresetImageOverlay.cpp:56
+msgid "Click to export this preset"
+msgstr "點選導出此預設"
+
+#: ../plugin_common/stylebrowser/PresetImageWidget.cpp:223
+msgid "Add to Favorites"
+msgstr "添加到收藏夾"
+
+#: ../plugin_common/updater/UpdateManager.h:34
+msgid "Daily"
+msgstr "每天"
+
+#: ../plugin_common/updater/UpdateManager.h:35
+msgid "Weekly"
+msgstr "每星期"
+
+#: ../plugin_common/updater/UpdateManager.h:36
+msgid "Monthly"
+msgstr "每月"
+
+#: ../plugin_common/updater/UpdateManager.h:37
+msgid "Never"
+msgstr "從不"
+
+#: ../plugin_common/updater/UpdateNotificationDialog.cpp:9
+msgid "SOFTWARE UPDATES"
+msgstr "軟體更新"
+
+#: ../plugin_common/updater/UpdateNotificationDialog.cpp:10
+msgid "Click OK to visit the update page"
+msgstr "點選確定連接更新頁面"
+
+#: ../stdlib/src/nik/guiext/LevelAndCurvesWidget.cpp:510
+msgid "Adjust the shadows"
+msgstr "調整陰影"
+
+#: ../stdlib/src/nik/guiext/LevelAndCurvesWidget.cpp:512
+msgid "Adjust the midtones"
+msgstr "調整中調"
+
+#: ../stdlib/src/nik/guiext/LevelAndCurvesWidget.cpp:514
+msgid "Adjust the highlights"
+msgstr "調整亮點"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../stdlib/src/nik/guiext/ZoomAndPanControl.cpp:105
+#: ../stdlib/src/nik/guiext/ZoomAndPanControl.cpp:124
+#: ../stdlib/src/nik/guiext/ZoomAndPanControl.cpp:219
+msgid "Zoom (%*)"
+msgstr "縮放 (%*)"
+
+#: ../stdlib/src/nik/updater/win/UpdaterWin.cpp:84
+#: ../stdlib/src/nik/updater/win/UpdaterWin.cpp:93
+msgid "Updater"
+msgstr "更新"
+
+#: ../stdlib/src/nik/updater/win/UpdaterWin.cpp:84
+msgid ""
+"A new update is available!\n"
+" Do you want to install it now?\n"
+" In order to install the update Pyro needs to be restarted."
+msgstr ""
+"有新更新！\n"
+"你現在要安裝嗎？\n"
+"為了安裝更新 Pryo 需要重新啟動。"
+
+#: ../stdlib/src/nik/updater/win/UpdaterWin.cpp:93
+msgid "You're up to date!"
+msgstr "你已擁有最新版本！"
+
+#~ msgid "No file name provided"
+#~ msgstr "沒有提供文檔的名稱"
+
+#~ msgid "Directory to save to does not exist."
+#~ msgstr "存儲的路徑不存在。"
+
+msgid "Acknowledgments"
+msgstr "鳴謝"

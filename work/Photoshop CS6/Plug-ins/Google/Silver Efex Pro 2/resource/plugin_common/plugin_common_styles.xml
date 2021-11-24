@@ -1,0 +1,3476 @@
+<?xml version="1.0" ?>
+
+<!--
+ Structure:
+    colors
+    fonts
+    //icons ?
+   
+    widget definitions
+  
+    template definitions
+
+    part definitions
+    
+      
+
+
+-->
+
+<style>
+  <include href="plugin_common_style_templates.xml"/>
+  
+  <!-- colors -->
+  <!-- for Special Menu Widget -->
+    <color name="DialogText" value="0.23;0.23;0.23;1"/>
+    <color name="SpecialMenuTextColor" value="0.0;0.0;0.0;1"/>
+    <color name="SpecialMenuBackgroundColor" value="0.5;0.5;0.5;0.5"/>
+    <color name="SpecialMenuBorderColor" value="0.5;0.5;0.5;1"/>
+    <color name="PresetOverlayBackground" value="1.0;0.5;0.5;1"/>
+    <color name="DialogTextColor" value="0.62;0.62;0.62;1"/>
+    <color name="DialogTextColorDisabled" value="0.33;0.33;0.33;1"/>
+    <color name="DialogTextColorHighlight" value="0.87;0.87;0.87;1"/>
+    <color name="TwirlerButtonOutlineColor" value="0.28;0.28;0.28;1"/>
+    <color name="TwirlerButtonBackgroundColor" value="0.2;0.2;0.2;1"/>
+    <color name="CaSidePanelBackgroundColor" value="0.16;0.16;0.16;1"/>
+    <color name="LACInnerBackgroundColor" value="0.1;0.1;0.1; 1"/>
+    <color name="LACOuterBackgroundColor" value="0.16;0.16;0.16;1"/>
+    <color name="LACGridColor" value="0.2;0.2;0.2; 1"/>
+    <color name="LACGraphColor" value="0.9;0.9;0.9; 1"/>
+    <color name="ImageBackgroundLight" value="1;1;1; 1"/> <!-- was 0.69 -->
+    <color name="ImageBackgroundMedium" value="0.5;0.5;0.5; 1"/>
+    <color name="ImageBackgroundDark" value="0;0;0; 1"/> <!-- was 0.19 -->
+    <color name="LabelColor" value="0.5;0.5;0.5;1"/>
+  	<color name="BlackShadow" value="0.0;0.0;0.0;0.9"/>
+  	<color name="WhiteShadow" value="1.0;1.0;1.0;0.9"/>
+  	<color name="SubTitelColor" value="0.5;0.5;0.5;1"/>
+    <color name="OptionsDialogBackgroundColor" value="0.79;0.79;0.79;1"/>
+    <color name="OptionsDialogCaptionColor" value="0.25;0.25;0.25;1"/>
+    <color name="MessageDialogBGColor" value="0.91;0.91;0.91;1"/> 
+    <color name="MessageDialogTextColor" value="0.26;0.26;0.26;1"/>
+    <color name="SelectedEditText" value="1;1;1;1" action="replace"/>
+    <color name="GreyedOutDialogText" value="0.4;0.4;0.4;1"/>
+
+   
+   <!-- fonts -->
+  <font name="Default" family="Arial;segoeui;Helvetica;Tahoma;sans-serif;Chalkboard" size="11" />
+  <font name="Bold" family="Arial;segoeui;Helvetica;Tahoma;sans-serif;Chalkboard" size="11" bold="1"/>
+  <font name="Small" family="Arial;segoeui;Helvetica;Tahoma;sans-serif;Chalkboard" size="10" />
+    <font name="BottomBarBtnFont" family="Arial;segoeui;Helvetica;Tahoma;sans-serif;Chalkboard" size="11" bold="1"/>
+    <font name="AddControlPointFont" family="Arial;segoeui;Helvetica;Tahoma;sans-serif;Chalkboard" size="11" bold="1"/>
+	<font name="CaSliderLabelFont" family="Arial;segoeui;Helvetica;Tahoma;sans-serif;ChalkboardBold" size="11" bold="1"/>
+	<font name="CaSliderSmallLabelFont" family="Arial;segoeui;Helvetica;Tahoma;sans-serif;ChalkboardBold" size="10" bold="1"/>
+	<font name="ImageDescriptionFileNameFont" family="Arial;segoeui;Helvetica;Tahoma;sans-serif;ChalkboardBold" size="11" bold="1"/>
+	<font name="PresetFont11PBold" family="Arial" size="11" bold="1"/>
+	<font name="PresetFont11P" family="Arial" size="11"/>
+	<font name="Arial10P" family="Arial" size="10" bold="0"/>
+	<font name="Arial10PBold" family="Arial" size="10" bold="1"/>
+	<font name="EVSettingsFont" family="Arial" size="14" bold="1"/>
+	<font name="ImageDescriptionFont" family="Arial;segoeui;Helvetica;Tahoma;sans-serif;Chalkboard" size="10" />
+	<font name="ComboBoxFont" family="Arial;segoeui;Helvetica;Tahoma;sans-serif;Chalkboard" size="11" />
+	<font name="MessageDialogFont" family="Arial" size="10" />
+	<font name="DetailsTwirlerFont" family="Arial;segoeui;Helvetica;Tahoma;sans-serif;Chalkboard" size="11"/>
+	<font name="BigTwirlerFont" family="Arial" size="11" bold="1"/>
+	
+	
+   <!-- widgets -->
+  <widget name="ControlPointSlider">
+    <metric name="ThumbWidth" value="11"/>
+    <metric name="ThumbHeight" value="7"/>
+    <metric name="ThumbOffset" value="7"/>
+    <metric name="LeftMargin" value="186"/>
+    <metric name="RightMargin" value="44"/>
+  </widget>
+  <widget name="LineEdit">
+    <metric name="LeftMargin" value="2"/>
+    <metric name="RightMargin" value="2"/>
+    <metric name="TopMargin" value="0"/>
+    <metric name="BottomMargin" value="0"/>
+  </widget>
+  <widget name="Button">
+    <metric name="LeftMargin" value="10"/>
+    <metric name="RightMargin" value="10"/>
+    <metric name="TopMargin" value="2"/>
+    <metric name="BottomMargin" value="2"/>
+  </widget>
+  <widget name="ToggleButton">
+    <metric name="LeftMargin" value="5"/>
+    <metric name="RightMargin" value="5"/>
+    <metric name="TopMargin" value="3"/>
+    <metric name="BottomMargin" value="3"/>
+  </widget>
+  <widget name="ZoomButton">
+    <metric name="LeftMargin" value="20"/>
+    <metric name="RightMargin" value="10"/>
+    <metric name="TopMargin" value="2"/>
+    <metric name="BottomMargin" value="2"/>
+  </widget>
+  <widget name="IconButton">
+    <metric name="LeftMargin" value="5"/>
+    <metric name="RightMargin" value="5"/>
+    <metric name="TopMargin" value="1"/>
+    <metric name="BottomMargin" value="1"/>
+  </widget>
+  <widget name="TwirlerButton">
+    <metric name="LeftMargin" value="10"/>
+    <metric name="RightMargin" value="5"/>
+    <metric name="TopMargin" value="3"/>
+    <metric name="BottomMargin" value="3"/>
+  </widget>
+  <widget name="TwirlerLabelButton">
+    <metric name="LeftMargin" value="8"/>
+    <metric name="RightMargin" value="8"/>
+    <metric name="TopMargin" value="3"/>
+    <metric name="BottomMargin" value="3"/>
+  </widget>
+  <widget name="DetailsTwirler">
+    <metric name="LeftMargin" value="15"/>
+    <metric name="RightMargin" value="13"/>
+    <metric name="TopMargin" value="0"/>
+    <metric name="BottomMargin" value="0"/>
+    <string name="FontStyle" value="DetailsTwirlerFont" />
+  </widget>
+  <widget name="LabelButton">
+	<string name="FontStyle" value="Bold"/>
+  </widget>
+  
+   <widget name="SpecialMenu">
+    <metric name="CornerRadius" value="11"/>
+    <metric name="BorderWidth" value="3"/>
+   </widget>
+  <widget name="SnapPanel">
+	<metric name="ButtonSize" value="-1" />
+  </widget>
+  <widget name="PopupScrollBar">
+    <metric name="Size" value="0" />
+    <metric name="MinThumbSize" value="0" />
+	  <metric name="thumbWidth" value="0" />
+	 <metric name="thumbPosX" value="3" />
+    <metric name="ButtonSize" value="0"/>
+  </widget>
+  <widget name="ScrollBarHDR">
+    <metric name="Size" value="18" />
+    <metric name="MinThumbSize" value="22" />
+	  <metric name="thumbWidth" value="12" />
+	 <metric name="thumbPosX" value="3" />
+    <metric name="ButtonSize" value="4"/>
+  </widget>
+  
+  <widget name="ScrollBarNativeStyle">
+    <metric name="Size" value="12" />
+    <metric name="MinThumbSize" value="12" />
+    <metric name="ButtonSize" value="12"/>
+	<metric name="thumbWidth" value="15" />
+	<metric name="thumbPosX" value="0" />
+  </widget>
+      
+  <widget name="SnapPanelClient">
+	<metric name="ButtonSize" value="-1" />
+	<metric name="ClientTopMargin" value="15" />
+	<metric name="ClientBottomMargin" value="10" />
+  </widget>
+  
+  <widget name="SnapPanelWithoutButton">
+	<metric name="ButtonSize" value="0" />
+  </widget>
+  
+   <widget name="LabelButtonMetric">
+    <metric name="LeftMargin" value="10"/>
+    <metric name="RightMargin" value="10"/>
+    <metric name="TopMargin" value="0"/>
+    <metric name="BottomMargin" value="10"/>
+  </widget>
+  <widget name="Navigator">
+    <metric name="LeftMargin" value="50"/>
+    <metric name="RightMargin" value="45"/>
+    <metric name="TopMargin" value="40"/>
+    <metric name="BottomMargin" value="50"/>
+    
+    <metric name="LeftMarginContent" value="15"/>
+    <metric name="RightMarginContent" value="15"/>
+    <metric name="TopMarginContent" value="40"/>
+    <metric name="BottomMarginContent" value="15"/>	
+
+	 <!--the distance in pixels from the respective inner edge of the part to the top of the arrow -->
+	<metric name="LeftArrowOffset" value="-35"/>
+    <metric name="RightArrowOffset" value="30"/>
+    <metric name="TopArrowOffset" value="45"/>
+    <metric name="BottomArrowOffset" value="-41"/>
+	
+    <metric name="MinWidth" value="90"/>
+    <metric name="MinHeight" value="90"/>
+    <metric name="MinWidthWithArrow" value="230"/>
+    <metric name="MinHeightWithArrow" value="230"/>
+	
+	<margins name="ShadowSize" value="13"/>
+  </widget>
+ 	<widget name="CaSliderLineEdit">
+		<metric name="LeftMargin" value="0"/>
+		<metric name="RightMargin" value="0"/>
+		<metric name="TopMargin" value="0"/>
+		<metric name="BottomMargin" value="0"/>
+	</widget>
+	<widget name="CaSliderSmallLineEdit">
+		<metric name="LeftMargin" value="0"/>
+		<metric name="RightMargin" value="0"/>
+		<metric name="TopMargin" value="0"/>
+		<metric name="BottomMargin" value="0"/>
+	</widget>
+	<widget name="CaSliderLightLineEdit">
+		<metric name="LeftMargin" value="0"/>
+		<metric name="RightMargin" value="0"/>
+		<metric name="TopMargin" value="0"/>
+		<metric name="BottomMargin" value="0"/>
+	</widget>
+	<widget name="CaSliderRainbowLineEdit">
+		<metric name="LeftMargin" value="0"/>
+		<metric name="RightMargin" value="0"/>
+		<metric name="TopMargin" value="0"/>
+		<metric name="BottomMargin" value="0"/>
+	</widget>
+	<widget name="PluginComboBox" >
+	<!-- 24.10.2012: left/right margin reduced from 10 to 5 for SEP 2.1 only, because of space issues with
+		comboboxes in the 'finishing adjustments' section with long portuguese/japanese translations -->
+		<metric name="LeftMargin" value="5"/>
+		<metric name="RightMargin" value="5"/>
+		<metric name="TopMargin" value="2"/>
+		<metric name="BottomMargin" value="2"/>
+	</widget>
+  
+  
+  
+  <!-- templates -->
+
+   <template name="PushButtonText">
+    <!-- text font="DefaultBlur" margin="4;4;4;4" flags="center;middle" color="1;1;1;0.75" /-->
+    <text font="Default" margin="4;3;4;5" flags="center;middle" color="0;0;0;1" />
+    <text font="Default" margin="4;4;4;4" flags="center;middle" color="0.85;0.85;0.85;1" />
+  </template>
+  <template name="PushButtonTextD">
+    <text font="Default" margin="4;3;4;4" flags="center;middle" color="0.6;0.6;0.6;1" />
+  </template>
+  <template name="CheckboxText">
+    <text font="Default" margin="16;4;4;4" flags="left;middle" color="0;0;0;1" />
+  </template>
+   
+  <template name="CaCheckboxText">
+    <text font="Default" margin="16;4;4;4" flags="left;middle" color="DialogTextColor" />
+  </template>
+  <template name="CaCheckboxTextLight">
+    <text font="Default" margin="16;4;4;4" flags="left;middle" color="MessageDialogTextColor" />
+  </template>
+  <template name="CaCheckboxTextLightDisabled">
+    <text font="Default" margin="16;4;4;4" flags="left;middle" color="0.5;0.5;0.5;1" />
+  </template>
+  <template name="DialogText">
+    <text font="ComboBoxFont" margin="0;0;0;1" flags="center;middle" color="DialogTextColor"/>
+  </template>
+  <template name="DialogTextDisabled">
+    <text font="ComboBoxFont" margin="0;0;0;1" flags="center;middle" color="DialogTextColorDisabled"/>
+  </template>  
+  <template name="DialogTextHighlight">
+    <text font="ComboBoxFont" margin="0;0;0;1" flags="center;middle" color="DialogTextColorHighlight"/>
+  </template>
+  <template name="DialogButtonText">
+    <text font="BottomBarBtnFont" margin="0;0;0;1" flags="center;middle" color="DialogTextColor"/>
+  </template>
+  <template name="DialogButtonTextDisabled">
+    <text font="BottomBarBtnFont" margin="0;0;0;1" flags="center;middle" color="0.33;0.33;0.33;1"/>
+  </template>
+  <template name="DialogButtonTextLight">
+    <text font="MessageDialogFont" margin="0;0;0;1" flags="center;middle" color="MessageDialogTextColor"/>
+  </template>
+  <template name="DialogButtonTextLightHover">
+    <text font="MessageDialogFont" margin="0;0;0;1" flags="center;middle" color="0;0;0;1"/>
+  </template>
+  
+  <template name="PresetTagButtonText">
+    <text font="PresetFont11PBold" margin="0;0;2;0" flags="center;middle" color="0.5;0.5;0.5;1" />
+  </template>
+
+  
+  
+  <!-- parts -->
+  <part name="ControlPoint">
+    <state name="normal">
+      <use template="CP-standardBT"/>
+    </state>
+    <substate>
+      <state name="focused">
+        <use template="CP-SuperselectedBT"/>
+      </state>
+    </substate>
+    <state name="normal.focused">
+      <use template="CP-SuperselectedBT"/>
+    </state>
+  </part>
+  <part name="ControlPointParent">
+    <state name="normal">
+      <use template="CP-GroupiconBT"/>
+    </state>
+    <substate>
+      <state name="focused">
+        <use template="CP-SuperselectedBT"/>
+      </state>
+    </substate>
+    <state name="normal.focused">
+      <use template="CP-SuperselectedBT"/>
+    </state>
+  </part>
+  <part name="ControlPointChild">
+    <state name="normal">
+      <use template="SubCP-StandardBT"/>
+    </state>
+    <substate>
+      <state name="focused">
+        <use template="SubCP-StandardBT"/>
+      </state>
+    </substate>
+    <state name="normal.focused">
+      <use template="SubCP-StandardBT"/>
+    </state>
+  </part>
+<part name="ControlPointTextBackground">
+    <state name="normal">
+      <use template="CP-TextBG"/>
+    </state>
+  </part>
+  <part name="ControlPointHandle">
+    <substate>
+      <state name="normal">
+        <use template="Slider-StandardBt"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="pressed">
+        <use template="Slider-SuperselectedBt"/>
+      </state>
+      <state name="focused">
+        <use template="Slider-SuperselectedBt"/>
+	  </state>
+    </substate>
+    <substate>
+      <state name="hover"></state>
+    </substate>
+    <state name="normal.disabled">
+      <use state="normal"/>
+    </state>
+  </part>
+  <part name="ComboBoxGenericItem">
+    <substate>
+      <state name="normal">
+        <use template="CheckboxText" />
+      </state>
+      <state name="activated">
+        <use template="CheckboxText" />
+      </state>
+    </substate>
+    <substate>
+      <state name="focused" />
+      <state name="pressed" />
+    </substate>
+    <substate>
+      <state name="hover"></state>
+    </substate>
+    <state name="disabled" tinting="1;1;1;0.2"><use state="normal" /></state>
+ </part>
+  <part name="SmallCancelButton">
+	<substate>
+	  <state name="normal">
+		<use template="CloseButton-normal" />
+	  </state>
+	</substate>
+	<substate>
+	  <state name="pressed">
+		<use template="CloseButton-pressed" />
+	  </state>
+	  <state name="focused">
+	  </state>
+	</substate>
+	<substate>
+	  <state name="hover">
+		<use template="CloseButton-hover" />
+	  </state>
+	</substate>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+  </part>
+  <part name="ImageDescriptionFileNameTextDark"> <!-- this is brighter text, but for DARK background -->
+    <state name="normal">
+	     <text font="ImageDescriptionFileNameFont" margin="0;0;0;0" flags="right;middle" color="0;0;0;1" wrapmode="WrapBackEllipsis"/>
+       <text font="ImageDescriptionFileNameFont" margin="0;-1;0;0" flags="right;middle" color="0.77;0.77;0.77;1" wrapmode="WrapBackEllipsis"/>
+    </state>
+  </part>
+
+   <part name="ImageDescriptionTextDark">
+      <state name="normal">
+        <text font="ImageDescriptionFont" margin="0;0;0;0" flags="right;middle" color="0;0;0;1" wrapmode="WrapBackEllipsis"/>
+        <text font="ImageDescriptionFont" margin="0;-1;0;0" flags="right;middle" color="0.77;0.77;0.77;1" wrapmode="WrapBackEllipsis"/>
+      </state>
+   </part>
+      <part name="ImageDescriptionFileNameTextMedium">
+      <state name="normal">
+		    <text font="ImageDescriptionFileNameFont" margin="0;0;0;0" flags="right;middle" color="0.61;0.61;0.61;1" wrapmode="WrapBackEllipsis"/>
+        <text font="ImageDescriptionFileNameFont" margin="0;-1;0;0" flags="right;middle" color="0.16;0.16;0.16;1" wrapmode="WrapBackEllipsis"/>
+      </state>
+   </part>
+
+   <part name="ImageDescriptionTextMedium">
+      <state name="normal">
+        <text font="ImageDescriptionFont" margin="0;0;0;0" flags="right;middle" color="0.61;0.61;0.61;1" wrapmode="WrapBackEllipsis"/>
+        <text font="ImageDescriptionFont" margin="0;-1;0;0" flags="right;middle" color="0.16;0.16;0.16;1" wrapmode="WrapBackEllipsis"/>
+      </state>
+   </part>
+   <part name="ImageDescriptionFileNameTextLight"> <!-- this is darker text, but for BRIGHT (means white) background -->
+      <state name="normal">
+		    <text font="ImageDescriptionFileNameFont" margin="0;0;0;0" flags="right;middle" color="0.81;0.81;0.81;1" wrapmode="WrapBackEllipsis"/>
+        <text font="ImageDescriptionFileNameFont" margin="0;-1;0;0" flags="right;middle" color="0.16;0.16;0.16;1" wrapmode="WrapBackEllipsis"/>
+      </state>
+   </part>
+
+   <part name="ImageDescriptionTextLight">
+      <state name="normal">
+        <text font="ImageDescriptionFont" margin="0;0;0;0" flags="right;middle" color="0.81;0.81;0.81;1" wrapmode="WrapBackEllipsis"/>
+        <text font="ImageDescriptionFont" margin="0;-1;0;0" flags="right;middle" color="0.16;0.16;0.16;1" wrapmode="WrapBackEllipsis"/>
+      </state>
+   </part>
+  <part name="BackgroundColorDark">
+   <state name="normal">
+      <colorrect color="ImageBackgroundDark"/>
+    </state>
+   </part>
+  <part name="BackgroundColorMedium">
+   <state name="normal">
+      <colorrect color="ImageBackgroundMedium"/>
+    </state>
+   </part>
+  <part name="BackgroundColorLight">
+   <state name="normal">
+      <colorrect color="ImageBackgroundLight"/>
+    </state>
+   </part>
+  <part name="InnerShadow">
+    <state name="normal">
+      <use template="innershadow" />
+    </state>
+  </part>
+  <part name="ImageShadow">
+    <state name="normal">
+      <use template="image-shadow" />
+    </state>
+  </part>
+  <part name="WindowBackground">
+    <state name="normal">
+      <colorrect color="0.2;0.2;0.2;1" />
+    </state>
+  </part>
+  <part name="ProgressBackground">
+    <state name="normal">
+      <use template="Progress-Background" />
+    </state>
+  </part>
+  <part name="HistogramFrame">
+    <state name="normal">
+      <use template="Histogram-Border" />
+    </state>
+  </part>
+  <part name="ProgressBarLine">
+    <state name="normal">
+      <use template="Progress-Bar" />
+    </state>
+  </part>
+  <part name="SidePanelShadow">
+    <state name="normal">
+      <use template="Shadow-Top" />
+    </state>
+    <state name="disabled">
+	     <use state="normal" />
+	  </state>
+  </part> 
+  <part name="SidePanelShadowBottom">
+    <state name="normal">
+      <use template="Shadow-Down" />
+    </state>
+    <state name="disabled">
+	     <use state="normal" />
+	  </state>
+  </part> 
+  <part name="TwirlerSeparator">
+    <state name="normal">
+      <use template="Panel-SliderBar" />
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+  </part>
+  <part name="MidSeparator">
+    <state name="normal">
+      <use template="midSeparator" />
+    </state>
+  </part>
+  <part name="SplitRotBtn-DarkToRight">
+    <state name="normal">
+      <use template="SplitRotBtn-DarkStdToRight"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover">
+        <use template="SplitRotBtn-DarkHoverToRight"/>
+      </state>
+		</substate>
+   </part>  
+   <part name="SplitRotBtn-DarkToTop">
+    <state name="normal">
+      <use template="SplitRotBtn-DarkStdToTop"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover">
+        <use template="SplitRotBtn-DarkHoverToTop"/>
+      </state>
+		</substate>
+   </part>
+   <part name="SplitRotBtn-ToTop">
+    <state name="normal">
+      <use template="SplitRotBtn-StdToTop"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover">
+        <use template="SplitRotBtn-HoverToTop"/>
+      </state>
+		</substate>
+   </part>
+     <part name="SplitRotBtn-ToRight">
+    <state name="normal">
+      <use template="SplitRotBtn-StdToRight"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover">
+        <use template="SplitRotBtn-HoverToRight"/>
+      </state>
+		</substate>
+   </part>
+   <part name="SplitRotBtn-LightToTop">
+    <state name="normal">
+      <use template="SplitRotBtn-LightStdToTop"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover">
+		    <use template="SplitRotBtn-LightHoverToTop"/>
+      </state>
+		</substate>
+   </part>
+   <part name="SplitRotBtn-LightToRight">
+    <state name="normal">
+      <use template="SplitRotBtn-LightStdToRight"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover">
+		    <use template="SplitRotBtn-LightHoverToRight"/>
+      </state>
+		</substate>
+   </part>
+  <part name="SBSRotateButtonDark">
+    <state name="normal">
+      <use template="SBSRot-BtnDarkStd"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+    <substate>
+		  <state name="hover">
+		    <use template="SBSRot-BtnDarkHover"/>
+      </state>
+		</substate>
+   </part>
+   <part name="SBSRotateButtonMedium">
+    <state name="normal">
+      <use template="SBSRot-BtnMediumStd"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover">
+		    <use template="SBSRot-BtnMediumHover"/>
+      </state>
+		</substate>
+   </part>
+  <part name="SBSRotateButtonLight">
+    <state name="normal">
+      <use template="SBSRot-BtnLightStd"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover">
+		    <use template="SBSRot-BtnLightHover"/>
+      </state>
+		</substate>
+   </part>
+   
+   <!-- top bar stuff -->
+  <part name="TopBarBG">
+    <state name="normal">
+      <use template="PreviewControlPanel-BG" />
+    </state>
+  </part>
+  <part name="TopBarSeparator">
+    <state name="normal">
+      <use template="Seperator-down" />
+    </state>
+ </part>
+ <part name="CompareViewButtonFull">
+    <substate>
+      <state name="normal">
+        <use template="SplitView-Normal"/>
+      </state>
+      <state name="activated">
+        <use template="SplitView-NormalHighlt"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover"></state>        
+    </substate>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+    <state name="activated.disabled" tinting="1;1;1;0.6"><use state="activated" /></state>
+  </part>
+  <part name="CompareViewButtonSplit">
+    <substate>
+      <state name="normal">
+        <use template="SplitView-SplitVert"/>
+      </state>
+      <state name="activated">
+        <use template="SplitView-SplitVertHighlt"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover"></state>        
+    </substate>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+    <state name="activated.disabled" tinting="1;1;1;0.6"><use state="activated" /></state>
+  </part>
+  <part name="CompareViewButtonSide">
+    <substate>
+      <state name="normal">
+        <use template="SplitView-SideBySideHoriz"/>
+      </state>
+      <state name="activated">
+        <use template="SplitView-SideBySideHorizHighlt"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover"></state>        
+    </substate>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+    <state name="activated.disabled" tinting="1;1;1;0.6"><use state="activated" /></state>
+ </part>
+  <part name="TopBarToggleGroupButtonLeft">
+    <state name="normal">
+      <use template="RadioButton-BarLeft0"/>
+    </state>
+    <state name="activated">
+      <use template="RadioButton-BarLeft2"/>
+    </state>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <state name="normal.hover">
+      <use template="RadioButton-BarLeft1"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="activated.hover">
+      <use template="RadioButton-BarLeft3"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use state="activated.hover"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use state="activated.hover"/>
+    </state>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+    <state name="activated.disabled" tinting="1;1;1;0.6"><use state="activated" /></state>
+  </part>
+
+  <part name="TopBarToggleGroupButtonCenter">
+    <state name="normal">
+      <use template="RadioButton-BarMid0"/>
+    </state>
+    <state name="activated">
+      <use template="RadioButton-BarMid2"/>
+    </state>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <state name="normal.hover">
+      <use template="RadioButton-BarMid1"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="activated.hover">
+      <use template="RadioButton-BarMid3"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use state="activated.hover"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use state="activated.hover"/>
+    </state>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+    <state name="activated.disabled" tinting="1;1;1;0.6"><use state="activated" /></state>
+  </part>
+ 
+  <part name="TopBarToggleGroupButtonRight">
+    <state name="normal">
+      <use template="RadioButton-BarRight0"/>
+    </state>
+    <state name="activated">
+      <use template="RadioButton-BarRight2"/>
+    </state>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <state name="normal.hover">
+      <use template="RadioButton-BarRight1"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="activated.hover">
+      <use template="RadioButton-BarRight3"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use state="activated.hover"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use state="activated.hover"/>
+    </state>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+    <state name="activated.disabled" tinting="1;1;1;0.6"><use state="activated" /></state>
+  </part>
+  
+  <!-- 	icons for top bar -->
+  <part name="SBViewButtonIn">
+    <substate>
+      <state name="normal">
+        <use template="SBView-BtHideInactive"/>
+      </state>
+      <state name="activated">
+        <use template="SBView-BtHideActive"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover"></state>        
+    </substate>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+    <state name="activated.disabled" tinting="1;1;1;0.6"><use state="activated" /></state>
+   </part>
+   <part name="SBViewButtonOut">
+    <substate>
+      <state name="normal">
+        <use template="SBView-BtShowInactive"/>
+      </state>
+      <state name="activated">
+        <use template="SBView-BtShowActive"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover"></state>        
+    </substate>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+    <state name="activated.disabled" tinting="1;1;1;0.6"><use state="activated" /></state>
+  </part>
+<part name="SBViewButtonHistory">
+    <substate>
+      <state name="normal">
+        <use template="FBViewBtHistory-Inactive"/>
+      </state>
+      <state name="activated">
+        <use template="FBViewBtHistory-Active"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover"></state>        
+    </substate>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+    <state name="activated.disabled" tinting="1;1;1;0.6"><use state="activated" /></state>
+  </part>
+  <part name="ShowHideRightPanelButton">
+    <state name="normal">
+      <use template="Toolbar-Btn0"/>
+      <use template="ShowPanel-again"/>
+    </state>
+    <state name="normal.hover">
+      <use template="Toolbar-Btn1"/>
+      <use template="ShowPanel-again"/>
+    </state>
+    <state name="normal.pressed">
+      <use template="Toolbar-Btn2"/>
+      <use template="ShowPanel-again"/>
+    </state>
+    <state name="normal.focused">
+      <use template="Toolbar-Btn0"/>
+      <use template="ShowPanel-again"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use template="Toolbar-Btn1"/>
+      <use template="ShowPanel-again"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use template="Toolbar-Btn3"/>
+      <use template="ShowPanel-again"/>
+    </state>
+    <state name="activated">
+      <use template="Toolbar-Btn0"/>
+      <use template="HidePanel-Std"/>
+    </state>
+    <state name="activated.hover">
+      <use template="Toolbar-Btn1"/>
+      <use template="HidePanel-Std"/>
+    </state>
+    <state name="activated.pressed">
+      <use template="Toolbar-Btn2"/>
+      <use template="HidePanel-Std"/>
+    </state>
+    <state name="activated.focused">
+      <use template="Toolbar-Btn0"/>
+      <use template="HidePanel-Std"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use template="Toolbar-Btn1"/>
+      <use template="HidePanel-Std"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use template="Toolbar-Btn3"/>
+      <use template="HidePanel-Std"/>
+    </state>
+  </part>
+   <part name="BulbBackgroundColorButton">
+     <state name="normal">
+      <use template="Toolbar-Btn0"/>
+      <use template="ToolbarIcon-Lightbulb"/>
+    </state>
+    <state name="normal.hover">
+      <use template="Toolbar-Btn1"/>
+      <use template="ToolbarIcon-Lightbulb"/>
+    </state>
+    <state name="normal.pressed">
+      <use template="Toolbar-Btn2"/>
+      <use template="ToolbarIcon-Lightbulb"/>
+    </state>
+    <state name="normal.focused">
+      <use template="Toolbar-Btn0"/>
+      <use template="ToolbarIcon-Lightbulb"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use template="Toolbar-Btn1"/>
+      <use template="ToolbarIcon-Lightbulb"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use template="Toolbar-Btn3"/>
+      <use template="ToolbarIcon-Lightbulb"/>
+    </state>
+    <state name="activated">
+      <use template="Toolbar-Btn0"/>
+      <use template="ToolbarIcon-Lightbulb"/>
+    </state>
+    <state name="activated.hover">
+      <use template="Toolbar-Btn1"/>
+      <use template="ToolbarIcon-Lightbulb"/>
+    </state>
+    <state name="activated.pressed">
+      <use template="Toolbar-Btn2"/>
+      <use template="ToolbarIcon-Lightbulb"/>
+    </state>
+    <state name="activated.focused">
+      <use template="Toolbar-Btn0"/>
+      <use template="ToolbarIcon-Lightbulb"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use template="Toolbar-Btn1"/>
+      <use template="ToolbarIcon-Lightbulb"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use template="Toolbar-Btn3"/>
+      <use template="ToolbarIcon-Lightbulb"/>
+    </state>
+   </part>
+     <part name="ToolbarZoomButtonRight">
+    <state name="normal">
+      <use template="Pulldown-RightStd"/>
+    </state>
+    <state name="normal.focused">
+      <use template="Pulldown-RightStd"/>
+    </state>
+    <state name="normal.pressed">
+      <use template="Pulldown-RightPressed"/>
+    </state>
+    <state name="normal.hover">
+      <use template="Pulldown-RightStd"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use template="Pulldown-RightStd"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use template="Pulldown-RightPressed"/>
+    </state>
+    <state name="activated">
+      <use template="Pulldown-RightPressed"/>
+    </state>
+    <state name="activated.hover">
+      <use template="Pulldown-RightPressed"/>
+    </state>
+    <state name="activated.pressed">
+      <use template="Pulldown-RightPressed"/>
+    </state>
+    <state name="activated.focused">
+      <use template="Pulldown-RightPressed"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use template="Pulldown-RightPressed"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use template="Pulldown-RightPressed"/>
+    </state>
+    <state name="normal.disabled">
+      <use state="normal"/>
+    </state>
+  </part>
+  
+  <template name="DialogTextZoomButton">
+    <text font="ComboBoxFont" margin="14;0;0;1" flags="center;middle" color="DialogTextColor" wrapmode="WrapBackEllipsis"/>
+  </template>
+
+  <template name="DialogTextHighlightZoom">
+    <text font="ComboBoxFont" margin="14;0;0;1" flags="center;middle" color="DialogTextColorHighlight" wrapmode="WrapBackEllipsis" />
+  </template>
+  
+  <part name="ToolbarZoomButtonLeft">
+    <state name="normal">
+      <use template="Pulldown-LeftStd"/>
+      <icon name="Loupe-inactive" pos="left;center;4;0"/>
+      <use template="DialogTextZoomButton"/>
+    </state>
+    <state name="normal.focused">
+      <use state="normal"/>
+    </state>
+    <state name="normal.pressed">
+      <use template="Pulldown-LeftPressed"/>
+      <icon name="Loupe-active" pos="left;center;4;0"/>
+      <use template="DialogTextHighlightZoom"/>
+    </state>
+    <state name="normal.hover">
+      <use template="Pulldown-LeftHover"/>
+      <icon name="Loupe-inactive" pos="left;center;4;0"/>
+      <use template="DialogTextZoomButton"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use state="normal.pressed"/>
+    </state>
+    <state name="activated">
+      <use template="Pulldown-LeftPressed"/>
+      <icon name="Loupe-active" pos="left;center;4;0"/>
+      <use template="DialogTextHighlightZoom"/>
+    </state>
+    <state name="activated.hover">
+      <use state="activated"/>
+    </state>
+    <state name="activated.pressed">
+      <use state="activated"/>
+    </state>
+    <state name="activated.focused">
+      <use state="activated"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use state="activated"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use state="activated"/>
+    </state>
+    <state name="normal.disabled">
+      <use state="normal"/>
+    </state>
+  </part>
+<!-- top bar stuff end -->
+  <!-- bottom bar stuff -->
+  <part name="BottomBarBG">
+    <state name="normal">
+      <use template="DialogButtonPanel-BG" />
+      <icon name="SizeButton-Std" pos="right;bottom;0;0"/>
+    </state>
+  </part>
+  <part name="ToolbarButton">
+    <state name="normal">
+      <use template="Toolbar-Btn0"/>
+      <use template="DialogText"/>
+    </state>
+    <state name="normal.focused">
+      <use template="Toolbar-Btn0"/>
+      <use template="DialogText"/>
+    </state>
+    <state name="normal.pressed">
+      <use template="Toolbar-Btn2"/>
+      <use template="DialogTextHighlight"/>
+    </state>
+    <state name="normal.hover">
+      <use template="Toolbar-Btn1"/>
+      <use template="DialogTextHighlight"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use template="Toolbar-Btn1"/>
+      <use template="DialogTextHighlight"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use template="Toolbar-Btn3"/>
+      <use template="DialogTextHighlight"/>
+    </state>
+    <state name="activated">
+      <use state="normal.pressed"/>
+    </state>
+    <state name="activated.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="activated.pressed">
+      <use state="normal.pressed"/>
+    </state>
+    <state name="activated.focused">
+      <use state="normal.focused"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use state="normal.pressed.hover"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use state="normal.focused.hover"/>
+    </state>
+    <state name="normal.disabled">
+      <use template="Toolbar-Btn0"/>
+      <use template="DialogTextDisabled"/>
+    </state>
+  </part>
+  <part name="BottomBarButton">
+    <state name="normal">
+      <use template="DlgBtn-Std"/>
+      <use template="DialogButtonText"/>
+    </state>
+    <state name="normal.focused">
+      <use template="DlgBtn-Std"/>
+      <use template="DialogButtonText"/>
+    </state>
+    <state name="normal.pressed">
+      <use template="DlgBtn-StdDown"/>
+      <use template="DialogButtonText"/>
+    </state>
+    <state name="normal.hover">
+      <use template="DlgBtn-StdHover"/>
+      <use template="DialogButtonText"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use template="DlgBtn-StdHover"/>
+      <use template="DialogButtonText"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use template="DlgBtn-StdDown"/>
+      <use template="DialogButtonText"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <state name="activated.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="activated.pressed">
+      <use state="normal.pressed"/>
+    </state>
+    <state name="activated.focused">
+      <use state="normal.focused"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use state="normal.pressed.hover"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use state="normal.focused.hover"/>
+    </state>
+	<state name="normal.disabled">
+	   <use template="DlgBtn-StdDis"/>
+     <use template="DialogButtonTextDisabled"/>
+    </state>
+  </part>
+  <part name="BottomBarButtonFocus">
+    <state name="normal">
+      <use template="DlgBtn-Focus"/>
+      <use template="DialogButtonText"/>
+    </state>
+    <state name="normal.focused">
+      <use template="DlgBtn-Focus"/>
+      <use template="DialogButtonText"/>
+    </state>
+    <state name="normal.pressed">
+      <use template="DlgBtn-FocDown"/>
+      <use template="DialogButtonText"/>
+    </state>
+    <state name="normal.hover">
+      <use template="DlgBtn-FocHover"/>
+      <use template="DialogButtonText"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use template="DlgBtn-FocHover"/>
+      <use template="DialogButtonText"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use template="DlgBtn-FocDown"/>
+      <use template="DialogButtonText"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <state name="activated.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="activated.pressed">
+      <use state="normal.pressed"/>
+    </state>
+    <state name="activated.focused">
+      <use state="normal.focused"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use state="normal.pressed.hover"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use state="normal.focused.hover"/>
+    </state>
+	  <state name="normal.disabled">
+      <use template="DlgBtn-StdDis"/>
+      <use template="DialogButtonText"/>
+    </state>
+  </part>
+  <!-- stuff for SettingsDialog -->
+  <part name="OptionsDialogBackground">
+   <state name="normal">
+      <use template="Settings-BGBorder"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>   
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+   </part>
+   <part name="DialogButtonLight">
+   <state name="normal">
+      <use template="TextualBtn-Light"/>
+      <use template="DialogButtonTextLight"/>
+    </state>
+    <state name="normal.focused">
+      <use template="TextualBtn-Light"/>
+      <use template="DialogButtonTextLight"/>
+    </state>
+    <state name="normal.pressed">
+      <use template="TextualBtn-LightDown"/>
+      <use template="DialogButtonTextLightHover"/>
+    </state>
+    <state name="normal.hover">
+      <use template="TextualBtn-LightHover"/>
+      <use template="DialogButtonTextLightHover"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use template="TextualBtn-LightHover"/>
+      <use template="DialogButtonTextLightHover"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use template="TextualBtn-LightDown"/>
+      <use template="DialogButtonTextLightHover"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <state name="activated.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="activated.pressed">
+      <use state="normal.pressed"/>
+    </state>
+    <state name="activated.focused">
+      <use state="normal.focused"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use state="normal.pressed.hover"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use state="normal.focused.hover"/>
+    </state>
+	<state name="normal.disabled">
+      <use state="normal"/>
+      <use template="TextualBtn-LightDisabled"/>
+    </state>
+  </part>
+   <part name="TwirlerButtonTextLight">
+    <state name="normal">
+      <text font="Default" margin="5;0;0;0" flags="left;middle" color="OptionsDialogCaptionColor"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+		<substate>
+		  <state name="disabled"></state>
+		</substate>
+   </part>   
+   <part name="TwirlerButtonBackgroundLight">
+    <state name="normal">
+      <use template="Settings-LabelBG"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+		<substate>
+		  <state name="disabled"></state>
+		</substate>
+   </part>
+   <part name="TwirlerButtonLeftLight">
+    <state name="normal">
+      <use template="Settings-TwirlerDown" flags="center;middle"/>
+    </state>
+    <state name="activated">
+      <use template="Settings-TwirlerRight" flags="center;middle"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+		<substate>
+		  <state name="disabled"></state>
+		</substate>
+    <state name="normal.hover">
+      <use template="SettingsTwirler-DownHover" flags="center;middle"/>
+    </state>
+    <state name="activated.hover">
+      <use template="SettingsTwirler-RightHover" flags="center;middle"/>
+    </state>
+   </part>
+   <part name="TwirlerButtonResetLight">
+    <state name="normal">
+      <use template="SettingsArrow-Reset" flags="center;middle"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover">
+        <use template="SettingsArrow-ResetHover" flags="center;middle"/>
+      </state>
+		</substate>
+   </part>
+   <part name="DetailsTwirlerButton">
+    <state name="normal">
+      <use template="Btn-Plus1" flags="center;middle"/>
+    </state>
+    <state name="activated">
+      <use template="Btn-Minus1" flags="center;middle"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<state name="normal.hover">
+      <use template="Btn-PlusHover1"/>
+    </state>
+		<state name="normal.pressed.hover">
+      <use template="Btn-PlusHover1"/>
+    </state>
+		<state name="normal.focused.hover">
+      <use template="Btn-PlusHover1"/>
+    </state>
+    <state name="activated.hover">
+      <use template="Btn-MinusHover1"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use template="Btn-MinusHover1"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use template="Btn-MinusHover1"/>
+    </state>
+   </part>
+  <part name="CaComboBoxLight">
+    <state name="normal">
+      <use template="ComboBox-L" />
+      <text font="ComboBoxFont" margin="1;0;11;1" flags="center;middle" color="0.26;0.26;0.26;1" wrapmode="WrapBackEllipsis"/>
+    </state>
+    <state name="activated">
+      <use template="ComboBox-LOpen" />
+      <text font="ComboBoxFont" margin="1;0;11;1" flags="center;middle" color="0.26;0.26;0.26;1" wrapmode="WrapBackEllipsis"/>
+    </state>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <substate>
+      <state name="hover">
+        <use template="ComboBox-LHover" />
+        <text font="ComboBoxFont" margin="1;0;11;1" flags="center;middle" color="0;0;0;1" wrapmode="WrapBackEllipsis"/>
+      </state>
+    </substate>
+    <state name="normal.pressed">
+      <use template="ComboBox-LOpen" />
+      <text font="ComboBoxFont" margin="1;0;11;1" flags="center;middle" color="0;0;0;1" wrapmode="WrapBackEllipsis"/>
+    </state>
+    <state name="activated.pressed">
+      <use state="normal.pressed"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use state="normal.pressed"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use state="normal.pressed"/>
+    </state>
+    <state name="normal.disabled">
+      <use state="normal"/>
+      <colorrect color="0.5;0.5;0.5;0.5" />
+    </state>
+  </part>
+  <!-- stuff for side panel (right side/ CaSidePanel) -->
+  <part name="CaSidePanelBG">
+   <state name="normal">
+      <colorrect color="CaSidePanelBackgroundColor"/>
+    </state>
+    <state name="activated">
+      <colorrect color="CaSidePanelBackgroundColor"/>
+    </state>   
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+   </part>
+   <!-- to be removed as soon as all snap panels are put into twirlers (in side panel)-->
+    <part name="LeonisEditSnapPanelHeader">
+    <substate>
+      <state name="normal">
+        <text font="Default" margin="20;0;0;0" flags="left;middle" color="DialogTextColor"/>
+      </state>
+      <state name="activated">
+        <text font="Default" margin="20;0;0;0" flags="left;middle" color="DialogTextColor"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <substate>
+      <state name="hover"></state>
+    </substate>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+    <state name="activated.disabled" tinting="1;1;1;0.6"><use state="activated" /></state>
+  </part>
+   <part name="CaComboBoxDarkBig">
+    <state name="normal">
+      <use template="ComboBox-Dis" />
+      <text font="ComboBoxFont" margin="3;0;15;1" flags="center;middle" color="0.6;0.6;0.6;1" wrapmode="WrapBackEllipsis"/>
+    </state>
+    <state name="activated">
+      <use template="ComboBox-Active" />
+      <text font="ComboBoxFont" margin="3;0;15;1" flags="center;middle" color="1;1;1;1" wrapmode="WrapBackEllipsis"/>
+    </state>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <substate> 
+        <state name="hover"></state>
+    </substate>
+    <state name="normal.hover">
+      <use template="ComboBox-Hover" />
+      <text font="ComboBoxFont" margin="3;0;15;1" flags="center;middle" color="1;1;1;1" wrapmode="WrapBackEllipsis"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use state="activated" />
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal.hover" />
+    </state>
+    <state name="normal.disabled">
+      <use state="normal"/>
+      <colorrect color="0.5;0.5;0.5;0.5" />
+    </state>
+  </part>
+   <part name="CaComboBoxDark">
+    <state name="normal">
+      <use template="ComboBox-D" />
+      <text font="ComboBoxFont" margin="3;0;15;1" flags="center;middle" color="0.6;0.6;0.6;1" wrapmode="WrapBackEllipsis"/>
+    </state>
+    <state name="activated">
+      <use template="ComboBox-DOpen" />
+      <text font="ComboBoxFont" margin="3;0;15;1" flags="center;middle" color="1;1;1;1" wrapmode="WrapBackEllipsis"/>
+    </state>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <substate>
+      <state name="hover"></state></substate>
+    <state name="normal.hover">
+      <use template="ComboBox-DHover" />
+      <text font="ComboBoxFont" margin="3;0;15;1" flags="center;middle" color="1;1;1;1" wrapmode="WrapBackEllipsis"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use state="activated" />
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal.hover" />
+    </state>
+    <state name="normal.disabled">
+      <use state="normal"/>
+      <colorrect color="0.5;0.5;0.5;0.5" />
+    </state>
+  </part>
+  <part name="CaComboBoxDarkTextOnly">
+    <state name="normal">
+      <text font="ComboBoxFont" margin="3;0;15;1" flags="center;middle" color="0.6;0.6;0.6;1" wrapmode="WrapBackEllipsis"/>
+    </state>
+    <state name="activated">
+      <text font="ComboBoxFont" margin="3;0;15;1" flags="center;middle" color="1;1;1;1" wrapmode="WrapBackEllipsis"/>
+    </state>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <substate>
+      <state name="hover"></state></substate>
+    <state name="normal.hover">
+      <text font="ComboBoxFont" margin="3;0;15;1" flags="center;middle" color="1;1;1;1" wrapmode="WrapBackEllipsis"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use state="activated" />
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal.hover" />
+    </state>
+    <state name="normal.disabled">
+      <use state="normal"/>
+      <colorrect color="0.5;0.5;0.5;0.5" />
+    </state>
+  </part>
+     <part name="CaComboboxStencil">
+    <substate>
+      <state name="normal">
+        <use template="ComboBox-Stencil"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <substate>
+      <state name="hover"></state>
+    </substate>
+  </part>
+     <part name="CaComboboxCircle">   <!-- this is the dot next to selected item -->
+    <substate>
+      <state name="normal">
+        <use template="ComboBox-CircleLight"/>
+      </state>
+      <state name="activated">
+        <use template="ComboBox-CircleDark"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <substate>
+      <state name="hover"></state>
+    </substate>
+  </part>
+     <part name="ComboboxText">
+      <state name="normal">
+       <text font="ComboBoxFont" margin="0;0;2;0" flags="left;middle" color="0.09;0.09;0.09;1" />
+		<text font="ComboBoxFont" margin="0;0;2;-1" flags="left;middle" color="0.6;0.6;0.6;1" />
+      </state>
+	  <state name="activated">
+       <text font="ComboBoxFont" margin="0;0;2;0" flags="left;middle" color="0.09;0.09;0.09;1" />
+	    <text font="ComboBoxFont" margin="0;0;2;-1" flags="left;middle" color="1.0;1.0;1.0;1" />
+    </state>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <substate>
+      <state name="hover">
+        <text font="ComboBoxFont" margin="0;0;2;0" flags="left;middle" color="0.09;0.09;0.09;1" />
+        <text font="ComboBoxFont" margin="0;0;2;-1" flags="left;middle" color="1.0;1.0;1.0;1" />
+      </state>
+    </substate>
+   </part>
+     <part name="ComboboxTextLeft">
+      <state name="normal">
+       <text font="ComboBoxFont" margin="0;0;2;0" flags="left;middle" color="0.09;0.09;0.09;1" />
+		    <text font="ComboBoxFont" margin="0;0;2;-1" flags="left;middle" color="0.6;0.6;0.6;1" />
+      </state>
+   </part>
+     <part name="ComboboxTextActive">
+      <state name="normal">
+        <text font="ComboBoxFont" margin="0;0;2;-1" flags="right;middle" color="0.73;0.73;0.73;1" />
+		    <text font="ComboBoxFont" margin="0;0;2;0" flags="right;middle" color="0.12;0.12;0.12;1" />
+      </state>
+   </part> 
+      <part name="ComboboxTextActiveLeft">
+      <state name="normal">
+        <text font="ComboBoxFont" margin="0;0;2;-1" flags="left;middle" color="0.73;0.73;0.73;1" />
+		    <text font="ComboBoxFont" margin="0;0;2;0" flags="left;middle" color="0.12;0.12;0.12;1" />
+      </state>
+   </part>  
+
+  <!-- Control Point Widget -->
+  <part action="replace"  name="Twirler">
+    <state name="normal">
+      <use template="ControlPointTwirler-Up" flags="center;middle"/>
+    </state>
+    <state name="activated">
+      <use template="ControlPointTwirler-Down" flags="center;middle"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<state name="normal.hover">
+      <use template="ControlPointTwirler-UpHighlight"/>
+    </state>
+		<state name="normal.pressed.hover">
+      <use state="normal.hover"/>
+    </state>
+		<state name="normal.focused.hover">
+       <use state="normal.hover"/>
+    </state>
+    <state name="activated.hover">
+      <use template="ControlPointTwirler-DownHighlight"/>
+    </state>
+    <state name="activated.pressed.hover">
+       <use state="activated.hover"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use state="activated.hover"/>
+    </state>
+  </part>
+  <!-- buttons -->
+   <part name="AddControlPointBtnBG">
+    <state name="normal">
+      <use template="IconicBtn-39Norm"/>
+    </state>
+    <state name="normal.focused">
+      <use template="IconicBtn-39Norm"/>
+    </state>
+    <state name="normal.pressed">
+      <use template="IconicBtn-39Down"/>
+    </state>
+    <state name="normal.hover">
+      <use template="IconicBtn-39Hover"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use template="IconicBtn-39Hover"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use template="IconicBtn-39DownHover"/>
+    </state>
+    <state name="activated">
+      <use template="IconicBtn-39Down"/>
+    </state>
+    <state name="activated.hover">
+      <use template="IconicBtn-39DownHover"/>
+    </state>
+    <state name="activated.pressed">
+      <use template="IconicBtn-39DownHover"/>
+    </state>
+    <state name="activated.focused">
+      <use state="activated"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use template="IconicBtn-39DownHover"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use template="IconicBtn-39DownHover"/>
+    </state>
+   </part>
+   
+   <!-- twirler button -->
+  <part name="SliderTwirlerButtonLeft">
+    <state name="normal">
+    <colorrect color="0.16;0.16;0.16;1"/>
+      <use template="TArrow-Right" flags="top;middle"/>
+    </state>
+    <state name="activated">
+    <colorrect color="0.16;0.16;0.16;1"/>
+      <use template="TArrow-down" flags="top;middle"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+   </part>
+  <part name="SimpleTwirlerButtonLeft">
+    <state name="normal">
+    <colorrect color="0.16;0.16;0.16;1"/>
+      <use template="TArrow-Right" margin="2;0;0;0" flags="left;bottom"/>
+    </state>
+    <state name="activated">
+    <colorrect color="0.16;0.16;0.16;1"/>
+      <use template="TArrow-down" margin="2;0;0;0" flags="left;bottom"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+   </part>
+   <part name="TwirlerButtonLeft">
+    <state name="normal">
+      <use template="TArrow-down" flags="center;middle"/>
+    </state>
+    <state name="activated">
+      <use template="TArrow-Right" flags="center;middle"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+   </part>
+   <part name="TwirlerButtonSeparator">
+    <state name="normal">
+      <use template="Twirler-Separator"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+   </part>
+   
+   <part name="TwirlerButtonCenter">
+   <state name="normal">
+      <text font="BigTwirlerFont" margin="5;0;0;0" flags="left;middle" color="0.5;0.5;0.5;1"/>
+    </state>
+    <state name="activated">
+      <text font="BigTwirlerFont" margin="5;0;0;0" flags="left;middle" color="0.5;0.5;0.5;1"/>
+    </state>   
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+		<substate>
+		  <state name="disabled"></state>
+		</substate>
+   </part>
+
+   <part name="TwirlerButtonReset">
+    <state name="normal">
+      <use template="ResetBtn-Flat" flags="center;middle"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover">
+        <use template="ResetBtn-Hover" flags="center;middle"/>
+      </state>
+		</substate>
+   </part>
+   <part name="TwirlerButtonBackground">
+    <state name="normal">
+      <colorrect color="TwirlerButtonBackgroundColor"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+   </part>
+   <part name="TwirlerLabel">
+    <state name="normal">
+      <colorrect color="0.16;0.16;0.16;1"/>
+      <text font="CaSliderLabelFont" margin="0;0;0;0" flags="left;middle" color="0.62;0.62;0.62;1" />
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+    <state name="disabled">
+      <text font="CaSliderLabelFont" flags="left;middle" color="0.33;0.33;0.33;1" />
+    </state>
+  </part>
+   
+   <!-- PRESET BROWSER STYLES -->
+   <!-- Button only as Label-->
+    <part name="LabelButton">	 
+     <substate>
+		<state name="normal">
+			<text font="Default" margin="0;0;0;0" flags="center;middle" color="0;0;0;1"/>
+		</state>
+		<state name="bold">
+			<text font="Bold" margin="0;0;0;0" flags="center;middle" color="0;0;0;1"/>
+		</state>
+		<state name="activated">
+		  <text font="Default" margin="0;0;0;0" flags="center;middle" color="0;1;0;1"/> 
+		</state>
+		<state name="activated.disabled">
+		  <text font="Default" margin="0;0;0;0" flags="center;middle" color="1;0;0;1"/> 
+		</state>
+		</substate>
+		<substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+    <state name="normal.disabled" tinting="1;1;1;0.6">
+		<text font="Default" margin="0;0;0;0" flags="center;middle" color="0.3;0.3;0.3;1"/>
+	</state>
+
+  </part>
+  
+  <part name="HistorySliderTimeLine">
+    <state name="normal">
+      <use template="History-Ruler" />
+    </state>
+  </part>
+  <part name="HistorySliderKnobSingle">
+    <state name="normal">
+      <use template="History-normal" />
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+  </part>
+  <part name="HistorySliderKnobSideBySide">
+    <state name="normal">
+      <use template="History-KnobSideBySide" />
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+  </part>
+  <part name="HistorySliderKnobSplit">
+    <state name="normal">
+      <use template="History-KnobNormal" />
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+  </part>
+   <!-- Background of presetbrowser -->
+   <part name="StyleBrowserBackgroundLight">
+    <state name="normal">
+        <colorrect color="0.16;0.16;0.16;1"/>
+    </state>
+	<state name="disabled">
+	<use state="normal" />
+	</state>
+  </part>
+ 
+   <!-- Background of presetbrowser -->
+   <part name="StyleMultiToggleButtonBackground">
+    <state name="normal">
+        <colorrect color="0.19;0.19;0.19;1"/>
+    </state>
+	<state name="disabled">
+	<use state="normal" />
+	</state>
+  </part> 
+  
+
+  <!-- Preset label style -->
+
+  <part name="PresetLabel">
+    <state name="normal">
+	  <text font="PresetFont11PBold" margin="0;1;0;0" flags="center;middle" color="BlackShadow" />
+	  <text font="PresetFont11PBold" margin="0;0;0;0" flags="center;middle" color="LabelColor" />
+    </state>
+    <state name="normal.hover">
+		<text font="PresetFont11PBold" margin="0;1;0;0" flags="center;middle" color="BlackShadow" />
+      <text font="PresetFont11PBold" margin="0;0;0;0" flags="center;middle" color="LabelColor" />
+    </state>
+  </part>
+  
+   <part name="PresetSubTitel">
+    <state name="normal">
+	  <text font="Arial10P" margin="0;1;0;0" flags="left;middle" color="BlackShadow" wrapmode="WrapBackEllipsis"/>
+	  <text font="Arial10P" margin="0;0;0;0" flags="left;middle" color="SubTitelColor"wrapmode="WrapBackEllipsis" />
+    </state>
+    <state name="normal.hover">
+	<text font="Arial10P" margin="0;1;0;0" flags="left;middle" color="BlackShadow" wrapmode="WrapBackEllipsis"/>
+	  <text font="Arial10P" margin="0;0;0;0" flags="left;middle" color="1;1;1;1" wrapmode="WrapBackEllipsis"/>
+    </state>
+  </part>
+  
+  <part name="ImportPresetButton">
+    <state name="normal">
+      <use template="IconicBtn-17"/>
+      <use template="PresetBr-ButtonLabelBack"/>
+    </state>
+    <state name="normal.hover">
+      <use template="IconicBtn-17Hover"/>
+      <use template="PresetBr-ButtonLabelBack"/>
+    </state>
+    <state name="normal.pressed">
+      <use template="IconicBtn-17Down"/>
+	    <use template="PresetBr-ButtonLabelBack"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use template="IconicBtn-17DownHover"/>
+      <use template="PresetBr-ButtonLabelBack"/>
+    </state>
+    <state name="normal.focused">
+      <use state="normal"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="activated">
+      <use state="normal.pressed.hover"/>
+    </state>
+    <state name="activated.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="activated.pressed">
+      <use state="normal.pressed"/>
+    </state>
+    <state name="activated.focused">
+      <use state="normal.focused"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use state="normal.focused.hover"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use state="normal.pressed.hover"/>
+    </state>
+    <substate>
+      <state name="disabled">
+    		<use template="IconicBtn-17Disabled"/>
+    	  <use template="PresetBr-ButtonLabelBack"/>
+    	</state>
+  	</substate>
+  </part>
+  
+  <part name="AddPresetButton">
+    <state name="normal">
+      <use template="IconicBtn-17"/>
+      <use template="PresetBr-ButtonLabelPlus"/>
+    </state>
+    <state name="normal.hover">
+      <use template="IconicBtn-17Hover"/>
+      <use template="PresetBr-ButtonLabelPlus"/>
+    </state>
+    <state name="normal.pressed">
+      <use template="IconicBtn-17Down"/>
+	    <use template="PresetBr-ButtonLabelPlus"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use template="IconicBtn-17DownHover"/>
+      <use template="PresetBr-ButtonLabelPlus"/>
+    </state>
+    <state name="normal.focused">
+      <use state="normal"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="activated">
+      <use state="normal.pressed.hover"/>
+    </state>
+    <state name="activated.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="activated.pressed">
+      <use state="normal.pressed"/>
+    </state>
+    <state name="activated.focused">
+      <use state="normal.focused"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use state="normal.focused.hover"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use state="normal.pressed.hover"/>
+    </state>
+    <substate>
+      <state name="disabled">
+    		<use template="IconicBtn-17Disabled"/>
+    	  <use template="PresetBr-ButtonLabelPlus"/>
+    	</state>
+  	</substate>
+  </part>
+
+   <part name="PresetTagCloudToggleButton">
+    <substate>
+      <state name="normal">
+        <use template="Filter-NameBGUnselected"/>
+		<use template="PresetTagButtonText"/>
+      </state>
+      <state name="activated">
+        <use template="Filter-NameBGSelected"/>
+		<use template="PresetTagButtonText"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="pressed">
+      </state>
+      <state name="focused">
+      </state>
+    </substate>
+    <substate>
+      <state name="hover">
+      </state>
+    </substate>
+    <state name="normal.disabled">
+		<use state="normal"/>
+	</state>
+    <state name="activated.disabled">
+        <use state="activated"/>
+	</state>
+  </part>
+  
+   <part name="PresetTagCloudFavoriteButton">
+    <substate>
+      <state name="normal">
+        <use template="Filter-NameBGFav"/>
+		<use template="PresetTagButtonText"/>
+      </state>
+      <state name="activated">
+        <use template="Filter-NameBGFavUnselected"/>
+		<use template="PresetTagButtonText"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="pressed">
+      </state>
+      <state name="focused">
+      </state>
+    </substate>
+    <substate>
+      <state name="hover">
+      </state>
+    </substate>
+    <state name="normal.disabled">
+		<use state="normal"/>
+	</state>
+    <state name="activated.disabled">
+        <use state="activated"/>
+	</state>
+  </part>
+  
+    <!--Preset Overlay update button -->
+   <part name="PresetFavoriteButton">
+    <substate>
+      <state name="normal">
+			<use template="Filter-StarGrey"/>
+      </state>
+      <state name="activated">
+	      <use template="Filter-Star"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="pressed">
+      </state>
+      <state name="focused">
+      </state>
+    </substate>
+    <substate>
+      <state name="hover"> 
+        <use template="Filter-StarHover"/>
+      </state>
+    </substate>
+    <state name="normal.disabled">
+		<use state="normal"/>
+	</state>
+    <state name="activated.disabled">
+        <use state="activated"/>
+	</state>
+  </part>
+  
+  <!--Preset Overlay button x-->
+  
+  <part name="PresetOverlayButtonX">
+    <substate>
+      <state name="normal">
+        <use template="OverlayGfx-delete"/>
+      </state>
+      <state name="activated">
+      </state>
+    </substate>
+    <substate>
+      <state name="pressed">
+      </state>
+      <state name="focused">
+      </state>
+    </substate>
+    <substate>
+      <state name="hover">
+      </state>
+    </substate>
+    <state name="normal.disabled">
+		<use state="normal"/>
+	</state>
+    <state name="activated.disabled">
+        <use state="activated"/>
+	</state>
+  </part>
+  
+   <!--Preset Overlay export button -->
+   <part name="PresetOverlayButtonExport">
+    <substate>
+      <state name="normal">
+        <use template="OverlayGfx-export"/>
+      </state>
+      <state name="activated">
+      </state>
+    </substate>
+    <substate>
+      <state name="pressed">
+      </state>
+      <state name="focused">
+      </state>
+    </substate>
+    <substate>
+      <state name="hover">
+      </state>
+    </substate>
+    <state name="normal.disabled">
+		<use state="normal"/>
+	</state>
+    <state name="activated.disabled">
+        <use state="activated"/>
+	</state>
+  </part>
+  
+    <!--Preset Overlay update button -->
+     <part name="PresetOverlayButtonUpdate">
+    <substate>
+      <state name="normal">
+        <use template="OverlayGfx-refresh"/>
+      </state>
+      <state name="activated">
+      </state>
+    </substate>
+    <substate>
+      <state name="pressed">
+      </state>
+      <state name="focused">
+      </state>
+    </substate>
+    <substate>
+      <state name="hover">
+      </state>
+    </substate>
+    <state name="normal.disabled">
+		<use state="normal"/>
+	</state>
+    <state name="activated.disabled">
+        <use state="activated"/>
+	</state>
+  </part>
+  
+   <part name="LoupeButton">
+    <substate>
+	<state name="normal">
+		<colorrect color="0.0;0.0;0.0;0.0"/>
+		<text font="Default" margin="0;0;0;0" flags="center;middle" color="0.8;0.8;0.8;1"/>
+	</state>
+	<state name="activated" tinting="1;1;1;0.6">
+		<colorrect color="0.0;0.0;0.0;0.0"/>
+		<text font="Default" margin="0;0;0;0" flags="center;middle" color="0.8;0.6;0.2;1"/>
+	</state>
+    </substate>
+    <substate>
+      <state name="pressed">
+      </state>
+      <state name="focused">
+      </state>
+    </substate>
+    <substate>
+      <state name="hover">
+      </state>
+    </substate>
+  </part>
+  
+
+  
+  <widget name="PresetTagCloudToggleButton">
+    <metric name="LeftMargin" value="8"/>
+    <metric name="RightMargin" value="8"/>
+    <metric name="TopMargin" value="2"/>
+    <metric name="BottomMargin" value="2"/>
+  </widget>
+  
+  <!-- BackgroundColor of the Tag Button  -->
+   <part name="TagButtonBackground">
+    <state name="normal">
+        <colorrect color="0.16;0.16;0.16;1"/>
+    </state>
+	<state name="disabled">
+	<use state="normal" />
+	</state>
+  </part>
+  
+  <template name="PresettoggleButtonText">
+    <text font="PresetFont11P" margin="4;4;4;4" flags="center;middle" color="LabelColor" />
+  </template>
+  
+   <template name="PresettoggleButtonHoverText">
+    <text font="PresetFont11P" margin="4;4;4;4" flags="center;middle" color="0.87;0.87;0.87;1" />
+   </template>
+  
+    <template name="PresettoggleButtonTextBold">
+    <text font="PresetFont11PBold" margin="4;4;4;4" flags="center;middle" color="LabelColor" />
+  </template>
+  
+   <template name="PresetSnapButtonText">
+    <text font="PresetFont11PBold" margin="30;0;0;0" flags="left;middle" color="LabelColor" wrapmode="WrapBackEllipsis"/>
+  </template>
+
+ 
+   <part name="PresetSnapPanelHeader">
+    <substate>
+      <state name="normal">
+		 <icon name="TArrow-Right" pos="left;center;14;0" />
+		  <use template="PresetSnapButtonText"/>
+      </state>
+      <state name="activated">
+		<icon name="TArrow-down" pos="left;center;14;0" />
+		 <use template="PresetSnapButtonText"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <substate>
+      <state name="hover"></state>
+    </substate>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+    <state name="activated.disabled" tinting="1;1;1;0.6"><use state="activated" /></state>
+  </part>
+  
+    <part name="PresetSnapPanelHeaderForCategories">
+    <substate>
+      <state name="normal">
+		<colorrect color="0.16;0.16;0.16;1"/>
+		 <icon name="TArrow-Right" pos="left;center;14;0" />
+		  <use template="PresetSnapButtonText"/>
+      </state>
+      <state name="activated">
+		<icon name="TArrow-down" pos="left;center;14;0" />
+		  <use template="PresetSnapButtonText"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <substate>
+      <state name="hover"></state>
+    </substate>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+    <state name="activated.disabled" tinting="1;1;1;0.6"><use state="activated" /></state>
+  </part>
+ 
+
+ <!-- MULTI TOGGLE BUTTOM -->
+   <part name="PresetToggleGroupButtonLeft">
+    <state name="normal">
+        <use template="TabLeft-Normal"/>
+        <use template="PresettoggleButtonText" />
+    </state>
+    <state name="normal.focused">
+      <use state="normal"/>
+    </state>
+    <state name="normal.pressed">
+		<use state="normal"/>
+    </state>
+    <state name="normal.hover">
+        <use template="TabLeft-NormalHover"/>
+        <use template="PresettoggleButtonHoverText" />
+    </state>
+    <state name="normal.focused.hover">
+		<use state="normal.hover"/>
+    </state>
+    <state name="normal.pressed.hover">
+		<use state="normal.hover"/>
+    </state>
+    <state name="activated">
+        <use template="TabLeft-down"/>
+        <use template="PresettoggleButtonText" />
+    </state>
+    <state name="activated.hover">
+        <use template="TabLeft-DownHover"/>
+        <use template="PresettoggleButtonHoverText" />
+    </state>
+    <state name="activated.pressed">
+		<use state="activated"/>
+    </state>
+    <state name="activated.focused">
+      <use state="activated"/>
+    </state>
+    <state name="activated.pressed.hover">
+		<use state="activated.hover"/>
+    </state>
+    <state name="activated.focused.hover">
+		<use state="activated.hover"/>
+    </state>
+    <state name="pressed">
+        <use template="TabLeft-down"/>
+        <use template="PresettoggleButtonText" />
+      </state>
+      <state name="pressed.hover">
+        <use template="TabLeft-DownHover"/>
+        <use template="PresettoggleButtonHoverText" />
+      </state>
+      <state name="focused"></state>
+      <state name="focused.hover"></state>
+      <state name="hover"></state>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+    <state name="activated.disabled" tinting="1;1;1;0.6"><use state="activated" /></state>
+  </part>
+  
+   <part name="PresetToggleGroupBackground">
+    <state name="normal">
+        <colorrect color="0.196;0.196;196;1"/>
+    </state>
+	<state name="disabled">
+	<use state="normal" />
+	</state>
+  </part>
+  
+
+   <part name="PresetToggleGroupButtonRight">
+    <state name="normal">
+        <use template="TabRight-Normal"/>
+        <use template="PresettoggleButtonText" />
+    </state>
+    <state name="normal.focused">
+      <use state="normal"/>
+    </state>
+    <state name="normal.pressed">
+		<use state="normal"/>
+    </state>
+    <state name="normal.hover">
+        <use template="TabRight-NormalHover"/>
+        <use template="PresettoggleButtonHoverText" />
+    </state>
+    <state name="normal.focused.hover">
+		<use state="normal.hover"/>
+    </state>
+    <state name="normal.pressed.hover">
+		<use state="normal.hover"/>
+    </state>
+    <state name="activated">
+        <use template="TabRight-down"/>
+        <use template="PresettoggleButtonText" />
+    </state>
+    <state name="activated.hover">
+        <use template="TabRight-DownHover"/>
+        <use template="PresettoggleButtonHoverText" />
+    </state>
+    <state name="activated.pressed">
+		<use state="activated"/>
+    </state>
+    <state name="activated.focused">
+      <use state="activated"/>
+    </state>
+    <state name="activated.pressed.hover">
+		<use state="activated.hover"/>
+    </state>
+    <state name="activated.focused.hover">
+		<use state="activated.hover"/>
+    </state>
+    <state name="pressed">
+        <use template="TabRight-down"/>
+        <use template="PresettoggleButtonText" />
+      </state>
+      <state name="pressed.hover">
+        <use template="TabRight-DownHover"/>
+        <use template="PresettoggleButtonHoverText" />
+      </state>
+      <state name="focused"></state>
+      <state name="focused.hover"></state>
+      <state name="hover"></state>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+    <state name="activated.disabled" tinting="1;1;1;0.6"><use state="activated" /></state>
+  </part>
+  
+   <!-- PRESET BROWSER STYLES END -->
+
+  <!-- 	CONTROL POINT LIST STYLES -->
+   <!-- Control Point label for the control point list-->
+   
+  <template name="CPListLabelNormal">
+    <text font="Default" margin="0;0;0;0" flags="left;middle" color="0.62;0.62;0.62;1" />
+  </template>
+   <template name="CPListLabelEnabled">
+    <text font="Bold" margin="0;0;0;0" flags="left;middle" color="0.96;0.69;0.13;1" />
+  </template> 
+  <part name="CPListLabel">
+    <state name="normal">
+      <use template="CPListLabelNormal" />
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <substate>
+      <state name="hover"></state>
+    </substate>
+  </part>
+  <part name="CPListLabelSelected">
+    <state name="normal">
+      <use template="CPListLabelEnabled" />
+    </state>
+    <state name="activated">
+       <use state="normal"/>
+    </state>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <substate>
+      <state name="hover"></state>
+    </substate>
+  </part>
+  
+  
+  <!-- BackgroundColor of the whole control point list -->
+   <part name="ControlPointListBackground">
+    <state name="normal">
+        <colorrect color="0.16;0.16;0.16;1"/>
+    </state>
+	<state name="disabled">
+	<use state="normal" />
+	</state>
+  </part>
+  
+   <!-- The row color in the control point list -->
+   <part name="ControlPointListBackgroundLight">
+    <state name="normal">
+        <colorrect color="0.196;0.196;0.196;1"/>
+    </state>
+	<state name="disabled">
+	<use state="normal" />
+	</state>
+  </part>
+
+   <!-- The radius icon in the control point list -->
+    <part name="CPRadiusIcon">
+      <state name="normal">
+        <use template="CP-ListCaptionSize"/>
+      </state>
+	  <state name="normal.disabled">
+        <use template="CP-ListCaptionSize"/>
+      </state>
+   </part>
+   
+   <!-- The ink area of a control point icon in the control point list -->
+  
+  <part name="CPInkIcon">
+    <state name="normal">
+      <use template="CP-ListCaptionShowMask" flags="center;middle"/>
+    </state>
+    <state name="normal.hover">
+      <use template="CP-ListCaptionShowMaskHover"/>
+    </state>
+    <state name="normal.pressed">
+		<use state="normal"/>
+    </state>
+    <state name="normal.pressed.hover">
+     <use state="normal.hover"/>
+    </state>
+    <state name="normal.focused">
+      <use state="normal"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="activated">
+      <use state="normal.pressed.hover"/>
+    </state>
+    <state name="activated.hover">
+      <use state="normal.pressed.hover"/>
+    </state>
+    <state name="activated.pressed">
+      <use state="normal.hover"/>
+    </state>
+    <state name="activated.focused">
+      <use state="normal.pressed.hover"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use state="normal.pressed.hover"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="normal.disabled">
+		<use state="normal"/>
+	</state>
+  </part>
+  
+   <!-- IconicButton Height -->
+  <part name="IconicButton">
+    <state name="normal">
+      <use template="IconicBtn-17"/>
+      <use template="DialogText" />
+    </state>
+    <state name="normal.hover">
+      <use template="IconicBtn-17Hover"/>
+      <use template="DialogTextHighlight" />
+    </state>
+    <state name="normal.pressed">
+      <use template="IconicBtn-17Down"/>
+	    <use template="DialogTextHighlight" />
+    </state>
+    <state name="normal.pressed.hover">
+      <use template="IconicBtn-17DownHover"/>
+      <use template="DialogTextHighlight" />
+    </state>
+    <state name="normal.focused">
+      <use state="normal"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="activated">
+      <use state="normal.pressed.hover"/>
+    </state>
+    <state name="activated.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="activated.pressed">
+      <use state="normal.pressed"/>
+    </state>
+    <state name="activated.focused">
+      <use state="normal.focused"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use state="normal.focused.hover"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use state="normal.pressed.hover"/>
+    </state>
+    <substate>
+      <state name="disabled">
+    		<use template="IconicBtn-17Disabled"/>
+    		<use template="DialogTextDisabled"/>
+    	</state>
+  	</substate>
+  </part>
+  
+
+  <!-- 	CONTROL POINT LIST STYLES END -->
+  
+   <!-- EXPOSURE SETTINGS  --> 
+   
+   <!-- Exposure settings dialog -->
+   <part name="EVsettingsBackgroundLight">
+    <state name="normal">
+        <colorrect color="0.88;0.88;0.88;1"/>
+    </state>
+	<state name="disabled">
+	<use state="normal" />
+	</state>
+  </part>
+  
+   <template name="EVSettingsFontButtonText">
+   <text font="EVSettingsFont" margin="0;0;0;0" flags="center;middle" color="0.43;0.43;0.43;1" />
+  </template>
+   
+  
+   <!-- Exposure label backround -->
+  <part name="EVsettingsLABELBackgroundLight">
+    <state name="normal">
+        <use template="Exposure-ColumnTitleBG"/>
+    </state>
+	<state name="disabled">
+	<use state="normal" />
+	</state>
+  </part>
+  
+     <!-- Exposure label backround -->
+  <part name="EVsettingsRowBackground">
+    <state name="normal">
+        <use template="Exposure-ListBackground"/>
+    </state>
+	<state name="disabled">
+	<use state="normal" />
+	</state>
+  </part>
+  
+   <!-- Exposure settings dialog -->
+   <part name="Grau">
+    <state name="normal">
+        <colorrect color="0.92;0.92;0.92;1"/>
+    </state>
+	<state name="disabled">
+	<use state="normal" />
+	</state>
+  </part>
+  
+   <part name="EVSettingsDialogVerticalScrollBarBackgroundPart">
+    <state name="normal">
+		<use template="ScrollbarSP-Std"/>
+    </state>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+    <state name="normal.focused">
+      <use state="normal" />
+    </state>
+    <state name="normal.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.pressed.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.pressed">
+      <use state="normal" />
+    </state>
+  </part>
+  
+  <part name="EVSettingsDialogVerticalScrollBarThumbDrawPart">
+    <state name="normal">
+      <use template="ScrollbarSP-ThumbStdTop" />
+	  <use template="ScrollbarSP-ThumbStdMid" />
+	  <use template="ScrollbarSP-ThumbStdBottom" />
+	</state>
+    <state name="normal.disabled" tinting="1;1;1;0.6"> <use state="normal" /></state>
+    <state name="normal.focused">
+      <use state="normal" />
+    </state>
+    <state name="normal.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.pressed.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.pressed">
+      <use state="normal" />
+    </state>
+  </part>
+ <!-- 	EXPOSURE SETTINGS  --> 
+ 
+  <part name="PopupScrollButtonUp">
+    <substate>
+      <state name="normal">
+        <use template="Combobox-ArrowUp"/>
+      </state>
+      <state name="activated">
+      </state>
+    </substate>
+    <substate>
+      <state name="pressed">
+      </state>
+      <state name="focused">
+      </state>
+    </substate>
+    <substate>
+      <state name="hover"> </state>
+    </substate>
+    <state name="normal.disabled">
+		<use state="normal"/>
+	</state>
+    <state name="activated.disabled">
+        <use state="activated"/>
+	</state>
+  </part> 
+   <part name="PopupScrollButtonDown">
+    <substate>
+      <state name="normal">
+        <use template="Combobox-ArrowDown"/></state>
+      <state name="activated"></state>
+    </substate>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <substate>
+      <state name="hover"> </state>
+    </substate>
+    <state name="normal.disabled">
+		<use state="normal"/>
+	</state>
+    <state name="activated.disabled">
+        <use state="activated"/>
+	</state>
+  </part> 
+   
+ <!-- SCROLL BAR STYLES --> 
+  <part name="VScrollBarBTDown">
+    <state name="normal">
+      <colorrect color="0;0;0;0" />
+    </state>
+    <state name="normal.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.focused">
+      <use state="normal" />
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.pressed">
+      <use state="normal" />
+    </state>
+    <state name="normal.pressed.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+  </part>
+
+  <part name="VScrollBarBTUp">
+    <state name="normal">
+      <colorrect color="0;0;0;0" />
+    </state>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+    <state name="normal.focused">
+      <use state="normal" />
+    </state>
+    <state name="normal.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.pressed.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.pressed">
+      <use state="normal" />
+    </state>
+  </part>
+
+  <part name="VScrollBarBTBack">
+    <state name="normal">
+      <colorrect color="0;0;0;0" />
+    </state>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+    <state name="normal.focused">
+      <use state="normal" />
+    </state>
+    <state name="normal.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.pressed.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.pressed">
+      <use state="normal" />
+    </state>
+  </part>
+
+   <part name="VScrollBarBackgroundPart">
+    <state name="normal">
+		<use template="ScrollBar-Housing"/>
+    </state>
+    <state name="normal.disabled" tinting="1;1;1;0.6"><use state="normal" /></state>
+    <state name="normal.focused">
+      <use state="normal" />
+    </state>
+    <state name="normal.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.pressed.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.pressed">
+      <use state="normal" />
+    </state>
+  </part>
+  
+  <part name="VScrollBarThumbDrawPart">
+    <state name="normal">
+      <use template="Scrollbar-thumb" />
+      <use template="Scrollbar-ThumbGrip"/> 
+	</state>
+	
+    <state name="normal.disabled" tinting="1;1;1;0.6"> <use state="normal" /></state>
+    <state name="normal.focused">
+      <use state="normal" />
+    </state>
+    <state name="normal.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.pressed.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal" />
+    </state>
+    <state name="normal.pressed">
+      <use state="normal" />
+    </state>
+  </part>
+ <!-- 	SCROLL BAR STYLES END --> 
+ 
+ <part name="ClickableLabel">
+    <state name="normal">
+      <text font="Small" margin="0;0;0;0" flags="center;middle" color="1;1;1;1" />
+    </state>
+    <state name="disabled">
+      <text font="Default" margin="0;0;0;0" flags="center;middle" color="1;0.7;0.7;1" />
+    </state>
+  </part>
+  <part name="LineEdit">
+    <state name="normal">
+      <use template="LineEdit"/>
+    </state>
+    <state name="focused">
+      <use state="normal"/>
+    </state>
+    <state name="disabled" tinting="1;1;1;0.4">
+      <use state="normal"/>
+    </state>
+  </part>
+  <part name="LineEditSelectedText">
+    <state name="normal">
+      <colorrect color="0.43;0.43;0.43;1" />
+    </state>
+    <state name="focused">
+      <use state="normal"/>
+    </state>
+    <state name="disabled">
+      <use state="normal"/>
+    </state>
+  </part>
+   <!-- slider -->   
+  <widget name="CaSlider">
+    <metric name="ThumbWidth" value="15"/>
+    <metric name="ThumbHeight" value="11"/>
+    <metric name="BackgroundHeight" value="3"/>
+    <metric name="LeftMargin" value="0"/>
+    <metric name="RightMargin" value="0"/>
+    <metric name="TopMargin" value="5"/>
+    <metric name="BottomMargin" value="5"/>	
+  </widget>
+  <widget name="CaSliderSmall">
+    <metric name="ThumbWidth" value="15"/>
+    <metric name="ThumbHeight" value="11"/>
+    <metric name="BackgroundHeight" value="3"/>
+    <metric name="LeftMargin" value="0"/>
+    <metric name="RightMargin" value="0"/>
+    <metric name="TopMargin" value="5"/>
+    <metric name="BottomMargin" value="5"/>
+  </widget>
+  <widget name="CaSliderLight">
+    <metric name="ThumbWidth" value="15"/>
+    <metric name="ThumbHeight" value="7"/>
+    <metric name="BackgroundHeight" value="3"/>
+    <metric name="LeftMargin" value="0"/>
+    <metric name="RightMargin" value="0"/>
+    <metric name="TopMargin" value="2"/>
+    <metric name="BottomMargin" value="2"/>
+  </widget>
+  
+  <part name="CaSlider">
+    <state name="normal">
+      <use template="Panel-SliderBar"/>
+    </state>
+	 <state name="disabled" tinting="1;1;1;0.4">
+		<use state="normal" />
+	</state>
+  </part>
+  <part name="CaSliderRainbow">
+    <state name="normal">
+      <use template="Panel-SliderBarRainbow"/>
+    </state>
+	 <state name="normal.disabled" tinting="1;1;1;0.4">
+		<use state="normal" />
+	</state>
+  </part>
+  <part name="CaSliderSmall">
+    <state name="normal">
+      <use template="Panel-SliderBar"/>
+    </state>
+	 <state name="normal.disabled" tinting="1;1;1;0.4">
+		<use state="normal" />
+	</state>
+  </part>
+  <part name="CaSliderLight">
+    <state name="normal">
+      <use template="Panel-SliderBarWhite"/>
+    </state>
+	</part>
+  
+  <part name="CaSliderLabel">
+    <state name="normal">
+      <text font="CaSliderLabelFont" margin="0;0;0;0" flags="left;bottom" color="0.62;0.62;0.62;1" />
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+		<state name="disabled">
+      <text font="CaSliderLabelFont" margin="0;0;0;0" flags="left;bottom" color="0.33;0.33;0.33;1" />
+    </state>
+ 		<state name="normal.disabled">
+ 		 <use state="disabled"/>
+    </state>
+  </part>
+  <part name="CaSliderSmallLabel">
+    <state name="normal">
+      <text font="CaSliderSmallLabelFont" margin="0;0;0;0" flags="left;bottom" color="0.62;0.62;0.62;1" />
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+    <state name="disabled">
+      <text font="CaSliderSmallLabelFont" margin="0;0;0;0" flags="left;bottom" color="0.33;0.33;0.33;1" />
+    </state>
+  </part>
+  <part name="CaSliderLightLabel">
+    <state name="normal">
+      <text font="CaSliderLabelFont" margin="0;0;0;0" flags="left;bottom" color="MessageDialogTextColor" />
+    </state>
+    <state name="disabled">
+      <text font="CaSliderLabelFont" margin="0;0;0;0" flags="left;bottom" color="MessageDialogTextColor" />
+    </state>
+  </part>
+    <part name="CaSliderThumb">
+    <state name="normal">
+      <use template="Panel-Slider"/>
+    </state>
+    <substate>
+      <state name="pressed">
+        <use template="Panel-Sliderhover"/>
+      </state>
+      <state name="focused">
+        <use template="Panel-Sliderfocus"/>
+      </state>
+      <state name="focused.hover">
+        <use template="Panel-Sliderhover"/>
+      </state>
+    </substate>
+    <state name="normal.focused">
+      <use template="Panel-Sliderfocus"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use template="Panel-Sliderhover"/>
+    </state>
+    <state name="normal.hover">
+      <use template="Panel-Sliderhover"/>
+    </state>
+    <state name="normal.pressed">
+      <use template="Panel-Sliderhover"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use template="Panel-Sliderhover"/>
+    </state>
+    <state name="normal.disabled" tinting="1;1;1;0.4">
+      <use state="normal" />
+    </state>
+  </part>
+  <part name="CaSliderThumbSmall">
+    <state name="normal">
+      <use template="Panel-SubSlider"/>
+    </state>
+    <state name="normal.pressed">
+      <use template="Panel-SubSlider"/>
+    </state>
+    <substate>
+      <state name="focused">
+      </state>
+    </substate>
+    <substate>
+      <state name="hover">
+      </state>
+    </substate>
+    <state name="normal.disabled" tinting="1;1;1;0.4">
+      <use state="normal" />
+    </state>
+  </part>  
+  <part name="CaSliderEditableLabelText">
+    <state name="normal">
+      <text font="CaSliderLabelFont" margin="0;0;0;0" flags="right;bottom" color="DialogTextColor" />
+    </state>
+    <state name="normal.disabled">
+      <text font="CaSliderLabelFont" margin="0;0;0;0" flags="right;bottom" color="DialogTextColorDisabled" />
+    </state>
+  </part>
+  <part name="CaSliderSmallEditableLabelText">
+    <state name="normal">
+      <text font="CaSliderSmallLabelFont" margin="0;0;0;0" flags="right;bottom" color="DialogTextColor" />
+    </state>
+  </part>
+  <part name="CaSliderLightEditableLabelText">
+    <state name="normal">
+      <text font="CaSliderLabelFont" margin="0;0;0;0" flags="right;bottom" color="MessageDialogTextColor" />
+    </state>
+  </part>
+  <part name="SliderAmplitudeIndicator">
+    <state name="normal">
+      <use template="panel-sliderProrgress"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+      <state name="disabled" tinting="1;1;1;0.4">
+      <use state="normal"/>
+    </state>
+	</part>
+  <part name="CaCheckbox">
+    <state name="normal">
+      <icon name="Checkbox-Btn" pos="left;center;0;0"/>
+      <use template="CaCheckboxText"/>
+    </state>
+    <state name="activated">
+      <icon name="Checkbox-Btn" pos="left;center;0;0"/>
+      <icon name="CeckBoxMarkBold" pos="left;center;0;0"/>
+      <use template="CaCheckboxText" />
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+   </part> 
+   <part name="CaCheckboxLight">
+    <state name="normal">
+      <icon name="Checkbox-Btn" pos="left;center;0;0"/>
+      <use template="CaCheckboxTextLight"/>
+    </state>
+    <state name="activated">
+      <icon name="Checkbox-Btn" pos="left;center;0;0"/>
+      <icon name="Checkbox-Mark" pos="left;center;0;0"/>
+      <use template="CaCheckboxTextLight" />
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+		<state name="activated.disabled">
+		  <icon name="Checkbox-Disabled" pos="left;center;0;0"/>
+		  <icon name="Checkbox-Mark" pos="left;center;0;0"/>
+		  <use template="CaCheckboxTextLightDisabled"/>
+     </state>
+		<state name="normal.disabled">
+		  <icon name="Checkbox-Disabled" pos="left;center;0;0"/>
+		  <use template="CaCheckboxTextLightDisabled"/>
+     </state>
+   </part>
+   
+  <part name="CaCheckboxFlat">
+    <state name="normal">
+      <use template="Checkbox-Flat" flags="center;middle"/>
+    </state>
+    <state name="normal.focused">
+      <use state="normal"/>
+    </state>
+    <state name="normal.hover">
+      <use template="Checkbox-FlatHover"/>
+    </state>
+	<state name="normal.pressed">
+      <use template="Checkbox-FlatHover"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use template="Checkbox-FlatHover"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use template="Checkbox-FlatHover"/>
+    </state>
+    <state name="activated">
+      <use template="Checkmark-Flat"/>
+    </state>
+    <state name="activated.hover">
+      <use template="Checkmark-FlatHover"/>
+    </state>
+    <state name="activated.pressed">
+      <use template="Checkmark-FlatHover"/>
+    </state>
+    <state name="activated.focused">
+      <use template="Checkmark-Flat"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use template="Checkmark-FlatHover"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use template="Checkmark-FlatHover"/>
+    </state>
+  </part>
+  
+  <part name="CPListItemCheckbox">
+    <state name="normal">
+      <use template="Checkbox-2"/>
+    </state>
+    <state name="normal.hover">
+      <use template="Checkbox-2Hover"/>
+    </state>
+    <state name="normal.focused">
+      <use state="normal"/>
+    </state>
+    <state name="normal.pressed">
+      <use template="Checkbox-2Hover"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="activated">
+      <use template="Checkbox-2"/>
+      <use template="Checkmark-Btn"/>
+    </state>
+    <state name="activated.hover">
+      <use template="Checkbox-2Hover"/>
+      <use template="Checkmark-Hover"/>
+    </state>
+    <state name="activated.pressed">
+      <use state="activated.hover"/>
+    </state>
+    <state name="activated.focused">
+      <use state="activated"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use state="activated.hover"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use state="activated.hover"/>
+    </state>
+   </part> 
+   
+  <part name="CPListItemCheckboxSelected">
+    <state name="normal">
+      <use template="Checkbox-2"/>
+    </state>
+    <state name="normal.hover">
+      <use template="Checkbox-2Hover"/>
+    </state>
+    <state name="normal.focused">
+      <use state="normal"/>
+    </state>
+    <state name="normal.pressed">
+      <use template="Checkbox-2Hover"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use state="normal.hover"/>
+    </state>
+    <state name="activated">
+      <use template="Checkbox-2"/>
+      <use template="Checkmark-Hilight"/>
+    </state>
+    <state name="activated.hover">
+      <use template="Checkbox-2Hover"/>
+      <use template="Checkmark-Hilight"/>
+    </state>
+    <state name="activated.pressed">
+      <use state="activated.hover"/>
+    </state>
+    <state name="activated.focused">
+      <use state="activated"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use state="activated.hover"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use state="activated.hover"/>
+    </state>
+   </part> 
+ 
+   <part name="ImageDescriptionFileNameLabelText">
+      <state name="normal">
+		<text font="ImageDescriptionFileNameFont" margin="0;1;2;-1" flags="right;middle" color="0.0;0.0;0.0;1" />
+        <text font="ImageDescriptionFileNameFont" margin="0;0;2;0" flags="right;middle" color="0.8;0.8;0.8;1" />
+      </state>
+   </part>
+   
+   <part name="ImageDescriptionLabelText">
+      <state name="normal">
+        <text font="ImageDescriptionFont" margin="0;0;-1;0" flags="right;middle" color="0.8;0.8;0.8;1" />
+      </state>
+   </part> 
+
+  <part name="NavigatorRect" action="replace">
+      <state name="normal">
+      <colorrect color="1;0;0;0.5" />
+      </state>
+   </part> 
+  <part name="NavigatorBG">
+    <state name="normal">
+      <use template="Zoomnavigator"/>
+    </state>
+  </part>
+   <part name="PinTool">
+    <state name="normal">
+	<use template="Panel-BtnPin"/>
+    </state>
+    <state name="normal.focused">
+	<use template="Panel-BtnPin"/>
+    </state>
+    <state name="normal.pressed">
+	<use template="Panel-BtnPin"/>
+    </state>
+    <state name="normal.hover">
+	<use template="Panel-BtnPinHover"/>
+    </state>
+    <state name="normal.focused.hover">
+	<use template="Panel-BtnPinHover"/>
+    </state>
+    <state name="normal.pressed.hover">
+	<use template="Panel-BtnPinHover"/>
+    </state>
+    <state name="activated">
+       <use template="Panel-BtnPinDown"/>
+    </state>
+    <state name="activated.hover">
+       <use template="Panel-BtnPinDownHover"/>
+    </state>
+    <state name="activated.pressed">
+       <use template="Panel-BtnPinDown"/>
+    </state>
+    <state name="activated.focused">
+       <use template="Panel-BtnPinDown"/>
+    </state>
+    <state name="activated.pressed.hover">
+       <use template="Panel-BtnPinDownHover"/>
+    </state>
+    <state name="activated.focused.hover">
+       <use template="Panel-BtnPinDownHover"/>
+    </state>
+  </part>
+
+   <part name="VignetteCenterButton">
+    <state name="normal">
+      <use template="Toolbar-Btn0"/>
+      <use template="icon-placecenter"/>
+    </state>
+    <state name="normal.hover">
+      <use template="Toolbar-Btn1"/>
+      <use template="icon-placecenter"/>
+    </state>
+    <state name="normal.pressed">
+      <use template="Toolbar-Btn2"/>
+      <use template="icon-placecenter"/>
+    </state>
+    <state name="normal.focused">
+      <use template="Toolbar-Btn0"/>
+      <use template="icon-placecenter"/>
+    </state>
+    <state name="normal.focused.hover">
+      <use template="Toolbar-Btn1"/>
+      <use template="icon-placecenter"/>
+    </state>
+    <state name="normal.pressed.hover">
+      <use template="Toolbar-Btn3"/>
+      <use template="icon-placecenter"/>
+    </state>
+    <state name="activated">
+      <use template="Toolbar-Btn2"/>
+      <use template="icon-placecenterwhite"/>
+    </state>
+    <state name="activated.hover">
+      <use template="Toolbar-Btn3"/>
+      <use template="icon-placecenterwhite"/>
+    </state>
+    <state name="activated.pressed">
+      <use template="Toolbar-Btn2"/>
+      <use template="icon-placecenterwhite"/>
+    </state>
+    <state name="activated.focused">
+      <use template="Toolbar-Btn2"/>
+      <use template="icon-placecenterwhite"/>
+    </state>
+    <state name="activated.focused.hover">
+      <use template="Toolbar-Btn3"/>
+      <use template="icon-placecenterwhite"/>
+    </state>
+    <state name="activated.pressed.hover">
+      <use template="Toolbar-Btn3"/>
+      <use template="icon-placecenterwhite"/>
+    </state>
+  </part>
+
+  <part name="MessageDialogPanel">
+   <state name="normal">
+      <colorrect color="MessageDialogBGColor"/>
+      <text font="MessageDialogTextFont" margin="0;0;0;1" flags="center;middle" color="MessageDialogTextColor"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>   
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+   </part>
+  <part name="WarningMessageDialogPanel">
+   <state name="normal">
+      <use template="Attention-Normal" flags="middle;left"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>   
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+   </part>
+  	<part name="CaSliderLineEdit">
+		<state name="normal">
+			<use template="LineEdit"/>
+		</state>
+		<state name="focused">
+			<use state="normal"/>
+		</state>
+		<state name="disabled" tinting="1;1;1;0.4">
+			<use state="normal"/>
+		</state>
+	</part>
+	<part name="CaSliderSmallLineEdit">
+		<state name="normal">
+			<use template="LineEdit"/>
+		</state>
+		<state name="focused">
+			<use state="normal"/>
+		</state>
+		<state name="disabled" tinting="1;1;1;0.4">
+			<use state="normal"/>
+		</state>
+	</part>
+	<part name="CaSliderLightLineEdit">
+		<state name="normal">
+			<use template="LineEdit"/>
+		</state>
+		<state name="focused">
+			<use state="normal"/>
+		</state>
+		<state name="disabled" tinting="1;1;1;0.4">
+			<use state="normal"/>
+		</state>
+	</part>
+	<part name="CaSliderRainbowLineEdit">
+		<state name="normal">
+			<use template="LineEdit"/>
+		</state>
+		<state name="focused">
+			<use state="normal"/>
+		</state>
+		<state name="disabled" tinting="1;1;1;0.4">
+			<use state="normal"/>
+		</state>
+	</part>
+	<part name="FullyTransparent">
+	<state name="normal">
+		<colorrect color="0.0;0.0;0.0;0.0"/>
+	</state>
+   </part>
+
+</style>
+
+  

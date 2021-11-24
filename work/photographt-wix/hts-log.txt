@@ -1,0 +1,14 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 27 Oct 2021 12:57:12 at https://www.wix.com/website-template/view/html/2728?siteId=44b0717e-7411-4cae-b4e9-710a8cf9e828&metaSiteId=d3a7b062-1794-4796-8c09-dfbd284ea09e&originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fphotography&tpClick=view_button +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.wix.com/website-template/view/html/2728?siteId=44b0717e-7411-4cae-b4e9-710a8cf9e828&metaSiteId=d3a7b062-1794-4796-8c09-dfbd284ea09e&originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fphotography&tpClick=view_button -O1 "C:\My Web Sites\photographt-wix" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:57:55	Error: 	"Forbidden" (403) at link https://static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/2c056da8-4920-4e20-8c69-8a6b315458a9.woff (from https://static.parastorage.com/services/third-party/fonts/Helvetica/fontFace.css)
+12:57:55	Error: 	"Forbidden" (403) at link https://static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/2381d918-136d-444f-8391-db0cba6da388.ttf (from https://static.parastorage.com/services/third-party/fonts/Helvetica/fontFace.css)
+12:57:55	Error: 	"Forbidden" (403) at link https://static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/d0697971-6f58-4597-942e-8beabd1adc87.svg (from https://static.parastorage.com/services/third-party/fonts/Helvetica/fontFace.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 45 seconds : 126 links scanned, 121 files written (9377382 bytes overall) [4556517 bytes received at 101255 bytes/sec], 8823979 bytes transferred using HTTP compression in 104 files, ratio 43%, 10.5 requests per connection
+(3 errors, 0 warnings, 0 messages)

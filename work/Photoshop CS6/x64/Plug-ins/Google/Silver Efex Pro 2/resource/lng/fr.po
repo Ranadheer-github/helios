@@ -1,0 +1,2115 @@
+# Copyright (C) 2010 2010 Google. All rights reserved.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Leonis 1.0\n"
+"Report-Msgid-Bugs-To: dbarten@niksoftware.com\n"
+"POT-Creation-Date: 2012-08-15 08:32+0200\n"
+"PO-Revision-Date: 2011-02-05 18:47-0800\n"
+"Last-Translator: Josh <joshhaftel+poedit@gmail.com>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../src/fgraph/Model.cpp:55 ../src/fgraph/Model.cpp:145
+msgid "Brightness"
+msgstr "Luminosité"
+
+#: ../src/fgraph/Model.cpp:56 ../src/fgraph/Model.cpp:65
+#: ../src/fgraph/Model.cpp:70
+msgid "Highlights"
+msgstr "Tons clairs"
+
+#: ../src/fgraph/Model.cpp:56
+msgid "Brightness (Highlights)"
+msgstr "Luminosité (Tons clairs)"
+
+#: ../src/fgraph/Model.cpp:57 ../src/fgraph/Model.cpp:66
+msgid "Midtones"
+msgstr "Tons moyens"
+
+#: ../src/fgraph/Model.cpp:57
+msgid "Brightness (Midtones)"
+msgstr "Luminosité (Tons moyens)"
+
+#: ../src/fgraph/Model.cpp:58 ../src/fgraph/Model.cpp:67
+#: ../src/fgraph/Model.cpp:69
+msgid "Shadows"
+msgstr "Ombres"
+
+#: ../src/fgraph/Model.cpp:58
+msgid "Brightness (Shadows)"
+msgstr "Luminosité (Tons foncés)"
+
+#: ../src/fgraph/Model.cpp:59
+msgid "Dynamic Brightness"
+msgstr "Luminosité dynamique"
+
+#: ../src/fgraph/Model.cpp:60 ../src/fgraph/Model.cpp:147
+msgid "Contrast"
+msgstr "Contraste"
+
+#: ../src/fgraph/Model.cpp:61
+msgid "Soft Contrast"
+msgstr "Contraste doux"
+
+#: ../src/fgraph/Model.cpp:62 ../src/fgraph/Model.cpp:151
+msgid "Amplify Whites"
+msgstr "Amplifier les blancs"
+
+#: ../src/fgraph/Model.cpp:63 ../src/fgraph/Model.cpp:153
+msgid "Amplify Blacks"
+msgstr "Amplifier les noirs"
+
+#: ../src/fgraph/Model.cpp:64 ../src/fgraph/Model.cpp:149
+msgid "Structure"
+msgstr "Structure"
+
+#: ../src/fgraph/Model.cpp:65
+msgid "Structure (Highlights)"
+msgstr "Structure (Tons clairs)"
+
+#: ../src/fgraph/Model.cpp:66
+msgid "Structure (Midtones)"
+msgstr "Structure (Tons moyens)"
+
+#: ../src/fgraph/Model.cpp:67
+msgid "Structure (Shadows)"
+msgstr "Structure (Tons foncés)"
+
+#: ../src/fgraph/Model.cpp:68 ../src/fgraph/Model.cpp:155
+msgid "Fine Structure"
+msgstr "Structure fine"
+
+#: ../src/fgraph/Model.cpp:69
+msgid "Shadow Protection"
+msgstr "Protection des tons foncés"
+
+#: ../src/fgraph/Model.cpp:70
+msgid "Highlight Protection"
+msgstr "Protection des tons clairs"
+
+#: ../src/fgraph/Model.cpp:71
+msgid "Hue"
+msgstr "Teinte"
+
+#: ../src/fgraph/Model.cpp:71
+msgid "Color Filter Hue"
+msgstr "Teinte du filtre couleur"
+
+#: ../src/fgraph/Model.cpp:72 ../src/fgraph/Model.cpp:89
+#: ../src/fgraph/Model.cpp:90 ../src/fgraph/Model.cpp:91
+#: ../src/fgraph/Model.cpp:92 ../src/fgraph/Model.cpp:93
+msgid "Strength"
+msgstr "Intensité"
+
+#: ../src/fgraph/Model.cpp:72
+msgid "Color Filter Strength"
+msgstr "Intensité du filtre couleur"
+
+#: ../src/fgraph/Model.cpp:73 ../src/gui/ColorFilterPanel.cpp:229
+msgid "Red"
+msgstr "Rouge"
+
+#: ../src/fgraph/Model.cpp:73
+msgid "Film Sensitivity (Red)"
+msgstr "Sensibilité du film (Rouge)"
+
+#: ../src/fgraph/Model.cpp:74 ../src/gui/ColorFilterPanel.cpp:239
+msgid "Yellow"
+msgstr "Jaune"
+
+#: ../src/fgraph/Model.cpp:74
+msgid "Film Sensitivity (Yellow)"
+msgstr "Sensibilité du film (Jaune)"
+
+#: ../src/fgraph/Model.cpp:75 ../src/gui/ColorFilterPanel.cpp:244
+msgid "Green"
+msgstr "Vert"
+
+#: ../src/fgraph/Model.cpp:75
+msgid "Film Sensitivity (Green)"
+msgstr "Sensibilité du film (Vert)"
+
+#: ../src/fgraph/Model.cpp:76
+msgid "Cyan"
+msgstr "Cyan"
+
+#: ../src/fgraph/Model.cpp:76
+msgid "Film Sensitivity (Cyan)"
+msgstr "Sensibilité du film (Cyan)"
+
+#: ../src/fgraph/Model.cpp:77 ../src/gui/ColorFilterPanel.cpp:249
+msgid "Blue"
+msgstr "Bleu"
+
+#: ../src/fgraph/Model.cpp:77
+msgid "Film Sensitivity (Blue)"
+msgstr "Sensibilité du film (Bleu)"
+
+#: ../src/fgraph/Model.cpp:78
+msgid "Violet"
+msgstr "Violet"
+
+#: ../src/fgraph/Model.cpp:78
+msgid "Film Sensitivity (Violet)"
+msgstr "Sensibilité du film (Violet)"
+
+#: ../src/fgraph/Model.cpp:79
+msgid "Amount"
+msgstr "Quantité"
+
+#: ../src/fgraph/Model.cpp:79
+msgid "Vignette Amount"
+msgstr "Quantité de vignettage"
+
+#: ../src/fgraph/Model.cpp:80
+msgid "Circle"
+msgstr "Cercle"
+
+#: ../src/fgraph/Model.cpp:80
+msgid "Vignette Shape"
+msgstr "Forme de la vignettage"
+
+#. TRANSLATORS: The string "Size" is what is displayed in the history
+#. browser when the size / diameter of a control point is changed.
+#: ../src/fgraph/Model.cpp:81 ../src/fgraph/Model.cpp:94
+#: ../src/fgraph/Model.cpp:95 ../src/fgraph/Model.cpp:96
+#: ../src/fgraph/Model.cpp:97 ../src/fgraph/Model.cpp:102
+#: ../src/fgraph/Model.cpp:143
+msgid "Size"
+msgstr "Taille"
+
+#: ../src/fgraph/Model.cpp:81
+msgid "Vignette Size"
+msgstr "Taille de vignettage"
+
+#: ../src/fgraph/Model.cpp:82
+msgid "Grain per pixel"
+msgstr "Grain par pixel"
+
+#: ../src/fgraph/Model.cpp:83
+msgid "Soft"
+msgstr "Doux"
+
+#: ../src/fgraph/Model.cpp:83
+msgid "Grain Hardness"
+msgstr "Dureté du grain"
+
+#: ../src/fgraph/Model.cpp:84
+msgid "Silver Hue"
+msgstr "Teinte Silver"
+
+#: ../src/fgraph/Model.cpp:85
+msgid "Paper Hue"
+msgstr "Teinte papier"
+
+#: ../src/fgraph/Model.cpp:86
+msgid "Balance"
+msgstr "Balance"
+
+#: ../src/fgraph/Model.cpp:86
+msgid "Toning Balance"
+msgstr "Balance des tons"
+
+#: ../src/fgraph/Model.cpp:87
+msgid "Silver Toning"
+msgstr "Ton Silver"
+
+#: ../src/fgraph/Model.cpp:88
+msgid "Paper Toning"
+msgstr "Ton papier"
+
+#: ../src/fgraph/Model.cpp:89
+msgid "Toning Strength"
+msgstr "Intensité des tons"
+
+#: ../src/fgraph/Model.cpp:90
+msgid "Burn Edges Strength (Left)"
+msgstr "Intensité Bords brûlés (Gauche)"
+
+#: ../src/fgraph/Model.cpp:91
+msgid "Burn Edges Strength (Right)"
+msgstr "Intensité Bords brûlés (Droite)"
+
+#: ../src/fgraph/Model.cpp:92
+msgid "Burn Edges Strength (Top)"
+msgstr "Intensité Bords brûlés (Haut)"
+
+#: ../src/fgraph/Model.cpp:93
+msgid "Burn Edges Strength (Bottom)"
+msgstr "Intensité Bords brûlés (Bas)"
+
+#: ../src/fgraph/Model.cpp:94
+msgid "Burn Edges Size (Left)"
+msgstr "Taille Bords brûlés (Gauche)"
+
+#: ../src/fgraph/Model.cpp:95
+msgid "Burn Edges Size (Right)"
+msgstr "Taille Bords brûlés (Droite)"
+
+#: ../src/fgraph/Model.cpp:96
+msgid "Burn Edges Size (Top)"
+msgstr "Taille Bords brûlés (Haut)"
+
+#: ../src/fgraph/Model.cpp:97
+msgid "Burn Edges Size (Bottom)"
+msgstr "Taille Bords brûlés (Bas)"
+
+#: ../src/fgraph/Model.cpp:98 ../src/fgraph/Model.cpp:99
+#: ../src/fgraph/Model.cpp:100 ../src/fgraph/Model.cpp:101
+msgid "Transition"
+msgstr "Transition"
+
+#: ../src/fgraph/Model.cpp:98
+msgid "Burn Edges Transition (Left)"
+msgstr "Transition Bords brûlés (Gauche)"
+
+#: ../src/fgraph/Model.cpp:99
+msgid "Burn Edges Transition (Right)"
+msgstr "Transition Bords brûlés (Droite) "
+
+#: ../src/fgraph/Model.cpp:100
+msgid "Burn Edges Transition (Top)"
+msgstr "Transition Bords brûlés (Haut)"
+
+#: ../src/fgraph/Model.cpp:101
+msgid "Burn Edges Transition (Bottom)"
+msgstr "Transition Bords brûlés (Bas)"
+
+#: ../src/fgraph/Model.cpp:102
+msgid "Border Size"
+msgstr "Taille des bords"
+
+#: ../src/fgraph/Model.cpp:103
+msgid "Spread"
+msgstr "Ecart"
+
+#: ../src/fgraph/Model.cpp:103
+msgid "Border Spread"
+msgstr "Écart des bords"
+
+#. TRANSLATORS: this is a string for the left hand side of a "Grunge" slider for the image borders (Clean..Rough)
+#: ../src/fgraph/Model.cpp:105
+msgid "Clean"
+msgstr "Propre"
+
+#: ../src/fgraph/Model.cpp:105
+msgid "Border Roughness"
+msgstr "Irrégularité des bords"
+
+#. TRANSLATORS: The abbreviation "Br" stands for "Brightness".
+#: ../src/fgraph/Model.cpp:145
+msgid "Br"
+msgstr "Lu"
+
+#. TRANSLATORS: The abbreviation "Co" stands for "Contrast".
+#: ../src/fgraph/Model.cpp:147
+msgid "Co"
+msgstr "Co"
+
+#. TRANSLATORS: The abbreviation "St" stands for "Structure".
+#: ../src/fgraph/Model.cpp:149
+msgid "St"
+msgstr "St"
+
+#. TRANSLATORS: The abbreviation "AW" stands for "Amplify Whites".
+#: ../src/fgraph/Model.cpp:151
+msgid "AW"
+msgstr "AB"
+
+#. TRANSLATORS: The abbreviation "AB" stands for "Amplify Blacks".
+#: ../src/fgraph/Model.cpp:153
+msgid "AB"
+msgstr "AN"
+
+#. TRANSLATORS: The abbreviation "FS" stands for "Fine Structure".
+#: ../src/fgraph/Model.cpp:155
+msgid "FS"
+msgstr "SF"
+
+#. TRANSLATORS: The abbreviation "SCl" stands for "Selective Colorization".
+#: ../src/fgraph/Model.cpp:157
+msgid "SC"
+msgstr "CS"
+
+#: ../src/fgraph/Model.cpp:157
+msgid "Selective Colorization"
+msgstr "Colorisation sélective"
+
+#: ../src/fgraph/Model.cpp:206 ../src/gui/LeonisApplication.cpp:1925
+#: ../src/preset_translations.cpp:3
+#: ../host_integration/photoshop/common/LeonisApplicationPhotoshop.cpp:63
+msgid "000 Neutral"
+msgstr "000 Neutre"
+
+#: ../src/fgraph/Model.cpp:828
+msgid "TONE CURVE"
+msgstr "COURBE DES TONALITES"
+
+#: ../src/fgraph/Model.cpp:828
+msgid "Adjust curve"
+msgstr "Régler la courbe"
+
+#: ../src/gui/ColorFilterPanel.cpp:37
+msgid "Details"
+msgstr "Détails"
+
+#: ../src/gui/ColorFilterPanel.cpp:104 ../src/gui/ColorFilterPanel.cpp:218
+#: ../src/gui/LeonisSidePanel.cpp:192 ../src/gui/LeonisSidePanel.cpp:587
+#: ../src/gui/LeonisSidePanel.cpp:835
+msgid "COLOR FILTER"
+msgstr "FILTRE COULEUR"
+
+#: ../src/gui/ColorFilterPanel.cpp:218
+msgid "Filter"
+msgstr "Commandes du"
+
+#: ../src/gui/ColorFilterPanel.cpp:225 ../src/gui/FilmTypesPanel.cpp:163
+#: ../src/gui/StylizingPanel.cpp:212
+msgid "Neutral"
+msgstr "Neutre"
+
+#: ../src/gui/ColorFilterPanel.cpp:234
+msgid "Orange"
+msgstr "Orange"
+
+#. TRANSLATORS: "Move" is an action that is carried out on items
+#: ../src/gui/ControlPointCommands.cpp:171
+msgid "Move"
+msgstr "Déplacer"
+
+#: ../src/gui/ControlPointListWidget.cpp:49
+msgid "Show / hide selection of Control Point"
+msgstr "Afficher / masquer la sélection du point de contrôle"
+
+#: ../src/gui/ControlPointListWidget.cpp:50
+msgid "Show / hide effect of Control Point"
+msgstr "Afficher / masquer l’effet du point de contrôle"
+
+#: ../src/gui/ControlPointListWidget.cpp:138
+msgid "Control Points"
+msgstr "Points de contrôle"
+
+#: ../src/gui/ControlPointListWidget.cpp:188
+msgid "Add a Control Point to the image"
+msgstr "Ajouter un point de contrôle à l’image"
+
+#: ../src/gui/ControlPointListWidget.cpp:190
+msgid "Add Control Point"
+msgstr "Ajouter un point de contrôle"
+
+#: ../src/gui/ControlPointListWidget.cpp:229
+msgid "Show / hide selection for all Control Points"
+msgstr "Afficher / masquer la sélection pour tous les points de contrôle"
+
+#: ../src/gui/ControlPointListWidget.cpp:250
+msgid "Click to group the selected Control Points"
+msgstr "Cliquez pour regrouper les points de contrôle sélectionnés"
+
+#: ../src/gui/ControlPointListWidget.cpp:251
+msgid "Click to ungroup Control Points"
+msgstr "Cliquez pour dégrouper les points de contrôle"
+
+#: ../src/gui/ControlPointListWidget.cpp:252
+msgid "Click to duplicate Control Points"
+msgstr "Cliquez pour dupliquer les points de contrôle"
+
+#: ../src/gui/ControlPointListWidget.cpp:253
+msgid "Click to delete all selected Control Points"
+msgstr "Cliquez pour supprimer tous les points de contrôle sélectionnés"
+
+#. TRANSLATORS: The string "Activate" appears in the history browser
+#. when a control point is activated
+#: ../src/gui/ControlPointListWidget.cpp:376
+#: ../src/gui/LeonisSidePanel.cpp:387
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:43
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:91
+msgid "Activate"
+msgstr "Activer"
+
+#. TRANSLATORS: The string "Deactivate" appears in the history browser
+#. when a control point is deactivated
+#: ../src/gui/ControlPointListWidget.cpp:380
+#: ../src/gui/LeonisSidePanel.cpp:387
+msgid "Deactivate"
+msgstr "Désactiver"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc. as they are because they
+#. are needed by the program.
+#: ../src/gui/ControlPointNamer.cpp:47 ../src/gui/ControlPointNamer.cpp:108
+msgid "Control Point %*"
+msgid_plural "Control Points %*"
+msgstr[0] "Point de contrôle %*"
+msgstr[1] "Points de contrôle %*"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc. as they are because they
+#. are needed by the program.
+#. TRANSLATORS: The "%*" will be replaced by a list of items to
+#. group (e.g. "Control Points 1, 2"). Please put a "%*" at the
+#. appropriate place in your translation.
+#: ../src/gui/ControlPointNamer.cpp:54 ../src/gui/ControlPointNamer.cpp:117
+#: ../src/gui/UndoControlPointOverlay.cpp:150
+msgid "Group %*"
+msgid_plural "Groups %*"
+msgstr[0] "Groupe %*"
+msgstr[1] "Groupes %*"
+
+#: ../src/gui/FilmTypesPanel.cpp:30
+msgid "Grain"
+msgstr "Grain"
+
+#: ../src/gui/FilmTypesPanel.cpp:33
+msgid "Sensitivity"
+msgstr "Sensibilité"
+
+#: ../src/gui/FilmTypesPanel.cpp:36
+msgid "Levels and Curves"
+msgstr "Niveaux et courbes"
+
+#: ../src/gui/FilmTypesPanel.cpp:109 ../src/gui/FilmTypesPanel.cpp:160
+#: ../src/gui/LeonisSidePanel.cpp:195 ../src/gui/LeonisSidePanel.cpp:632
+#: ../src/gui/LeonisSidePanel.cpp:844
+msgid "FILM TYPES"
+msgstr "TYPES DE FILM"
+
+#: ../src/gui/FilmTypesPanel.cpp:140
+msgid "Hard"
+msgstr "Dur"
+
+#: ../src/gui/FilmTypesPanel.cpp:160 ../src/gui/LeonisApplication.cpp:1925
+#: ../host_integration/photoshop/common/LeonisApplicationPhotoshop.cpp:63
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1441
+msgid "Preset"
+msgstr "Type"
+
+#: ../src/gui/FilmTypesPanel.cpp:164
+msgid "Kodak ISO 32 Panatomic X"
+msgstr "Kodak ISO 32 Panatomic X"
+
+#: ../src/gui/FilmTypesPanel.cpp:164
+msgid "ISO 32"
+msgstr "32 ISO"
+
+#: ../src/gui/FilmTypesPanel.cpp:165
+msgid "Ilford PAN F Plus 50"
+msgstr "Ilford PAN F Plus 50"
+
+#: ../src/gui/FilmTypesPanel.cpp:165
+msgid "ISO 50"
+msgstr "50 ISO"
+
+#: ../src/gui/FilmTypesPanel.cpp:166
+msgid "Agfa APX Pro 100"
+msgstr "Agfa APX Pro 100"
+
+#: ../src/gui/FilmTypesPanel.cpp:166
+msgid "ISO 100"
+msgstr "100 ISO"
+
+#: ../src/gui/FilmTypesPanel.cpp:167
+msgid "Fuji Neopan ACROS 100"
+msgstr "Fuji Neopan ACROS 100"
+
+#: ../src/gui/FilmTypesPanel.cpp:168
+msgid "Ilford Delta 100 Pro"
+msgstr "Ilford Delta 100 Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:169
+msgid "Kodak 100 TMAX Pro"
+msgstr "Kodak 100 TMAX Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:170
+msgid "Ilford FP4 Plus 125"
+msgstr "Ilford FP4 Plus 125"
+
+#: ../src/gui/FilmTypesPanel.cpp:170
+msgid "ISO 125"
+msgstr "125 ISO"
+
+#: ../src/gui/FilmTypesPanel.cpp:171
+msgid "Kodak Plus-X 125PX Pro"
+msgstr "Kodak Plus-X 125PX Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:172
+msgid "Agfa APX 400"
+msgstr "Agfa APX 400"
+
+#: ../src/gui/FilmTypesPanel.cpp:172
+msgid "ISO 400"
+msgstr "400 ISO"
+
+#: ../src/gui/FilmTypesPanel.cpp:173
+msgid "Ilford Delta 400 Pro"
+msgstr "Ilford Delta 400 Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:174
+msgid "Ilford HP5 Plus 400"
+msgstr "Ilford HP5 Plus 400"
+
+#: ../src/gui/FilmTypesPanel.cpp:175
+msgid "Ilford XP2 Super 400"
+msgstr "Ilford XP2 Super 400"
+
+#: ../src/gui/FilmTypesPanel.cpp:176
+msgid "Kodak 400 TMAX Pro"
+msgstr "Kodak 400 TMAX Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:177
+msgid "Kodak BW 400CN Pro"
+msgstr "Kodak BW 400CN Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:178
+msgid "Kodak Tri-X 400TX Pro"
+msgstr "Kodak Tri-X 400TX Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:179
+msgid "Fuji Neopan Pro 1600"
+msgstr "Fuji Neopan Pro 1600"
+
+#: ../src/gui/FilmTypesPanel.cpp:179
+msgid "ISO 1600"
+msgstr "1600 ISO"
+
+#: ../src/gui/FilmTypesPanel.cpp:180
+msgid "Ilford Delta 3200 Pro"
+msgstr "Ilford Delta 3200 Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:180
+msgid "ISO 3200"
+msgstr "3200 ISO"
+
+#: ../src/gui/FilmTypesPanel.cpp:181
+msgid "Kodak P3200 TMAX Pro"
+msgstr "Kodak P3200 TMAX Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:182 ../src/gui/StylizingPanel.cpp:236
+#: ../src/gui/StylizingPanel.cpp:308 ../src/gui/StylizingPanel.cpp:385
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1328
+msgid "Custom"
+msgstr "Personnalisé"
+
+#: ../src/gui/HistoryBrowser.cpp:221
+msgid "Original Image"
+msgstr "Image originale"
+
+#. TRANSLATORS: this is the term to describe the group of the Stylebrowser (when applying a new style).
+#: ../src/gui/HistoryBrowser.cpp:226
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1441
+msgid "PRESETS"
+msgstr "TYPES"
+
+#: ../src/gui/HistorySlider.cpp:31
+msgid "Click and drag to set the before state"
+msgstr "Cliquez et faites glisser pour définir l’état Avant"
+
+#: ../src/gui/LeonisApplication.cpp:1339 ../src/gui/LeonisApplication.cpp:1375
+#: ../src/gui/LeonisApplication.cpp:1395 ../src/gui/LeonisApplication.cpp:1398
+#: ../src/gui/LeonisApplication.cpp:1422 ../src/gui/LeonisApplication.cpp:1442
+msgid "Loading image"
+msgstr "Chargement de l’image"
+
+#: ../src/gui/LeonisApplication.cpp:1368 ../src/gui/LeonisApplication.cpp:1426
+msgid "Could not open image file"
+msgstr "Impossible d’ouvrir le fichier d’image"
+
+#: ../src/gui/LeonisApplication.cpp:1388 ../src/gui/LeonisApplication.cpp:1410
+msgid "The file could not be opened because the color mode is not supported. Please check the color mode of the image, and ensure it is an RGB (8 or 16-bit) file."
+msgstr "Le fichier n'a pas pu être ouvert, car le mode de couleurs n'est pas pris en charge. Vérifiez le mode de couleurs de l'image et assurez-vous qu'il s'agit bien d'un fichier RVB (8 ou 16 bits)."
+
+#: ../src/gui/LeonisApplication.cpp:1449 ../src/gui/LeonisApplication.cpp:1453
+#: ../src/gui/LeonisApplication.cpp:1461
+msgid "Precalculating"
+msgstr "Précalcul"
+
+#. TRANSLATORS: this is a text for a message box after failing to compile a GPU shader. A SEP2 restart is necessary to fall back to CPU processing.
+#: ../src/gui/LeonisApplication.cpp:1501 ../src/gui/LeonisApplication.cpp:1963
+#: ../src/gui/LeonisApplication.cpp:1969 ../src/gui/LeonisApplication.cpp:1974
+msgid "Error"
+msgstr "Erreur"
+
+#. TRANSLATORS: "Saving image" is used as progress indicator text when saving.
+#: ../src/gui/LeonisApplication.cpp:1833
+#: ../host_integration/photoshop/filter/PhotoshopLeonis.cpp:246
+msgid "Saving image"
+msgstr "Enregistrement de l’image"
+
+#: ../src/gui/LeonisApplication.cpp:1874
+msgid "Not enough memory available to create a full resolution image for saving"
+msgstr "Mémoire disponible insuffisante pour créer une image pleine résolution pour l’enregistrement"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../src/gui/LeonisApplication.cpp:1879 ../src/gui/LeonisApplication.cpp:1884
+msgid "File cannot be written. Please check to ensure you have write access. The location that the file was tried to access was '%*'."
+msgstr "Impossible d’enregistrer le fichier. Assurez-vous que vous disposez des droits d’accès en écriture. Le fichier a tenté d’accéder à l’emplacement « %* »."
+
+#: ../src/gui/LeonisApplication.cpp:1888
+msgid "An unexpected error occurred while saving your image."
+msgstr "Une erreur inattendue s’est produite pendant l’enregistrement de votre image."
+
+#: ../src/gui/LeonisApplication.cpp:1963
+msgid "The available graphics card does not meet the requirements and will have to be disabled. Please restart Silver Efex Pro 2, it will then process the images using the CPU."
+msgstr "La carte graphique disponible ne possède pas la configuration requise et devra donc être désactivée. Redémarrez Silver Efex Pro 2 qui traitera ensuite les images en utilisant l’unité centrale."
+
+#: ../src/gui/LeonisApplication.cpp:1969
+msgid "There was not enough memory available to process the image."
+msgstr "La mémoire disponible était insuffisante pour traiter l’image."
+
+#: ../src/gui/LeonisImageWidget.cpp:73
+msgid "Navigator"
+msgstr "Navigateur"
+
+#. TRANSLATORS: Please put the translation for "SELECTIVE ADJUSTMENTS" in
+#. upper case if that is possible in the writing system you are translating to
+#. TRANSLATORS: Please put the translation for "SELECTIVE ADJUSTMENTS" in
+#. upper case if that is possible in the writing system you are
+#. translating to
+#: ../src/gui/LeonisImageWidget.cpp:302 ../src/gui/LeonisSidePanel.cpp:189
+#: ../src/gui/LeonisSidePanel.cpp:542
+#: ../src/gui/UndoControlPointOverlay.cpp:122
+#: ../src/gui/UndoControlPointOverlay.cpp:146
+#: ../src/gui/UndoControlPointOverlay.cpp:156
+#: ../src/gui/UndoControlPointOverlay.cpp:187
+#: ../src/gui/UndoControlPointOverlay.cpp:198
+msgid "SELECTIVE ADJUSTMENTS"
+msgstr "REGLAGES SELECTIFS"
+
+#: ../src/gui/LeonisImageWidget.cpp:302 ../src/gui/LeonisSidePanel.cpp:819
+#: ../src/gui/LeonisSidePanel.cpp:835 ../src/gui/LeonisSidePanel.cpp:844
+#: ../src/gui/LeonisSidePanel.cpp:862
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: ../src/gui/LeonisImageWidget.cpp:303
+msgid "Do you really want to delete all control points?"
+msgstr "Voulez-vous vraiment supprimer tous les points de contrôle ?"
+
+#: ../src/gui/LeonisMenuBar.cpp:39
+msgid "About"
+msgstr "A propos"
+
+#: ../src/gui/LeonisMenuBar.cpp:45
+msgid "Hide %1"
+msgstr "Masquer %1"
+
+#: ../src/gui/LeonisMenuBar.cpp:53
+msgid "Hide Others"
+msgstr "Masquer les autres"
+
+#: ../src/gui/LeonisMenuBar.cpp:58
+msgid "Show All"
+msgstr "Afficher tout"
+
+#: ../src/gui/LeonisMenuBar.cpp:70
+msgid "File"
+msgstr "Fichier"
+
+#: ../src/gui/LeonisMenuBar.cpp:72
+msgid "Open Images..."
+msgstr "Ouvrir des images..."
+
+#: ../src/gui/LeonisMenuBar.cpp:83
+msgid "Quit"
+msgstr "Quitter"
+
+#: ../src/gui/LeonisSidePanel.cpp:175 ../src/gui/LeonisSidePanel.cpp:178
+#: ../src/gui/LeonisSidePanel.cpp:418 ../src/gui/LeonisSidePanel.cpp:819
+msgid "GLOBAL ADJUSTMENTS"
+msgstr "REGLAGES GLOBAUX"
+
+#: ../src/gui/LeonisSidePanel.cpp:197 ../src/gui/LeonisSidePanel.cpp:666
+#: ../src/gui/LeonisSidePanel.cpp:862 ../src/gui/StylizingPanel.cpp:144
+#: ../src/gui/StylizingPanel.cpp:206 ../src/gui/StylizingPanel.cpp:295
+#: ../src/gui/StylizingPanel.cpp:375 ../src/gui/StylizingPanel.cpp:469
+#: ../src/gui/StylizingPanel.cpp:561 ../src/gui/StylizingPanel.cpp:627
+msgid "FINISHING ADJUSTMENTS"
+msgstr "REGLAGES DE FINITION"
+
+#: ../src/gui/LeonisSidePanel.cpp:209
+msgid "LOUPE & HISTOGRAM"
+msgstr "LOUPE & HISTOGRAMME"
+
+#: ../src/gui/LeonisSidePanel.cpp:387 ../src/preset_translations.cpp:43
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:328
+msgid "All"
+msgstr "Tout"
+
+#: ../src/gui/LeonisSidePanel.cpp:505
+msgid "Tonality Protection"
+msgstr "Protection de la tonalité"
+
+#: ../src/gui/LoupeHistogramWidget.cpp:88
+#: ../src/gui/LoupeHistogramWidget.cpp:106
+msgid "Lock the position of the Loupe"
+msgstr "Verrouiller la position de la Loupe"
+
+#: ../src/gui/LoupeHistogramWidget.cpp:104
+msgid "Unlock the position of the Loupe"
+msgstr "Déverrouiller la position de la Loupe"
+
+#: ../src/gui/LoupeHistogramWidget.cpp:182
+msgid "Histogram"
+msgstr "Histogramme"
+
+#: ../src/gui/LoupeHistogramWidget.cpp:187
+msgid "Loupe"
+msgstr "Loupe"
+
+#: ../src/gui/StylizingPanel.cpp:29
+msgid "Toning"
+msgstr "Virage"
+
+#: ../src/gui/StylizingPanel.cpp:31
+msgid "Vignette"
+msgstr "Vignettage"
+
+#: ../src/gui/StylizingPanel.cpp:33
+msgid "Burn Edges"
+msgstr "Bords brûlés"
+
+#: ../src/gui/StylizingPanel.cpp:34
+msgid "Image Borders"
+msgstr "Contour image"
+
+#: ../src/gui/StylizingPanel.cpp:47 ../src/gui/StylizingPanel.cpp:627
+msgid "Vary Border"
+msgstr "Varier le bord"
+
+#. TRANSLATORS: this is a string for the right hand side of a "Grunge" slider for the image borders (Clean..Rough)
+#: ../src/gui/StylizingPanel.cpp:175
+msgid "Rough"
+msgstr "Grossier"
+
+#: ../src/gui/StylizingPanel.cpp:179
+msgid "Rectangle"
+msgstr "Rectangle"
+
+#: ../src/gui/StylizingPanel.cpp:206
+msgid "Toning Preset"
+msgstr "Type de ton"
+
+#: ../src/gui/StylizingPanel.cpp:212
+msgid "1"
+msgstr "1"
+
+#: ../src/gui/StylizingPanel.cpp:213
+msgid "2"
+msgstr "2"
+
+#: ../src/gui/StylizingPanel.cpp:213
+msgid "Split Toners"
+msgstr "Split Toners"
+
+#: ../src/gui/StylizingPanel.cpp:214
+msgid "3"
+msgstr "3"
+
+#: ../src/gui/StylizingPanel.cpp:215
+msgid "4"
+msgstr "4"
+
+#: ../src/gui/StylizingPanel.cpp:215
+msgid "Selenium"
+msgstr "Selenium"
+
+#: ../src/gui/StylizingPanel.cpp:216
+msgid "5"
+msgstr "5"
+
+#: ../src/gui/StylizingPanel.cpp:217
+msgid "6"
+msgstr "6"
+
+#: ../src/gui/StylizingPanel.cpp:218
+msgid "7"
+msgstr "7"
+
+#: ../src/gui/StylizingPanel.cpp:218
+msgid "Blue Toner"
+msgstr "Blue Toner"
+
+#: ../src/gui/StylizingPanel.cpp:219
+msgid "8"
+msgstr "8"
+
+#: ../src/gui/StylizingPanel.cpp:220
+msgid "9"
+msgstr "9"
+
+#: ../src/gui/StylizingPanel.cpp:221
+msgid "10"
+msgstr "10"
+
+#: ../src/gui/StylizingPanel.cpp:221
+msgid "Cyanotype"
+msgstr "Cyanotype"
+
+#: ../src/gui/StylizingPanel.cpp:222
+msgid "11"
+msgstr "11"
+
+#: ../src/gui/StylizingPanel.cpp:223
+msgid "12"
+msgstr "12"
+
+#: ../src/gui/StylizingPanel.cpp:224
+msgid "13"
+msgstr "13"
+
+#: ../src/gui/StylizingPanel.cpp:224
+msgid "Coffee"
+msgstr "Café"
+
+#: ../src/gui/StylizingPanel.cpp:225
+msgid "14"
+msgstr "14"
+
+#: ../src/gui/StylizingPanel.cpp:226
+msgid "15"
+msgstr "15"
+
+#: ../src/gui/StylizingPanel.cpp:227
+msgid "16"
+msgstr "16"
+
+#: ../src/gui/StylizingPanel.cpp:227
+msgid "Copper Toner"
+msgstr "Copper Toner"
+
+#: ../src/gui/StylizingPanel.cpp:228
+msgid "17"
+msgstr "17"
+
+#: ../src/gui/StylizingPanel.cpp:229
+msgid "18"
+msgstr "18"
+
+#: ../src/gui/StylizingPanel.cpp:230
+msgid "19"
+msgstr "19"
+
+#: ../src/gui/StylizingPanel.cpp:230
+msgid "Sepia"
+msgstr "Sépia"
+
+#: ../src/gui/StylizingPanel.cpp:231
+msgid "20"
+msgstr "20"
+
+#: ../src/gui/StylizingPanel.cpp:232
+msgid "21"
+msgstr "21"
+
+#: ../src/gui/StylizingPanel.cpp:233
+msgid "22"
+msgstr "22"
+
+#: ../src/gui/StylizingPanel.cpp:233
+msgid "Ambrotype"
+msgstr "Ambrotype"
+
+#: ../src/gui/StylizingPanel.cpp:234
+msgid "23"
+msgstr "23"
+
+#: ../src/gui/StylizingPanel.cpp:235
+msgid "24"
+msgstr "24"
+
+#: ../src/gui/StylizingPanel.cpp:236
+msgid "25"
+msgstr "25"
+
+#: ../src/gui/StylizingPanel.cpp:295
+msgid "Vignette Preset"
+msgstr "Type de vignettage"
+
+#: ../src/gui/StylizingPanel.cpp:300 ../src/gui/StylizingPanel.cpp:380
+#: ../src/gui/StylizingPanel.cpp:474
+msgid "Off"
+msgstr "Désactiver"
+
+#: ../src/gui/StylizingPanel.cpp:301
+msgid "Lens Falloff 1"
+msgstr "Vignettage 1"
+
+#: ../src/gui/StylizingPanel.cpp:302
+msgid "Lens Falloff 2"
+msgstr "Vignettage 2"
+
+#: ../src/gui/StylizingPanel.cpp:303
+msgid "Lens Falloff 3"
+msgstr "Vignettage 3"
+
+#: ../src/gui/StylizingPanel.cpp:304
+msgid "White Frame 1"
+msgstr "Cadre blanc 1"
+
+#: ../src/gui/StylizingPanel.cpp:305
+msgid "White Frame 2"
+msgstr "Cadre blanc 2"
+
+#: ../src/gui/StylizingPanel.cpp:306
+msgid "Black Frame 1"
+msgstr "Cadre noir 1"
+
+#: ../src/gui/StylizingPanel.cpp:307
+msgid "Black Frame 2"
+msgstr "Cadre noir 2"
+
+#: ../src/gui/StylizingPanel.cpp:330
+msgid "Select the center of the effect in the image preview"
+msgstr "Sélectionner le centre de l’effet dans l’aperçu de l’image"
+
+#: ../src/gui/StylizingPanel.cpp:332
+msgid "Place Center"
+msgstr "Placer centre"
+
+#: ../src/gui/StylizingPanel.cpp:375
+msgid "Burn Edges Preset"
+msgstr "Type Bords brûlés"
+
+#: ../src/gui/StylizingPanel.cpp:381
+msgid "All Edges 1"
+msgstr "Tous les bords 1"
+
+#: ../src/gui/StylizingPanel.cpp:382
+msgid "All Edges 2"
+msgstr "Tous les bords 2"
+
+#: ../src/gui/StylizingPanel.cpp:383
+msgid "All Edges (Soft) 1"
+msgstr "Tous les bords (Doux) 1"
+
+#: ../src/gui/StylizingPanel.cpp:384
+msgid "All Edges (Soft) 2"
+msgstr "Tous les bords (Doux) 2"
+
+#: ../src/gui/StylizingPanel.cpp:410
+msgid "Adjust the left edge"
+msgstr "Régler le bord gauche"
+
+#: ../src/gui/StylizingPanel.cpp:412
+msgid "Adjust the top edge"
+msgstr "Régler le bord supérieur"
+
+#: ../src/gui/StylizingPanel.cpp:414
+msgid "Adjust the right edge"
+msgstr "Régler le bord droit"
+
+#: ../src/gui/StylizingPanel.cpp:416
+msgid "Adjust the bottom edge"
+msgstr "Régler le bord inférieur"
+
+#: ../src/gui/StylizingPanel.cpp:469
+msgid "Border Type"
+msgstr "Type de bord"
+
+#: ../src/gui/StylizingPanel.cpp:475
+msgid "Type 1"
+msgstr "Type 1"
+
+#: ../src/gui/StylizingPanel.cpp:476
+msgid "Type 2"
+msgstr "Type 2"
+
+#: ../src/gui/StylizingPanel.cpp:477
+msgid "Type 3"
+msgstr "Type 3"
+
+#: ../src/gui/StylizingPanel.cpp:478
+msgid "Type 4"
+msgstr "Type 4"
+
+#: ../src/gui/StylizingPanel.cpp:479
+msgid "Type 5"
+msgstr "Type 5"
+
+#: ../src/gui/StylizingPanel.cpp:480
+msgid "Type 6"
+msgstr "Type 6"
+
+#: ../src/gui/StylizingPanel.cpp:481
+msgid "Type 7"
+msgstr "Type 7"
+
+#: ../src/gui/StylizingPanel.cpp:482
+msgid "Type 8"
+msgstr "Type 8"
+
+#: ../src/gui/StylizingPanel.cpp:483
+msgid "Type 9"
+msgstr "Type 9"
+
+#: ../src/gui/StylizingPanel.cpp:484
+msgid "Type 10"
+msgstr "Type 10"
+
+#: ../src/gui/StylizingPanel.cpp:485
+msgid "Type 11"
+msgstr "Type 11"
+
+#: ../src/gui/StylizingPanel.cpp:486
+msgid "Type 12"
+msgstr "Type 12"
+
+#: ../src/gui/StylizingPanel.cpp:487
+msgid "Type 13"
+msgstr "Type 13"
+
+#: ../src/gui/StylizingPanel.cpp:488
+msgid "Type 14"
+msgstr "Type 14"
+
+#: ../src/gui/StylizingPanel.cpp:521
+msgid "Click to vary the border automatically"
+msgstr "Cliquez pour faire varier automatiquement le bord"
+
+#: ../src/gui/StylizingPanel.cpp:561
+msgid "Set Vignette Center"
+msgstr "Définir le centre de la vignettage"
+
+#: ../src/gui/UndoControlPointOverlay.cpp:79
+#: ../host_integration/photoshop/common/LeonisApplicationPhotoshop.cpp:249
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1501
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1535
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1644
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1681
+msgid "Warning"
+msgstr "Avertissement"
+
+#. TRANSLATORS: The "%*" will be replaced by a list of items to delete
+#. (e.g. "Control Points 1, 2"). Please put a "%*" at the appropriate
+#. place in your translation.
+#: ../src/gui/UndoControlPointOverlay.cpp:126
+msgid "Delete %*"
+msgstr "Supprimer %*"
+
+#: ../src/gui/UndoControlPointOverlay.cpp:127
+msgid "Do you really want to delete all selected control points?"
+msgstr "Voulez-vous vraiment supprimer tous les points de contrôle sélectionnés ?"
+
+#. TRANSLATORS: The "%*" will be replaced by a list of items to
+#. ungroup (e.g. "Control Points 1, 2"). Please put a "%*" at
+#. the appropriate place in your translation.
+#: ../src/gui/UndoControlPointOverlay.cpp:160
+msgid "Ungroup %*"
+msgstr "Dégrouper %*"
+
+#. TRANSLATORS: The "%*" will be replaced by a list of items to
+#. add (e.g. "Control Points 1, 2"). Please put a "%*" at
+#. the appropriate place in your translation.
+#: ../src/gui/UndoControlPointOverlay.cpp:191
+msgid "Add %*"
+msgstr "Ajouter %*"
+
+#. TRANSLATORS: The "%*" will be replaced by a list of items to
+#. duplicate (e.g. "Control Points 1, 2"). Please put a "%*" at
+#. the appropriate place in your translation.
+#: ../src/gui/UndoControlPointOverlay.cpp:202
+msgid "Duplicate %*"
+msgstr "Dupliquer %*"
+
+#: ../src/gui/ZoneWidget.cpp:39
+msgid "Show Zone %* area"
+msgstr "Afficher la partie de zone %*"
+
+#. TRANSLATORS: This is a text part from the installer welcome page. The key text is "text1"
+#: ../src/installer_and_LR.cpp:6
+msgid "Welcome!"
+msgstr "Bienvenue!"
+
+#. TRANSLATORS: This is a text part from the installer welcome page. The key text is "text2"
+#: ../src/installer_and_LR.cpp:8
+msgid "Thank you for choosing Silver Efex Pro 2 from Google. To install your software, please click on the 'Continue' button below. The installer will automatically find the correct host locations to install Silver Efex Pro 2 to. To learn more about Silver Efex Pro 2, please visit www.niksoftware.com/sep2."
+msgstr "Merci d’avoir choisi Silver Efex Pro 2 de Google. Pour installer le logiciel, cliquez sur le bouton « Suivant » ci-dessous. Le programme d’installation recherche automatiquement les emplacements hôtes corrects dans lesquels installer Silver Efex Pro 2. Pour en savoir plus sur Silver Efex Pro 2, visitez www.niksoftware.com/sep2."
+
+#: ../src/preset_translations.cpp:4
+msgid "001 Underexposed (EV -1)"
+msgstr "001 Sous-exposé (IL +1)"
+
+#: ../src/preset_translations.cpp:5
+msgid "002 Overexposed (EV +1)"
+msgstr "002 Surexposé (IL +1)"
+
+#: ../src/preset_translations.cpp:6
+msgid "003 High Contrast (harsh)"
+msgstr "003 Contraste élevé (dur)"
+
+#: ../src/preset_translations.cpp:7
+msgid "004 High Contrast (smooth)"
+msgstr "004 Contraste élevé (lisse)"
+
+#: ../src/preset_translations.cpp:8
+msgid "005 High Structure (harsh)"
+msgstr "005 Haute structure (dure)"
+
+#: ../src/preset_translations.cpp:9
+msgid "006 High Structure (smooth)"
+msgstr "006 Haute structure (lisse)"
+
+#: ../src/preset_translations.cpp:10
+msgid "007 High Key 1"
+msgstr "007 Hautes lumières 1"
+
+#: ../src/preset_translations.cpp:11
+msgid "008 High Key 2"
+msgstr "008 Hautes lumières 2"
+
+#: ../src/preset_translations.cpp:12
+msgid "009 Low Key 1"
+msgstr "009 Basses lumières 1"
+
+#: ../src/preset_translations.cpp:13
+msgid "010 Low Key 2"
+msgstr "010 Basses lumières 2"
+
+#: ../src/preset_translations.cpp:14
+msgid "011 Push Process (N +1.5)"
+msgstr "011 Traitement poussé (N +1,5)"
+
+#: ../src/preset_translations.cpp:15
+msgid "012 Push Process (N +3.0)"
+msgstr "012 Traitement poussé (N +3,0)"
+
+#: ../src/preset_translations.cpp:16
+msgid "013 Grad ND (EV -1)"
+msgstr "013 ND graduel (IL -1)"
+
+#: ../src/preset_translations.cpp:17
+msgid "014 Grad ND (EV -2)"
+msgstr "014 ND graduel (IL -2)"
+
+#: ../src/preset_translations.cpp:18
+msgid "015 Full Dynamic (harsh)"
+msgstr "015 Dynamique complète (dur)"
+
+#: ../src/preset_translations.cpp:19
+msgid "016 Full Dynamic (smooth)"
+msgstr "016 Dynamique complète (lisse)"
+
+#: ../src/preset_translations.cpp:20
+msgid "017 Full Spectrum"
+msgstr "017 Spectre complet"
+
+#: ../src/preset_translations.cpp:21
+msgid "018 Full Spectrum Inverse"
+msgstr "018 Spectre complet inversé"
+
+#: ../src/preset_translations.cpp:22
+msgid "019 Fine Art Process"
+msgstr "019 Traitement beaux-arts"
+
+#: ../src/preset_translations.cpp:23
+msgid "020 Fine Art (high key, framed)"
+msgstr "020 Beaux-arts (hautes lumières, cadré)"
+
+#: ../src/preset_translations.cpp:24
+msgid "021 Triste 1"
+msgstr "021 Triste 1"
+
+#: ../src/preset_translations.cpp:25
+msgid "022 Triste 2"
+msgstr "022 Triste 2"
+
+#: ../src/preset_translations.cpp:26
+msgid "023 Wet Rocks"
+msgstr "023 Rochers humides"
+
+#: ../src/preset_translations.cpp:27
+msgid "024 Full Contrast and Structure"
+msgstr "024 Contraste complet et structure"
+
+#: ../src/preset_translations.cpp:28
+msgid "025 Silhouette EV +0.5"
+msgstr "025 Silhouette IL +0,5"
+
+#: ../src/preset_translations.cpp:29
+msgid "026 Dark Sepia"
+msgstr "026 Sépia foncé"
+
+#: ../src/preset_translations.cpp:30
+msgid "027 Soft Sepia"
+msgstr "027 Sépia doux"
+
+#: ../src/preset_translations.cpp:31
+msgid "028 Cool Tones 1"
+msgstr "028 Tons froids 1"
+
+#: ../src/preset_translations.cpp:32
+msgid "029 Cool Tones 2"
+msgstr "029 Tons froids 2"
+
+#: ../src/preset_translations.cpp:33
+msgid "030 Film Noir 1"
+msgstr "030 Film noir 1"
+
+#: ../src/preset_translations.cpp:34
+msgid "031 Film Noir 2"
+msgstr "031 Film noir 2"
+
+#: ../src/preset_translations.cpp:35
+msgid "032 Film Noir 3"
+msgstr "032 Film noir 3"
+
+#: ../src/preset_translations.cpp:36
+msgid "033 Yellowed 1"
+msgstr "033 Jauni 1"
+
+#: ../src/preset_translations.cpp:37
+msgid "034 Yellowed 2"
+msgstr "034 Jauni 2"
+
+#: ../src/preset_translations.cpp:38
+msgid "035 Antique Plate I"
+msgstr "035 Ancienne plaque I"
+
+#: ../src/preset_translations.cpp:39
+msgid "036 Antique Plate II"
+msgstr "036 Ancienne plaque II"
+
+#: ../src/preset_translations.cpp:40
+msgid "037 Pinhole"
+msgstr "037 Trou d’épingle"
+
+#: ../src/preset_translations.cpp:44
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:329
+msgid "Classic"
+msgstr "Classique"
+
+#: ../src/preset_translations.cpp:45
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:330
+msgid "Modern"
+msgstr "Moderne"
+
+#: ../src/preset_translations.cpp:46
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:331
+msgid "Vintage"
+msgstr "Rétro"
+
+#: ../host_integration/photoshop/common/LeonisApplicationPhotoshop.cpp:61
+msgid "Initial Adjustments"
+msgstr "Réglages initiaux"
+
+#: ../host_integration/photoshop/common/LeonisApplicationPhotoshop.cpp:248
+msgid "Silver Efex Pro 2 has identified that the active layer is a Smart Object and will now operate as a Smart Filter. The Brush button will be deactivated, and the effect will be applied to the current layer."
+msgstr "Silver Efex Pro a déterminé que le calque actif est un Smart Object et il va maintenant se comporter comme un Smart Filter. Le bouton Pinceau va être désactivé et l'effet appliqué au calque actuel."
+
+#: ../plugin_common/activation/ActivationException.cpp:11
+#: ../plugin_common/activation/ActivationException.cpp:85
+msgid "The product key entered does not seem to be valid. Please check the key and try again."
+msgstr "La clé du produit que vous avez entrée ne semble pas être valide. Vérifiez la clé et réessayez."
+
+#: ../plugin_common/activation/ActivationException.cpp:13
+msgid "Please enter a Phone Activation Code"
+msgstr "Entrez un code d’activation du téléphone"
+
+#: ../plugin_common/activation/ActivationException.cpp:15
+msgid "Please enter a name"
+msgstr "Entrez un nom"
+
+#: ../plugin_common/activation/ActivationException.cpp:17
+msgid "Incorrect host application"
+msgstr "Application hôte incorrecte"
+
+#: ../plugin_common/activation/ActivationException.cpp:19
+msgid "%1 is already activated with this product key, however the host application does not match."
+msgstr "%1 est déjà activé avec cette clé de produit, mais l’application hôte ne correspond pas."
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/activation/ActivationException.cpp:22
+msgid "An internal error occured. Errorcode( %1 )."
+msgstr "Une erreur interne s’est produite. Code d’erreur( %1 )."
+
+#: ../plugin_common/activation/ActivationException.cpp:30
+msgid "The Phone Activation Code entered does not seem to be valid.  Please check the code and try again."
+msgstr "Le Code d’activation par téléphone ne semble pas être valide. Vérifiez le code et réessayez."
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/activation/ActivationException.cpp:33
+#: ../plugin_common/activation/ActivationException.cpp:43
+#: ../plugin_common/activation/ActivationException.cpp:52
+#: ../plugin_common/activation/ActivationException.cpp:57
+#: ../plugin_common/activation/ActivationException.cpp:64
+#: ../plugin_common/activation/ActivationException.cpp:96
+#: ../plugin_common/activation/ActivationException.cpp:106
+#: ../plugin_common/activation/ActivationException.cpp:110
+msgid "An error occurred. Errorcode( %1 )."
+msgstr "Une erreur s’est produite. Code d’erreur( %1 )."
+
+#: ../plugin_common/activation/ActivationException.cpp:37
+msgid "The maximum number of activations for this Product Key have been reached.  Please contact Customer Support for further information."
+msgstr "Le nombre maximal d’activations a été atteint pour cette Clé de produit. Contactez l’Assistance clientèle pour plus d’informations."
+
+#: ../plugin_common/activation/ActivationException.cpp:47
+msgid "An error occurred during the activation of the product. There might be a conflict with the installation of another program.  Please find more information in the FAQs at http://www.niksoftware.com/sep2/faq  or contact Customer Service."
+msgstr "Une erreur s’est produite pendant l’activation du produit. Il peut y avoir un conflit avec l’installation d’un autre programme. Pour plus d’informations, consultez les FAQ sur http://www.niksoftware.com/sep2/faq ou adressez-vous au Service clientèle."
+
+#: ../plugin_common/activation/ActivationException.cpp:69
+#: ../plugin_common/activation/ActivationException.cpp:81
+msgid "No internet connection.  Please check your network settings."
+msgstr "Absence de connexion Internet. Vérifiez vos paramètres réseau."
+
+#: ../plugin_common/activation/ActivationException.cpp:73
+msgid "No internet connection.  Please check your proxy settings."
+msgstr "Absence de connexion Internet. Vérifiez vos paramètres de proxy."
+
+#: ../plugin_common/activation/ActivationException.cpp:77
+msgid "No internet connection.  Please check your firewall settings."
+msgstr "Absence de connexion Internet. Vérifiez les paramètres de votre pare-feu."
+
+#: ../plugin_common/gui/BottomBar.cpp:22
+msgid "HELP"
+msgstr "AIDE"
+
+#: ../plugin_common/gui/BottomBar.cpp:23
+msgid "Visit Silver Efex Pro 2 Help"
+msgstr "Visitez l’Aide de Silver Efex Pro 2"
+
+#: ../plugin_common/gui/BottomBar.cpp:28
+msgid "SETTINGS"
+msgstr "PARAMETRES"
+
+#: ../plugin_common/gui/BottomBar.cpp:29
+msgid "Access the Settings Window"
+msgstr "Accéder à la fenêtre Paramètres"
+
+#: ../plugin_common/gui/BottomBar.cpp:38
+msgid "PREVIOUS"
+msgstr "PRECEDENT"
+
+#: ../plugin_common/gui/BottomBar.cpp:39
+msgid "Click here to edit the previous image"
+msgstr "Cliquez ici pour retoucher l’image précédente"
+
+#: ../plugin_common/gui/BottomBar.cpp:43
+msgid "1 of 42 images"
+msgstr "Image 1 de 42"
+
+#: ../plugin_common/gui/BottomBar.cpp:48
+msgid "NEXT"
+msgstr "SUIVANT"
+
+#: ../plugin_common/gui/BottomBar.cpp:49
+msgid "Click here to edit the next image"
+msgstr "Cliquez ici pour retoucher l’image suivante"
+
+#: ../plugin_common/gui/BottomBar.cpp:65
+#: ../plugin_common/gui/MessageDialog.cpp:99
+#: ../plugin_common/gui/MessageDialog.cpp:103
+#: ../plugin_common/gui/OptionsDialog.cpp:82
+msgid "OK"
+msgstr "OK"
+
+#: ../plugin_common/gui/BottomBar.cpp:66
+msgid "Click to apply the filter"
+msgstr "Cliquez pour appliquer le filtre"
+
+#: ../plugin_common/gui/BottomBar.cpp:68
+#: ../plugin_common/gui/BottomBar.cpp:158
+msgid "SAVE"
+msgstr "ENREGISTRER"
+
+#: ../plugin_common/gui/BottomBar.cpp:69
+#: ../plugin_common/gui/BottomBar.cpp:159
+msgid "Click to save your image"
+msgstr "Cliquez pour enregistrer votre image"
+
+#: ../plugin_common/gui/BottomBar.cpp:76
+#: ../plugin_common/gui/MessageDialog.cpp:100
+#: ../plugin_common/gui/OptionsDialog.cpp:83
+msgid "CANCEL"
+msgstr "ANNULER"
+
+#. TRANSLATORS: please leave Silver Efex Pro 2 in here, its the preliminary name of the program
+#: ../plugin_common/gui/BottomBar.cpp:79
+msgid "Click to exit Silver Efex Pro 2 without applying a filter to the image"
+msgstr "Cliquez ici pour quitter Silver Efex Pro 2 sans appliquer de filtre à l’image"
+
+#. TRANSLATORS: please leave Silver Efex Pro 2 in here, its the preliminary name of the program
+#: ../plugin_common/gui/BottomBar.cpp:82
+msgid "Click to exit Silver Efex Pro 2 without saving your image"
+msgstr "Cliquez pour quitter Silver Efex Pro 2 sans enregistrer votre image"
+
+#: ../plugin_common/gui/BottomBar.cpp:99
+msgid "BRUSH"
+msgstr "PINCEAU"
+
+#: ../plugin_common/gui/BottomBar.cpp:100
+msgid "Click to apply the filter selectively to the image"
+msgstr "Cliquez pour appliquer le filtre de manière sélective à l’image"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program, "e.g.: 2 of 7 images"
+#: ../plugin_common/gui/BottomBar.cpp:142
+msgid "%1 of %2 images"
+msgstr "%1 de %2 images"
+
+#: ../plugin_common/gui/BottomBar.cpp:155
+msgid "SAVE ALL"
+msgstr "ENREGISTRER TOUT"
+
+#: ../plugin_common/gui/BottomBar.cpp:156
+msgid "Click to apply the filter to %* images"
+msgstr "Cliquez pour appliquer le filtre à %* images"
+
+#: ../plugin_common/gui/BusyIndicatorWidget.h:31
+msgid "Calculating"
+msgstr "Calcul"
+
+#: ../plugin_common/gui/MessageDialog.cpp:80
+msgid "Do not show again"
+msgstr "Ne plus afficher"
+
+#: ../plugin_common/gui/MessageDialog.cpp:95
+msgid "Yes"
+msgstr "Oui"
+
+#: ../plugin_common/gui/MessageDialog.cpp:96
+msgid "No"
+msgstr "Non"
+
+#: ../plugin_common/gui/OptionsDialog.cpp:113
+msgid "Settings"
+msgstr "Paramètres"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:94
+msgid "English (US)"
+msgstr "English (US)"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:96
+msgid "English (UK)"
+msgstr "English (UK)"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:98
+msgid "Deutsch"
+msgstr "Deutsch"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:100
+msgid "Francais"
+msgstr "Français"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:102
+msgid "Espanol"
+msgstr "Español"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:104
+msgid "Japanese"
+msgstr "日本語"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:106
+msgid "Italiano"
+msgstr "Italiano"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogAfterOKClickSettingsPage.cpp:37
+msgid "After Clicking OK"
+msgstr "Après avoir cliqué sur OK"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogAfterOKClickSettingsPage.cpp:38
+msgid "apply the filtered effect to the current layer"
+msgstr "appliquer l’effet filtré au calque actuel"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogAfterOKClickSettingsPage.cpp:39
+msgid "apply the filtered effect to a separate layer"
+msgstr "appliquer l’effet filtré à un autre calque"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogAfterOKClickSettingsPage.h:34
+msgid "After clicking OK"
+msgstr "Après avoir cliqué sur OK"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:43
+msgid "Default Language:"
+msgstr "Langue par défaut:"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:53
+msgid "Default Preview Mode:"
+msgstr "Mode d’aperçu par défaut:"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:54
+#: ../plugin_common/gui/TopBar.cpp:102
+msgid "Single image view"
+msgstr "Affichage d’une seule image"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:55
+#: ../plugin_common/gui/TopBar.cpp:103
+msgid "Split preview"
+msgstr "Fractionner l’aperçu"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:56
+#: ../plugin_common/gui/TopBar.cpp:104
+msgid "Side-by-side preview"
+msgstr "Aperçu côte à côte"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:57
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:65
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:75
+msgid "Use Last Settings"
+msgstr "Utiliser les derniers paramètres"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:61
+msgid "Default Background Color:"
+msgstr "Couleur d’arrière-plan par défaut:"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:62
+msgid "White"
+msgstr "Blanc"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:63
+msgid "Gray"
+msgstr "Gris"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:64
+msgid "Black"
+msgstr "Noir"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:69
+msgid "Default Zoom State:"
+msgstr "Etat du zoom par défaut:"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.h:35
+msgid "Interface Settings"
+msgstr "Paramètres de l’interface"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGPUSettingsPage.cpp:39
+msgid "Enable GPU processing"
+msgstr "Activer le traitement GPU"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGPUSettingsPage.cpp:41
+msgid "Click to use your graphics card to help process your image"
+msgstr "Cliquez pour faciliter le traitement de l’image en sollicitant la carte graphique"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGPUSettingsPage.cpp:46
+msgid "The available graphics card does not meet the requirements and therefore has been disabled. Silver Efex Pro 2 will process the images using the CPU."
+msgstr "La carte graphique disponible ne possède pas la configuration requise et a donc été désactivée. Silver Efex Pro 2 va traiter les images en utilisant l’unité centrale."
+
+#. TRANSLATORS: this is the caption for the Settings Dialog Page in which to enable/disable the use of the GPU option.
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGPUSettingsPage.h:34
+msgid "GPU"
+msgstr "GPU"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:35
+msgid "Check for updates now"
+msgstr "Rechercher les mises à jour maintenant"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:37
+msgid "Click to check for updates now"
+msgstr "Cliquez pour rechercher les mises à jour maintenant"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:47
+msgid "Software Update Interval:"
+msgstr "Intervalle de mise à jour du logiciel:"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:61
+msgid "Checking for updates"
+msgstr "Recherche des mises à jour"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:72
+msgid "Updates found"
+msgstr "Mises à jour trouvées"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:75
+msgid "No updates available"
+msgstr "Aucune mise à jour disponible"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:107
+msgid "Software Update Settings"
+msgstr "Paramètres de mise à jour du logiciel"
+
+#: ../plugin_common/gui/PluginTwirlerButton.cpp:52
+msgid "Toggle the effect of the section."
+msgstr "Basculer l’effet de la section."
+
+#: ../plugin_common/gui/PluginTwirlerButton.cpp:53
+msgid "Reset all settings in this section to their defaults"
+msgstr "Réinitialiser tous les paramètres de cette section à leurs valeurs par défaut"
+
+#: ../plugin_common/gui/SplashScreenBottom.cpp:72
+msgid "Version: "
+msgstr "Version: "
+
+#: ../plugin_common/gui/SplashScreenBottom.cpp:72
+msgid "Revision: "
+msgstr "Révision: "
+
+#: ../plugin_common/gui/SplashScreenBottom.cpp:73
+msgid ""
+"© 2000-2013 Google. All rights reserved."
+msgstr ""
+"© 2000-2013 Google. Tous droits réservés."
+
+#: ../plugin_common/gui/SplashScreenBottom.cpp:75
+msgid "Protected by one or more US Patents. 6,728,421; 6,865,300; 7,031,547; 7,602,968; 7,602,991 and other patents pending"
+msgstr "Protégé par un ou plusieurs brevets américains. 6,728,421; 6,865,300; 7,031,547; 7,602,968; 7,602,991 et autres brevets en attente"
+
+#: ../plugin_common/gui/SplashScreenBottom.cpp:77
+msgid "Splash Screen Credits"
+msgstr "Daniel Fenner, Daniela Barten, Nils Kokemohr, Hendrik Janz, Carsten Schiemann, Nils Krückemeier, Thorsten Kraack, Thomas Schweitzer, Şükriye Das, Martin Böhme, Sönke Ludwig, Bogdan Graur, Meikel Steiding, Jens Denger, Jerlyn Jareunpoon, Denis Rice, Detlef Raddatz, Iulian Cioacá, Andreea Balan, Marian Melinte, Simone Henseler-Wilczek, Erzsebet Nyiri, Vivek Verma, Meike Bendel, Frank Schröter, André Hesse, Dirk Kaeding, Tiberiu Arhire, Christian Pesch, Nagarajan Thulasiraman, Bhuvana Vijayan, Sebastian Stan, Kevin Young, Josh Haftel"
+
+#: ../plugin_common/gui/SplashScreenBottom.cpp:77
+msgid "and many more"
+msgstr "et beaucoup d’autres"
+
+#: ../plugin_common/gui/SplashScreenDialogController.cpp:70
+msgid "The installation encountered a problem, please try to reinstall."
+msgstr "L’installation a rencontré un problème, essayez de réinstaller."
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:33
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:105
+msgid "Product Key: "
+msgstr "Clé du produit: "
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:36
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:80
+msgid "Enter your Product Key"
+msgstr "Entrez votre clé de produit"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:39
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:81
+msgid "Name"
+msgstr "Nom"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:41
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:82
+msgid "Enter your name"
+msgstr "Entrez votre nom"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:45
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:93
+msgid "Press to activate"
+msgstr "Appuyez pour activer"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:47
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:99
+msgid "Activate by Phone"
+msgstr "Activer par téléphone"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:49
+msgid "Switch to phone activation"
+msgstr "Basculer vers l’activation par téléphone"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:51
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:95
+msgid "Activate by Internet"
+msgstr "Activer par Internet"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:85
+msgid "Phone Activation Code"
+msgstr "Code d’activation par téléphone"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:86
+msgid "Enter the code you received from Customer Service."
+msgstr "Entrez le code que vous avez reçu du service clientèle."
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:97
+msgid "Switch to internet activation"
+msgstr "Basculer vers l’activation par Internet"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:109
+msgid "EU: +49-40-471135-0"
+msgstr "UE : +49-40-471135-0"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:114
+msgid "USA: +1-619-725-3150"
+msgstr "USA: +1-619-725-3150"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:119
+msgid "Mo-Fr 9:00 AM - 5:00 PM (CET)"
+msgstr "Lu-Ve 09:00 - 17:00 (CET)"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:123
+msgid "M-F 8:30 AM - 5:00 PM (PST)"
+msgstr "L-V 08:30 - 17:00 (PST)"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:129
+msgid "Outside of the EU and the USA please visit: http://www.niksoftware.com/internationalsupport"
+msgstr "Hors de l’Union Européenne et des Etats-Unis, visitez http://www.niksoftware.com/internationalsupport"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:243
+msgid "Installation ID: "
+msgstr "ID d’installation: "
+
+#. TRANSLATORS: Splashscreen: This is the label shown in front of the product key when the product is activated already.
+#: ../plugin_common/gui/SplashScreenMiddleActive.cpp:30
+msgid "ProductKey.Show"
+msgstr "Clé du produit: "
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/gui/SplashScreenTop.cpp:109
+msgid "You have %1 day of your trial remaining."
+msgid_plural "You have %1 days trial left."
+msgstr[0] "Vous disposez encore de %1 jour d’essai."
+msgstr[1] "Vous disposez encore de %1 jours d’essai."
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:114
+msgid "Your trial has expired."
+msgstr "Votre période d’essai est arrivée à son terme."
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/gui/SplashScreenTop.cpp:120
+msgid "%1, thank you for choosing %2."
+msgstr "%1, vous remercie d’avoir choisi %2."
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:135
+msgid "Buy"
+msgstr "Acheter"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:136
+msgid "Press to visit Google"
+msgstr "Appuyez pour visiter Google"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:180
+msgid "Exit"
+msgstr "Quitter"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:181
+msgid "Closes the plugin"
+msgstr "Ferme le plug-in"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:183
+msgid "Close"
+msgstr "Fermer"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:184
+#: ../plugin_common/gui/SplashScreenTop.cpp:187
+msgid "Closes the splash screen"
+msgstr "Fermer l’écran d’ouverture"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:186
+msgid "Demo"
+msgstr "Démo"
+
+#: ../plugin_common/gui/TopBar.cpp:87
+msgid "Show Image Only"
+msgstr "Afficher l’image seule"
+
+#: ../plugin_common/gui/TopBar.cpp:88
+msgid "Show Preset Browser"
+msgstr "Afficher le navigateur de types"
+
+#: ../plugin_common/gui/TopBar.cpp:89
+msgid "Show History Browser"
+msgstr "Afficher le navigateur d’historique"
+
+#: ../plugin_common/gui/TopBar.cpp:115
+msgid "Compare"
+msgstr "Comparer"
+
+#: ../plugin_common/gui/TopBar.cpp:116
+msgid "Show image with former settings"
+msgstr "Afficher l’image avec les paramètres précédents"
+
+#: ../plugin_common/gui/TopBar.cpp:121
+msgid "Hide or view adjustment panels (Tab Key)"
+msgstr "Masquer ou afficher les panneaux de réglage (touche Tab)"
+
+#: ../plugin_common/gui/TopBar.cpp:126
+msgid "Change background color"
+msgstr "Changer la couleur d’arrière-plan"
+
+#: ../plugin_common/gui/TopBar.cpp:133
+msgid "Click to toggle between Zoom and Fit To Screen (Space)"
+msgstr "Cliquez pour basculer entre Zoom et Ajuster à l’écran (Espace)"
+
+#: ../plugin_common/gui/TopBar.cpp:133
+msgid "Click to select a zoom percentage"
+msgstr "Cliquez pour sélectionner un pourcentage de zoom"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:332
+#: ../plugin_common/stylebrowser/PresetData.cpp:470
+#: ../plugin_common/stylebrowser/PresetData.cpp:471
+#: ../plugin_common/stylebrowser/PresetData.cpp:493
+msgid "Favorites"
+msgstr "Favoris"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:358
+msgid "Select %* Category"
+msgstr "Sélectionnez la catégorie %*"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:522
+msgid "Preset Categories"
+msgstr "Catégories de types"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:552
+msgid "Select Category"
+msgstr "Sélectionnez la catégorie"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:555
+msgid "Import"
+msgstr "Importer"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:556
+msgid "Click to import a preset"
+msgstr "Cliquez pour importer un type"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:557
+msgid "Add Preset"
+msgstr "Ajouter un type"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:558
+msgid "Click to add a new preset"
+msgstr "Cliquez pour ajouter un nouveau type"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:576
+msgid "Click to reset tags"
+msgstr "Cliquez pour réinitialiser les balises"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:781
+msgid "Custom Preset"
+msgstr "Type personnalisé"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:782
+msgid "Please enter a preset name"
+msgstr "Entrez un nom de type"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:870
+msgid "All Presets (%*)"
+msgstr "Tous les types (%*)"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:873
+msgid "Search Results (%*)"
+msgstr "Résultats de la recherche (%*)"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:899
+msgid "Apply Preset %*"
+msgstr "Appliquer le type %*"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1070
+msgid "Custom Presets"
+msgstr "Types personnalisés"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1097
+msgid "Apply Custom Preset %*"
+msgstr "Appliquer le type personnalisé %*"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1146
+msgid "Imported Presets"
+msgstr "Types importés"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1167
+msgid "Apply Imported Preset %*"
+msgstr "Appliquer le type importé %*"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1327
+msgid "Presets"
+msgstr "Types"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1502
+msgid "Preset can not be imported. Wrong file format."
+msgstr "Impossible d’importer le type. Format de fichier incorrect."
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1536
+msgid "Are you sure you want to replace this preset?"
+msgstr "Voulez-vous vraiment remplacer ce type ?"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1645
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1682
+msgid "Are you sure you want to delete this preset?"
+msgstr "Voulez-vous vraiment supprimer ce type ?"
+
+#: ../plugin_common/stylebrowser/PresetImageOverlay.cpp:37
+msgid "Click to update this preset with the current settings"
+msgstr "Cliquez pour mettre à jour ce type avec les paramètres actuels"
+
+#: ../plugin_common/stylebrowser/PresetImageOverlay.cpp:47
+msgid "Click to delete this preset"
+msgstr "Cliquez pour supprimer ce type"
+
+#: ../plugin_common/stylebrowser/PresetImageOverlay.cpp:56
+msgid "Click to export this preset"
+msgstr "Cliquez pour exporter ce type"
+
+#: ../plugin_common/stylebrowser/PresetImageWidget.cpp:223
+msgid "Add to Favorites"
+msgstr "Ajouter aux favoris"
+
+#: ../plugin_common/updater/UpdateManager.h:34
+msgid "Daily"
+msgstr "Chaque jour"
+
+#: ../plugin_common/updater/UpdateManager.h:35
+msgid "Weekly"
+msgstr "Chaque semaine"
+
+#: ../plugin_common/updater/UpdateManager.h:36
+msgid "Monthly"
+msgstr "Chaque mois"
+
+#: ../plugin_common/updater/UpdateManager.h:37
+msgid "Never"
+msgstr "Jamais"
+
+#: ../plugin_common/updater/UpdateNotificationDialog.cpp:9
+msgid "SOFTWARE UPDATES"
+msgstr "MISES A JOUR DU LOGICIEL"
+
+#: ../plugin_common/updater/UpdateNotificationDialog.cpp:10
+msgid "Click OK to visit the update page"
+msgstr "Cliquez sur OK pour visiter la page de mise à jour"
+
+#: ../stdlib/src/nik/guiext/LevelAndCurvesWidget.cpp:510
+msgid "Adjust the shadows"
+msgstr "Régler les tons foncés"
+
+#: ../stdlib/src/nik/guiext/LevelAndCurvesWidget.cpp:512
+msgid "Adjust the midtones"
+msgstr "Régler les tons moyens"
+
+#: ../stdlib/src/nik/guiext/LevelAndCurvesWidget.cpp:514
+msgid "Adjust the highlights"
+msgstr "Régler les tons clairs"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../stdlib/src/nik/guiext/ZoomAndPanControl.cpp:105
+#: ../stdlib/src/nik/guiext/ZoomAndPanControl.cpp:124
+#: ../stdlib/src/nik/guiext/ZoomAndPanControl.cpp:219
+msgid "Zoom (%*)"
+msgstr "Zoom (%*)"
+
+#: ../stdlib/src/nik/updater/win/UpdaterWin.cpp:84
+#: ../stdlib/src/nik/updater/win/UpdaterWin.cpp:93
+msgid "Updater"
+msgstr "Programme de mise à jour"
+
+#: ../stdlib/src/nik/updater/win/UpdaterWin.cpp:84
+msgid ""
+"A new update is available!\n"
+" Do you want to install it now?\n"
+" In order to install the update Pyro needs to be restarted."
+msgstr ""
+"Une nouvelle mise à jour est disponible !\n"
+" Voulez-vous l’installer maintenant ?\n"
+" Pour installer la mise à jour, Pyro doit être redémarré."
+
+#: ../stdlib/src/nik/updater/win/UpdaterWin.cpp:93
+msgid "You're up to date!"
+msgstr "Vous êtes à jour !"
+
+#~ msgid "No file name provided"
+#~ msgstr "Aucun nom de fichier fourni"
+
+#~ msgid "Directory to save to does not exist."
+#~ msgstr "Le répertoire d’enregistrement n’existe pas."
+
+#~ msgid "Another instance of %1 is already running. Clicking OK will close the application."
+#~ msgstr "Une autre instance de %1 est déjà en cours d’exécution. En cliquant sur OK, vous fermez l’application. "
+
+#~ msgid "Loading Image"
+#~ msgstr "Chargement de l’image"
+
+#~ msgid "This image file is not supported."
+#~ msgstr "Ce fichier d’image n’est pas pris en charge."
+
+#~ msgid "Save Image as..."
+#~ msgstr "Enregistrer l’image sous..."
+
+#~ msgid "Done"
+#~ msgstr "Terminé"
+
+#~ msgid "Reset Edits"
+#~ msgstr "Réinitialiser les modifications"
+
+#~ msgid "Another instance of %1 is already running. Clicking OK will close application."
+#~ msgstr "Une autre instance de %1 est déjà en cours d’exécution. En cliquant sur OK, vous fermez l’application."
+
+#~ msgid "035 Antique Plate"
+#~ msgstr "035 Ancienne plaque"
+
+#~ msgid "036 Pinhole"
+#~ msgstr "036 Trou d’épingle"
+
+#~ msgid "Default"
+#~ msgstr "Par défaut"
+
+#~ msgid "Silver Efex Pro 2 is already activated with this product key, however the host application does not match."
+#~ msgstr "Silver Efex Pro 2 est déjà activé avec cette clé de produit, mais l’application hôte ne correspond pas."
+
+#~ msgid "English"
+#~ msgstr "English"
+
+#~ msgid "Duplicate"
+#~ msgstr "Dupliquer"
+
+#~ msgid "Delete"
+#~ msgstr "Supprimer"
+
+#~ msgid "STYLES"
+#~ msgstr "STYLES"
+
+#~ msgid "Style"
+#~ msgstr "Style"
+
+#~ msgid "Image Borders Preset"
+#~ msgstr "Type Bords de l’image"
+
+#~ msgid "Contrast and Grain Dummy"
+#~ msgstr "Factice Contraste et grain"
+
+#~ msgid "Toned Vignette Dummy"
+#~ msgstr "Factice Vignette teintée"
+
+#~ msgid "Image Borders Dummy"
+#~ msgstr "Factice Bords de l’image"
+
+#~ msgid "Stylistic Borders Dummy"
+#~ msgstr "Factice Bords stylistiques"
+
+#~ msgid "Burn Edges Blue"
+#~ msgstr "Bleu Brûler les bordures"
+
+#~ msgid "Structure Dummy"
+#~ msgstr "Factice Structure"
+
+#~ msgid "Classical"
+#~ msgstr "Classique"
+
+#~ msgid "Stylized"
+#~ msgstr "Stylisé"
+
+#~ msgid "Show Style Browser"
+#~ msgstr "Afficher le navigateur de styles"
+
+#~ msgid "Style Categories"
+#~ msgstr "Catégories de styles"
+
+#~ msgid "Click to import a style"
+#~ msgstr "Cliquez pour importer un style"
+
+#~ msgid "Add Style"
+#~ msgstr "Ajouter un style"
+
+#~ msgid "Click to add a new style"
+#~ msgstr "Cliquez pour ajouter un nouveau style"
+
+#~ msgid "All Styles (%*)"
+#~ msgstr "Tous les styles (%*)"
+
+#~ msgid "Apply Style %*"
+#~ msgstr "Appliquer le style %*"
+
+#~ msgid "Custom Styles"
+#~ msgstr "Styles personnalisés"
+
+#~ msgid "Imported Styles"
+#~ msgstr "Styles importés"
+
+#~ msgid "Styles"
+#~ msgstr "Styles"
+
+msgid "Acknowledgments"
+msgstr "Remerciements"

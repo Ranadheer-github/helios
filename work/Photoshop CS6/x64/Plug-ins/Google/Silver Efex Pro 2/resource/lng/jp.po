@@ -1,0 +1,2110 @@
+# Japanese translations for PACKAGE package.
+# Copyright (C) 2010 2010 Google. All rights reserved.
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Leonis 1.0\n"
+"Report-Msgid-Bugs-To: dbarten@niksoftware.com\n"
+"POT-Creation-Date: 2012-08-15 08:32+0200\n"
+"PO-Revision-Date: 2011-02-03 16:54+0900\n"
+"Last-Translator: \n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../src/fgraph/Model.cpp:55 ../src/fgraph/Model.cpp:145
+msgid "Brightness"
+msgstr "明るさ"
+
+#: ../src/fgraph/Model.cpp:56 ../src/fgraph/Model.cpp:65
+#: ../src/fgraph/Model.cpp:70
+msgid "Highlights"
+msgstr "ハイライト"
+
+#: ../src/fgraph/Model.cpp:56
+msgid "Brightness (Highlights)"
+msgstr "明るさ（ハイライト）"
+
+#: ../src/fgraph/Model.cpp:57 ../src/fgraph/Model.cpp:66
+msgid "Midtones"
+msgstr "中間調"
+
+#: ../src/fgraph/Model.cpp:57
+msgid "Brightness (Midtones)"
+msgstr "明るさ（中間調）"
+
+#: ../src/fgraph/Model.cpp:58 ../src/fgraph/Model.cpp:67
+#: ../src/fgraph/Model.cpp:69
+msgid "Shadows"
+msgstr "シャドウ"
+
+#: ../src/fgraph/Model.cpp:58
+msgid "Brightness (Shadows)"
+msgstr "明るさ（シャドウ）"
+
+#: ../src/fgraph/Model.cpp:59
+msgid "Dynamic Brightness"
+msgstr "ダイナミック"
+
+#: ../src/fgraph/Model.cpp:60 ../src/fgraph/Model.cpp:147
+msgid "Contrast"
+msgstr "コントラスト"
+
+#: ../src/fgraph/Model.cpp:61
+msgid "Soft Contrast"
+msgstr "ソフトコントラスト"
+
+#: ../src/fgraph/Model.cpp:62 ../src/fgraph/Model.cpp:151
+msgid "Amplify Whites"
+msgstr "アンプリファイホワイト"
+
+#: ../src/fgraph/Model.cpp:63 ../src/fgraph/Model.cpp:153
+msgid "Amplify Blacks"
+msgstr "アンプリファイブラック"
+
+#: ../src/fgraph/Model.cpp:64 ../src/fgraph/Model.cpp:149
+msgid "Structure"
+msgstr "ストラクチャ"
+
+#: ../src/fgraph/Model.cpp:65
+msgid "Structure (Highlights)"
+msgstr "ストラクチャ（ハイライト）"
+
+#: ../src/fgraph/Model.cpp:66
+msgid "Structure (Midtones)"
+msgstr "ストラクチャ（中間調）"
+
+#: ../src/fgraph/Model.cpp:67
+msgid "Structure (Shadows)"
+msgstr "ストラクチャ（シャドウ）"
+
+#: ../src/fgraph/Model.cpp:68 ../src/fgraph/Model.cpp:155
+msgid "Fine Structure"
+msgstr "ファインストラクチャ"
+
+#: ../src/fgraph/Model.cpp:69
+msgid "Shadow Protection"
+msgstr "シャドウプロテクト"
+
+#: ../src/fgraph/Model.cpp:70
+msgid "Highlight Protection"
+msgstr "ハイライトプロテクト"
+
+#: ../src/fgraph/Model.cpp:71
+msgid "Hue"
+msgstr "色相"
+
+#: ../src/fgraph/Model.cpp:71
+msgid "Color Filter Hue"
+msgstr "カラーフィルタ色相"
+
+#: ../src/fgraph/Model.cpp:72 ../src/fgraph/Model.cpp:89
+#: ../src/fgraph/Model.cpp:90 ../src/fgraph/Model.cpp:91
+#: ../src/fgraph/Model.cpp:92 ../src/fgraph/Model.cpp:93
+msgid "Strength"
+msgstr "適用量"
+
+#: ../src/fgraph/Model.cpp:72
+msgid "Color Filter Strength"
+msgstr "カラーフィルタ適用量"
+
+#: ../src/fgraph/Model.cpp:73 ../src/gui/ColorFilterPanel.cpp:229
+msgid "Red"
+msgstr "レッド"
+
+#: ../src/fgraph/Model.cpp:73
+msgid "Film Sensitivity (Red)"
+msgstr "フィルム感度（レッド）"
+
+#: ../src/fgraph/Model.cpp:74 ../src/gui/ColorFilterPanel.cpp:239
+msgid "Yellow"
+msgstr "イエロー"
+
+#: ../src/fgraph/Model.cpp:74
+msgid "Film Sensitivity (Yellow)"
+msgstr "フィルム感度（イエロー）"
+
+#: ../src/fgraph/Model.cpp:75 ../src/gui/ColorFilterPanel.cpp:244
+msgid "Green"
+msgstr "グリーン"
+
+#: ../src/fgraph/Model.cpp:75
+msgid "Film Sensitivity (Green)"
+msgstr "フィルム感度（グリーン）"
+
+#: ../src/fgraph/Model.cpp:76
+msgid "Cyan"
+msgstr "シアン"
+
+#: ../src/fgraph/Model.cpp:76
+msgid "Film Sensitivity (Cyan)"
+msgstr "フィルム感度（シアン）"
+
+#: ../src/fgraph/Model.cpp:77 ../src/gui/ColorFilterPanel.cpp:249
+msgid "Blue"
+msgstr "ブルー"
+
+#: ../src/fgraph/Model.cpp:77
+msgid "Film Sensitivity (Blue)"
+msgstr "フィルム感度（ブルー）"
+
+#: ../src/fgraph/Model.cpp:78
+msgid "Violet"
+msgstr "バイオレット"
+
+#: ../src/fgraph/Model.cpp:78
+msgid "Film Sensitivity (Violet)"
+msgstr "フィルム感度（バイオレット）"
+
+#: ../src/fgraph/Model.cpp:79
+msgid "Amount"
+msgstr "適用量"
+
+#: ../src/fgraph/Model.cpp:79
+msgid "Vignette Amount"
+msgstr "ヴィネット量"
+
+#: ../src/fgraph/Model.cpp:80
+msgid "Circle"
+msgstr "円形"
+
+#: ../src/fgraph/Model.cpp:80
+msgid "Vignette Shape"
+msgstr "ヴィネットの形"
+
+#. TRANSLATORS: The string "Size" is what is displayed in the history
+#. browser when the size / diameter of a control point is changed.
+#: ../src/fgraph/Model.cpp:81 ../src/fgraph/Model.cpp:94
+#: ../src/fgraph/Model.cpp:95 ../src/fgraph/Model.cpp:96
+#: ../src/fgraph/Model.cpp:97 ../src/fgraph/Model.cpp:102
+#: ../src/fgraph/Model.cpp:143
+msgid "Size"
+msgstr "サイズ"
+
+#: ../src/fgraph/Model.cpp:81
+msgid "Vignette Size"
+msgstr "ヴィネットサイズ"
+
+#: ../src/fgraph/Model.cpp:82
+msgid "Grain per pixel"
+msgstr "粒状性"
+
+#: ../src/fgraph/Model.cpp:83
+msgid "Soft"
+msgstr "ソフト"
+
+#: ../src/fgraph/Model.cpp:83
+msgid "Grain Hardness"
+msgstr "ハード"
+
+#: ../src/fgraph/Model.cpp:84
+msgid "Silver Hue"
+msgstr "感色性"
+
+#: ../src/fgraph/Model.cpp:85
+msgid "Paper Hue"
+msgstr "用紙色"
+
+#: ../src/fgraph/Model.cpp:86
+msgid "Balance"
+msgstr "バランス"
+
+#: ../src/fgraph/Model.cpp:86
+msgid "Toning Balance"
+msgstr "トーニングバランス"
+
+#: ../src/fgraph/Model.cpp:87
+msgid "Silver Toning"
+msgstr "シルバートーニング"
+
+#: ../src/fgraph/Model.cpp:88
+msgid "Paper Toning"
+msgstr "用紙トーニング"
+
+#: ../src/fgraph/Model.cpp:89
+msgid "Toning Strength"
+msgstr "トーニング適用量"
+
+#: ../src/fgraph/Model.cpp:90
+msgid "Burn Edges Strength (Left)"
+msgstr "周囲焼き込み適用量（左）"
+
+#: ../src/fgraph/Model.cpp:91
+msgid "Burn Edges Strength (Right)"
+msgstr "周囲焼き込み適用量（右）"
+
+#: ../src/fgraph/Model.cpp:92
+msgid "Burn Edges Strength (Top)"
+msgstr "周囲焼き込み適用量（上）"
+
+#: ../src/fgraph/Model.cpp:93
+msgid "Burn Edges Strength (Bottom)"
+msgstr "周囲焼き込み適用量（下）"
+
+#: ../src/fgraph/Model.cpp:94
+msgid "Burn Edges Size (Left)"
+msgstr "周囲焼き込みサイズ（左）"
+
+#: ../src/fgraph/Model.cpp:95
+msgid "Burn Edges Size (Right)"
+msgstr "周囲焼き込みサイズ（右）"
+
+#: ../src/fgraph/Model.cpp:96
+msgid "Burn Edges Size (Top)"
+msgstr "周囲焼き込みサイズ（上）"
+
+#: ../src/fgraph/Model.cpp:97
+msgid "Burn Edges Size (Bottom)"
+msgstr "周囲焼き込みサイズ（下）"
+
+#: ../src/fgraph/Model.cpp:98 ../src/fgraph/Model.cpp:99
+#: ../src/fgraph/Model.cpp:100 ../src/fgraph/Model.cpp:101
+msgid "Transition"
+msgstr "ぼけ幅"
+
+#: ../src/fgraph/Model.cpp:98
+msgid "Burn Edges Transition (Left)"
+msgstr "周囲焼き込みぼけ幅（左）"
+
+#: ../src/fgraph/Model.cpp:99
+msgid "Burn Edges Transition (Right)"
+msgstr "周囲焼き込みぼけ幅（右）"
+
+#: ../src/fgraph/Model.cpp:100
+msgid "Burn Edges Transition (Top)"
+msgstr "周囲焼き込みぼけ幅（上）"
+
+#: ../src/fgraph/Model.cpp:101
+msgid "Burn Edges Transition (Bottom)"
+msgstr "周囲焼き込みぼけ幅（下）"
+
+#: ../src/fgraph/Model.cpp:102
+msgid "Border Size"
+msgstr "フレームサイズ"
+
+#: ../src/fgraph/Model.cpp:103
+msgid "Spread"
+msgstr "フレーム幅"
+
+#: ../src/fgraph/Model.cpp:103
+msgid "Border Spread"
+msgstr "フレーム幅"
+
+#. TRANSLATORS: this is a string for the left hand side of a "Grunge" slider for the image borders (Clean..Rough)
+#: ../src/fgraph/Model.cpp:105
+msgid "Clean"
+msgstr "なめらか"
+
+#: ../src/fgraph/Model.cpp:105
+msgid "Border Roughness"
+msgstr "ラフ"
+
+#. TRANSLATORS: The abbreviation "Br" stands for "Brightness".
+#: ../src/fgraph/Model.cpp:145
+msgid "Br"
+msgstr "Br"
+
+#. TRANSLATORS: The abbreviation "Co" stands for "Contrast".
+#: ../src/fgraph/Model.cpp:147
+msgid "Co"
+msgstr "Co"
+
+#. TRANSLATORS: The abbreviation "St" stands for "Structure".
+#: ../src/fgraph/Model.cpp:149
+msgid "St"
+msgstr "St"
+
+#. TRANSLATORS: The abbreviation "AW" stands for "Amplify Whites".
+#: ../src/fgraph/Model.cpp:151
+msgid "AW"
+msgstr "AW"
+
+#. TRANSLATORS: The abbreviation "AB" stands for "Amplify Blacks".
+#: ../src/fgraph/Model.cpp:153
+msgid "AB"
+msgstr "AB"
+
+#. TRANSLATORS: The abbreviation "FS" stands for "Fine Structure".
+#: ../src/fgraph/Model.cpp:155
+msgid "FS"
+msgstr "FS"
+
+#. TRANSLATORS: The abbreviation "SCl" stands for "Selective Colorization".
+#: ../src/fgraph/Model.cpp:157
+msgid "SC"
+msgstr "SC"
+
+#: ../src/fgraph/Model.cpp:157
+msgid "Selective Colorization"
+msgstr "部分カラー化"
+
+#: ../src/fgraph/Model.cpp:206 ../src/gui/LeonisApplication.cpp:1925
+#: ../src/preset_translations.cpp:3
+#: ../host_integration/photoshop/common/LeonisApplicationPhotoshop.cpp:63
+msgid "000 Neutral"
+msgstr "000 ニュートラル"
+
+#: ../src/fgraph/Model.cpp:828
+msgid "TONE CURVE"
+msgstr "トーンカーブ"
+
+#: ../src/fgraph/Model.cpp:828
+msgid "Adjust curve"
+msgstr "カーブ調整"
+
+#: ../src/gui/ColorFilterPanel.cpp:37
+msgid "Details"
+msgstr "詳細"
+
+#: ../src/gui/ColorFilterPanel.cpp:104 ../src/gui/ColorFilterPanel.cpp:218
+#: ../src/gui/LeonisSidePanel.cpp:192 ../src/gui/LeonisSidePanel.cpp:587
+#: ../src/gui/LeonisSidePanel.cpp:835
+msgid "COLOR FILTER"
+msgstr "カラーフィルタ"
+
+#: ../src/gui/ColorFilterPanel.cpp:218
+msgid "Filter"
+msgstr "フィルタ"
+
+#: ../src/gui/ColorFilterPanel.cpp:225 ../src/gui/FilmTypesPanel.cpp:163
+#: ../src/gui/StylizingPanel.cpp:212
+msgid "Neutral"
+msgstr "ニュートラル"
+
+#: ../src/gui/ColorFilterPanel.cpp:234
+msgid "Orange"
+msgstr "オレンジ"
+
+#. TRANSLATORS: "Move" is an action that is carried out on items
+#: ../src/gui/ControlPointCommands.cpp:171
+msgid "Move"
+msgstr "移動"
+
+#: ../src/gui/ControlPointListWidget.cpp:49
+msgid "Show / hide selection of Control Point"
+msgstr "コントロールポイントの選択範囲を表示/非表示"
+
+#: ../src/gui/ControlPointListWidget.cpp:50
+msgid "Show / hide effect of Control Point"
+msgstr "コントロールポイントの効果を表示/非表示"
+
+#: ../src/gui/ControlPointListWidget.cpp:138
+msgid "Control Points"
+msgstr "コントロールポイント"
+
+#: ../src/gui/ControlPointListWidget.cpp:188
+msgid "Add a Control Point to the image"
+msgstr "コントロールポイントを画像内に追加"
+
+#: ../src/gui/ControlPointListWidget.cpp:190
+msgid "Add Control Point"
+msgstr "コントロールポイントの追加"
+
+#: ../src/gui/ControlPointListWidget.cpp:229
+msgid "Show / hide selection for all Control Points"
+msgstr "すべてのコントロールポイントの選択範囲を表示/非表示"
+
+#: ../src/gui/ControlPointListWidget.cpp:250
+msgid "Click to group the selected Control Points"
+msgstr "クリックして選択したコントロールポイントをグループ化"
+
+#: ../src/gui/ControlPointListWidget.cpp:251
+msgid "Click to ungroup Control Points"
+msgstr "クリックしてコントロールポイントのグループ解除"
+
+#: ../src/gui/ControlPointListWidget.cpp:252
+msgid "Click to duplicate Control Points"
+msgstr "クリックしてコントロールポイントを複製"
+
+#: ../src/gui/ControlPointListWidget.cpp:253
+msgid "Click to delete all selected Control Points"
+msgstr "クリックして選択したコントロールポイントを削除"
+
+#. TRANSLATORS: The string "Activate" appears in the history browser
+#. when a control point is activated
+#: ../src/gui/ControlPointListWidget.cpp:376
+#: ../src/gui/LeonisSidePanel.cpp:387
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:43
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:91
+msgid "Activate"
+msgstr "起動"
+
+#. TRANSLATORS: The string "Deactivate" appears in the history browser
+#. when a control point is deactivated
+#: ../src/gui/ControlPointListWidget.cpp:380
+#: ../src/gui/LeonisSidePanel.cpp:387
+msgid "Deactivate"
+msgstr "終了"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc. as they are because they
+#. are needed by the program.
+#: ../src/gui/ControlPointNamer.cpp:47 ../src/gui/ControlPointNamer.cpp:108
+msgid "Control Point %*"
+msgid_plural "Control Points %*"
+msgstr[0] "コントロールポイント %*"
+msgstr[1] "コントロールポイント %*"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc. as they are because they
+#. are needed by the program.
+#. TRANSLATORS: The "%*" will be replaced by a list of items to
+#. group (e.g. "Control Points 1, 2"). Please put a "%*" at the
+#. appropriate place in your translation.
+#: ../src/gui/ControlPointNamer.cpp:54 ../src/gui/ControlPointNamer.cpp:117
+#: ../src/gui/UndoControlPointOverlay.cpp:150
+msgid "Group %*"
+msgid_plural "Groups %*"
+msgstr[0] "グループ %*"
+msgstr[1] "グループ %*"
+
+#: ../src/gui/FilmTypesPanel.cpp:30
+msgid "Grain"
+msgstr "ざらつき"
+
+#: ../src/gui/FilmTypesPanel.cpp:33
+msgid "Sensitivity"
+msgstr "感度"
+
+#: ../src/gui/FilmTypesPanel.cpp:36
+msgid "Levels and Curves"
+msgstr "トーンカーブ"
+
+#: ../src/gui/FilmTypesPanel.cpp:109 ../src/gui/FilmTypesPanel.cpp:160
+#: ../src/gui/LeonisSidePanel.cpp:195 ../src/gui/LeonisSidePanel.cpp:632
+#: ../src/gui/LeonisSidePanel.cpp:844
+msgid "FILM TYPES"
+msgstr "フィルムタイプ"
+
+#: ../src/gui/FilmTypesPanel.cpp:140
+msgid "Hard"
+msgstr "ハード"
+
+#: ../src/gui/FilmTypesPanel.cpp:160 ../src/gui/LeonisApplication.cpp:1925
+#: ../host_integration/photoshop/common/LeonisApplicationPhotoshop.cpp:63
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1441
+msgid "Preset"
+msgstr "プリセット"
+
+#: ../src/gui/FilmTypesPanel.cpp:164
+msgid "Kodak ISO 32 Panatomic X"
+msgstr "コダック ISO 32 Panatomic X"
+
+#: ../src/gui/FilmTypesPanel.cpp:164
+msgid "ISO 32"
+msgstr "ISO 32"
+
+#: ../src/gui/FilmTypesPanel.cpp:165
+msgid "Ilford PAN F Plus 50"
+msgstr "イルフォード PAN F Plus 50"
+
+#: ../src/gui/FilmTypesPanel.cpp:165
+msgid "ISO 50"
+msgstr "ISO 50"
+
+#: ../src/gui/FilmTypesPanel.cpp:166
+msgid "Agfa APX Pro 100"
+msgstr "アグファ APX Pro 100"
+
+#: ../src/gui/FilmTypesPanel.cpp:166
+msgid "ISO 100"
+msgstr "ISO 100"
+
+#: ../src/gui/FilmTypesPanel.cpp:167
+msgid "Fuji Neopan ACROS 100"
+msgstr "フジ ネオパン ACROS 100"
+
+#: ../src/gui/FilmTypesPanel.cpp:168
+msgid "Ilford Delta 100 Pro"
+msgstr "イルフォード Delta 100 Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:169
+msgid "Kodak 100 TMAX Pro"
+msgstr "コダック 100 TMAX Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:170
+msgid "Ilford FP4 Plus 125"
+msgstr "イルフォード FP4 Plus 125"
+
+#: ../src/gui/FilmTypesPanel.cpp:170
+msgid "ISO 125"
+msgstr "ISO 125"
+
+#: ../src/gui/FilmTypesPanel.cpp:171
+msgid "Kodak Plus-X 125PX Pro"
+msgstr "コダック Plus-X 125PX Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:172
+msgid "Agfa APX 400"
+msgstr "アグファ APX 400"
+
+#: ../src/gui/FilmTypesPanel.cpp:172
+msgid "ISO 400"
+msgstr "ISO 400"
+
+#: ../src/gui/FilmTypesPanel.cpp:173
+msgid "Ilford Delta 400 Pro"
+msgstr "イルフォード Delta 400 Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:174
+msgid "Ilford HP5 Plus 400"
+msgstr "イルフォード HP5 Plus 400"
+
+#: ../src/gui/FilmTypesPanel.cpp:175
+msgid "Ilford XP2 Super 400"
+msgstr "イルフォード XP2 Super 400"
+
+#: ../src/gui/FilmTypesPanel.cpp:176
+msgid "Kodak 400 TMAX Pro"
+msgstr "コダック 400 TMAX Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:177
+msgid "Kodak BW 400CN Pro"
+msgstr "コダック BW 400CN Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:178
+msgid "Kodak Tri-X 400TX Pro"
+msgstr "コダック Tri-X 400TX Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:179
+msgid "Fuji Neopan Pro 1600"
+msgstr "フジ ネオパン Pro 1600"
+
+#: ../src/gui/FilmTypesPanel.cpp:179
+msgid "ISO 1600"
+msgstr "ISO 1600"
+
+#: ../src/gui/FilmTypesPanel.cpp:180
+msgid "Ilford Delta 3200 Pro"
+msgstr "イルフォード Delta 3200 Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:180
+msgid "ISO 3200"
+msgstr "ISO 3200"
+
+#: ../src/gui/FilmTypesPanel.cpp:181
+msgid "Kodak P3200 TMAX Pro"
+msgstr "コダック P3200 TMAX Pro"
+
+#: ../src/gui/FilmTypesPanel.cpp:182 ../src/gui/StylizingPanel.cpp:236
+#: ../src/gui/StylizingPanel.cpp:308 ../src/gui/StylizingPanel.cpp:385
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1328
+msgid "Custom"
+msgstr "カスタム"
+
+#: ../src/gui/HistoryBrowser.cpp:221
+msgid "Original Image"
+msgstr "オリジナル画像"
+
+#. TRANSLATORS: this is the term to describe the group of the Stylebrowser (when applying a new style).
+#: ../src/gui/HistoryBrowser.cpp:226
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1441
+msgid "PRESETS"
+msgstr "プリセット"
+
+#: ../src/gui/HistorySlider.cpp:31
+msgid "Click and drag to set the before state"
+msgstr "クリック＆ドラッグして以前の状態に設定"
+
+#: ../src/gui/LeonisApplication.cpp:1339 ../src/gui/LeonisApplication.cpp:1375
+#: ../src/gui/LeonisApplication.cpp:1395 ../src/gui/LeonisApplication.cpp:1398
+#: ../src/gui/LeonisApplication.cpp:1422 ../src/gui/LeonisApplication.cpp:1442
+msgid "Loading image"
+msgstr "画像をロード中"
+
+#: ../src/gui/LeonisApplication.cpp:1368 ../src/gui/LeonisApplication.cpp:1426
+msgid "Could not open image file"
+msgstr "ファイルを開けません"
+
+#: ../src/gui/LeonisApplication.cpp:1388 ../src/gui/LeonisApplication.cpp:1410
+msgid "The file could not be opened because the color mode is not supported. Please check the color mode of the image, and ensure it is an RGB (8 or 16-bit) file."
+msgstr "このカラーモードはサポートしていないためファイルを開けません。画像のカラーモードがRGB（8または16-bit）であることを確認してください。"
+
+#: ../src/gui/LeonisApplication.cpp:1449 ../src/gui/LeonisApplication.cpp:1453
+#: ../src/gui/LeonisApplication.cpp:1461
+msgid "Precalculating"
+msgstr "再計算中"
+
+#. TRANSLATORS: this is a text for a message box after failing to compile a GPU shader. A SEP2 restart is necessary to fall back to CPU processing.
+#: ../src/gui/LeonisApplication.cpp:1501 ../src/gui/LeonisApplication.cpp:1963
+#: ../src/gui/LeonisApplication.cpp:1969 ../src/gui/LeonisApplication.cpp:1974
+msgid "Error"
+msgstr "エラー"
+
+#. TRANSLATORS: "Saving image" is used as progress indicator text when saving.
+#: ../src/gui/LeonisApplication.cpp:1833
+#: ../host_integration/photoshop/filter/PhotoshopLeonis.cpp:246
+msgid "Saving image"
+msgstr "画像を保存"
+
+#: ../src/gui/LeonisApplication.cpp:1874
+msgid "Not enough memory available to create a full resolution image for saving"
+msgstr "フル解像度の画像を保存するのに必要なメモリがありません"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../src/gui/LeonisApplication.cpp:1879 ../src/gui/LeonisApplication.cpp:1884
+msgid "File cannot be written. Please check to ensure you have write access. The location that the file was tried to access was '%*'."
+msgstr "ファイルを変更できません。ファイルの編集権限を確認してください。ファイルは '%*' にあります。"
+
+#: ../src/gui/LeonisApplication.cpp:1888
+msgid "An unexpected error occurred while saving your image."
+msgstr "画像を保存中に予期しないエラーが発生しました。"
+
+#: ../src/gui/LeonisApplication.cpp:1963
+msgid "The available graphics card does not meet the requirements and will have to be disabled. Please restart Silver Efex Pro 2, it will then process the images using the CPU."
+msgstr "ご利用のグラフィックカードが対応していないため利用できません。Silver Efex Pro 2を再起動してCPUを使った処理をお試しください。"
+
+#: ../src/gui/LeonisApplication.cpp:1969
+msgid "There was not enough memory available to process the image."
+msgstr "この画像を処理するメモリが足りません。"
+
+#: ../src/gui/LeonisImageWidget.cpp:73
+msgid "Navigator"
+msgstr "ナビゲータ"
+
+#. TRANSLATORS: Please put the translation for "SELECTIVE ADJUSTMENTS" in
+#. upper case if that is possible in the writing system you are translating to
+#. TRANSLATORS: Please put the translation for "SELECTIVE ADJUSTMENTS" in
+#. upper case if that is possible in the writing system you are
+#. translating to
+#: ../src/gui/LeonisImageWidget.cpp:302 ../src/gui/LeonisSidePanel.cpp:189
+#: ../src/gui/LeonisSidePanel.cpp:542
+#: ../src/gui/UndoControlPointOverlay.cpp:122
+#: ../src/gui/UndoControlPointOverlay.cpp:146
+#: ../src/gui/UndoControlPointOverlay.cpp:156
+#: ../src/gui/UndoControlPointOverlay.cpp:187
+#: ../src/gui/UndoControlPointOverlay.cpp:198
+msgid "SELECTIVE ADJUSTMENTS"
+msgstr "部分調整"
+
+#: ../src/gui/LeonisImageWidget.cpp:302 ../src/gui/LeonisSidePanel.cpp:819
+#: ../src/gui/LeonisSidePanel.cpp:835 ../src/gui/LeonisSidePanel.cpp:844
+#: ../src/gui/LeonisSidePanel.cpp:862
+msgid "Reset"
+msgstr "リセット"
+
+#: ../src/gui/LeonisImageWidget.cpp:303
+msgid "Do you really want to delete all control points?"
+msgstr "すべてのコントロールポイントを削除してよろしいですか？"
+
+#: ../src/gui/LeonisMenuBar.cpp:39
+msgid "About"
+msgstr "About"
+
+#: ../src/gui/LeonisMenuBar.cpp:45
+msgid "Hide %1"
+msgstr "%1 を隠す"
+
+#: ../src/gui/LeonisMenuBar.cpp:53
+msgid "Hide Others"
+msgstr "ほかを隠す"
+
+#: ../src/gui/LeonisMenuBar.cpp:58
+msgid "Show All"
+msgstr "すべてを表示"
+
+#: ../src/gui/LeonisMenuBar.cpp:70
+msgid "File"
+msgstr "ファイル"
+
+#: ../src/gui/LeonisMenuBar.cpp:72
+msgid "Open Images..."
+msgstr "画像を開く ..."
+
+#: ../src/gui/LeonisMenuBar.cpp:83
+msgid "Quit"
+msgstr "終了"
+
+#: ../src/gui/LeonisSidePanel.cpp:175 ../src/gui/LeonisSidePanel.cpp:178
+#: ../src/gui/LeonisSidePanel.cpp:418 ../src/gui/LeonisSidePanel.cpp:819
+msgid "GLOBAL ADJUSTMENTS"
+msgstr "グローバル調整"
+
+#: ../src/gui/LeonisSidePanel.cpp:197 ../src/gui/LeonisSidePanel.cpp:666
+#: ../src/gui/LeonisSidePanel.cpp:862 ../src/gui/StylizingPanel.cpp:144
+#: ../src/gui/StylizingPanel.cpp:206 ../src/gui/StylizingPanel.cpp:295
+#: ../src/gui/StylizingPanel.cpp:375 ../src/gui/StylizingPanel.cpp:469
+#: ../src/gui/StylizingPanel.cpp:561 ../src/gui/StylizingPanel.cpp:627
+msgid "FINISHING ADJUSTMENTS"
+msgstr "最終調整"
+
+#: ../src/gui/LeonisSidePanel.cpp:209
+msgid "LOUPE & HISTOGRAM"
+msgstr "ルーペ＆ヒストグラム"
+
+#: ../src/gui/LeonisSidePanel.cpp:387 ../src/preset_translations.cpp:43
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:328
+msgid "All"
+msgstr "すべて"
+
+#: ../src/gui/LeonisSidePanel.cpp:505
+msgid "Tonality Protection"
+msgstr "階調保護"
+
+#: ../src/gui/LoupeHistogramWidget.cpp:88
+#: ../src/gui/LoupeHistogramWidget.cpp:106
+msgid "Lock the position of the Loupe"
+msgstr "ルーペの場所をロック"
+
+#: ../src/gui/LoupeHistogramWidget.cpp:104
+msgid "Unlock the position of the Loupe"
+msgstr "ルーペのロック解除"
+
+#: ../src/gui/LoupeHistogramWidget.cpp:182
+msgid "Histogram"
+msgstr "ヒストグラム"
+
+#: ../src/gui/LoupeHistogramWidget.cpp:187
+msgid "Loupe"
+msgstr "ルーペ"
+
+#: ../src/gui/StylizingPanel.cpp:29
+msgid "Toning"
+msgstr "トーニング"
+
+#: ../src/gui/StylizingPanel.cpp:31
+msgid "Vignette"
+msgstr "ヴィネット"
+
+#: ../src/gui/StylizingPanel.cpp:33
+msgid "Burn Edges"
+msgstr "周囲焼き込み"
+
+#: ../src/gui/StylizingPanel.cpp:34
+msgid "Image Borders"
+msgstr "画像フレーム"
+
+#: ../src/gui/StylizingPanel.cpp:47 ../src/gui/StylizingPanel.cpp:627
+msgid "Vary Border"
+msgstr "バリエーション"
+
+#. TRANSLATORS: this is a string for the right hand side of a "Grunge" slider for the image borders (Clean..Rough)
+#: ../src/gui/StylizingPanel.cpp:175
+msgid "Rough"
+msgstr "ラフ"
+
+#: ../src/gui/StylizingPanel.cpp:179
+msgid "Rectangle"
+msgstr "四角形"
+
+#: ../src/gui/StylizingPanel.cpp:206
+msgid "Toning Preset"
+msgstr "トーニングプリセット"
+
+#: ../src/gui/StylizingPanel.cpp:212
+msgid "1"
+msgstr "1"
+
+#: ../src/gui/StylizingPanel.cpp:213
+msgid "2"
+msgstr "2"
+
+#: ../src/gui/StylizingPanel.cpp:213
+msgid "Split Toners"
+msgstr "スプリットトナー"
+
+#: ../src/gui/StylizingPanel.cpp:214
+msgid "3"
+msgstr "3"
+
+#: ../src/gui/StylizingPanel.cpp:215
+msgid "4"
+msgstr "4"
+
+#: ../src/gui/StylizingPanel.cpp:215
+msgid "Selenium"
+msgstr "セレン"
+
+#: ../src/gui/StylizingPanel.cpp:216
+msgid "5"
+msgstr "5"
+
+#: ../src/gui/StylizingPanel.cpp:217
+msgid "6"
+msgstr "6"
+
+#: ../src/gui/StylizingPanel.cpp:218
+msgid "7"
+msgstr "7"
+
+#: ../src/gui/StylizingPanel.cpp:218
+msgid "Blue Toner"
+msgstr "ブルートナー"
+
+#: ../src/gui/StylizingPanel.cpp:219
+msgid "8"
+msgstr "8"
+
+#: ../src/gui/StylizingPanel.cpp:220
+msgid "9"
+msgstr "9"
+
+#: ../src/gui/StylizingPanel.cpp:221
+msgid "10"
+msgstr "10"
+
+#: ../src/gui/StylizingPanel.cpp:221
+msgid "Cyanotype"
+msgstr "サイアノタイプ"
+
+#: ../src/gui/StylizingPanel.cpp:222
+msgid "11"
+msgstr "11"
+
+#: ../src/gui/StylizingPanel.cpp:223
+msgid "12"
+msgstr "12"
+
+#: ../src/gui/StylizingPanel.cpp:224
+msgid "13"
+msgstr "13"
+
+#: ../src/gui/StylizingPanel.cpp:224
+msgid "Coffee"
+msgstr "コーヒー"
+
+#: ../src/gui/StylizingPanel.cpp:225
+msgid "14"
+msgstr "14"
+
+#: ../src/gui/StylizingPanel.cpp:226
+msgid "15"
+msgstr "15"
+
+#: ../src/gui/StylizingPanel.cpp:227
+msgid "16"
+msgstr "16"
+
+#: ../src/gui/StylizingPanel.cpp:227
+msgid "Copper Toner"
+msgstr "銅トナー"
+
+#: ../src/gui/StylizingPanel.cpp:228
+msgid "17"
+msgstr "17"
+
+#: ../src/gui/StylizingPanel.cpp:229
+msgid "18"
+msgstr "18"
+
+#: ../src/gui/StylizingPanel.cpp:230
+msgid "19"
+msgstr "19"
+
+#: ../src/gui/StylizingPanel.cpp:230
+msgid "Sepia"
+msgstr "セピア"
+
+#: ../src/gui/StylizingPanel.cpp:231
+msgid "20"
+msgstr "20"
+
+#: ../src/gui/StylizingPanel.cpp:232
+msgid "21"
+msgstr "21"
+
+#: ../src/gui/StylizingPanel.cpp:233
+msgid "22"
+msgstr "22"
+
+#: ../src/gui/StylizingPanel.cpp:233
+msgid "Ambrotype"
+msgstr "アンブロタイプ"
+
+#: ../src/gui/StylizingPanel.cpp:234
+msgid "23"
+msgstr "23"
+
+#: ../src/gui/StylizingPanel.cpp:235
+msgid "24"
+msgstr "24"
+
+#: ../src/gui/StylizingPanel.cpp:236
+msgid "25"
+msgstr "25"
+
+#: ../src/gui/StylizingPanel.cpp:295
+msgid "Vignette Preset"
+msgstr "ヴィネットプリセット"
+
+#: ../src/gui/StylizingPanel.cpp:300 ../src/gui/StylizingPanel.cpp:380
+#: ../src/gui/StylizingPanel.cpp:474
+msgid "Off"
+msgstr "オフ"
+
+#: ../src/gui/StylizingPanel.cpp:301
+msgid "Lens Falloff 1"
+msgstr "レンズフォールオフ 1"
+
+#: ../src/gui/StylizingPanel.cpp:302
+msgid "Lens Falloff 2"
+msgstr "レンズフォールオフ 2"
+
+#: ../src/gui/StylizingPanel.cpp:303
+msgid "Lens Falloff 3"
+msgstr "レンズフォールオフ 3"
+
+#: ../src/gui/StylizingPanel.cpp:304
+msgid "White Frame 1"
+msgstr "白フレーム 1"
+
+#: ../src/gui/StylizingPanel.cpp:305
+msgid "White Frame 2"
+msgstr "白フレーム 2"
+
+#: ../src/gui/StylizingPanel.cpp:306
+msgid "Black Frame 1"
+msgstr "黒フレーム 1"
+
+#: ../src/gui/StylizingPanel.cpp:307
+msgid "Black Frame 2"
+msgstr "黒フレーム 2"
+
+#: ../src/gui/StylizingPanel.cpp:330
+msgid "Select the center of the effect in the image preview"
+msgstr "画像プレビュー内でエフェクトの中心を選択"
+
+#: ../src/gui/StylizingPanel.cpp:332
+msgid "Place Center"
+msgstr "中心位置"
+
+#: ../src/gui/StylizingPanel.cpp:375
+msgid "Burn Edges Preset"
+msgstr "周囲焼き込みプリセット"
+
+#: ../src/gui/StylizingPanel.cpp:381
+msgid "All Edges 1"
+msgstr "すべてのエッジ 1"
+
+#: ../src/gui/StylizingPanel.cpp:382
+msgid "All Edges 2"
+msgstr "すべてのエッジ 2"
+
+#: ../src/gui/StylizingPanel.cpp:383
+msgid "All Edges (Soft) 1"
+msgstr "すべてのエッジ（ソフト） 1"
+
+#: ../src/gui/StylizingPanel.cpp:384
+msgid "All Edges (Soft) 2"
+msgstr "すべてのエッジ（ソフト） 2"
+
+#: ../src/gui/StylizingPanel.cpp:410
+msgid "Adjust the left edge"
+msgstr "左エッジにあわせる"
+
+#: ../src/gui/StylizingPanel.cpp:412
+msgid "Adjust the top edge"
+msgstr "上エッジにあわせる"
+
+#: ../src/gui/StylizingPanel.cpp:414
+msgid "Adjust the right edge"
+msgstr "右エッジにあわせる"
+
+#: ../src/gui/StylizingPanel.cpp:416
+msgid "Adjust the bottom edge"
+msgstr "下エッジにあわせる"
+
+#: ../src/gui/StylizingPanel.cpp:469
+msgid "Border Type"
+msgstr "フレーム種類"
+
+#: ../src/gui/StylizingPanel.cpp:475
+msgid "Type 1"
+msgstr "タイプ 1"
+
+#: ../src/gui/StylizingPanel.cpp:476
+msgid "Type 2"
+msgstr "タイプ 2"
+
+#: ../src/gui/StylizingPanel.cpp:477
+msgid "Type 3"
+msgstr "タイプ 3"
+
+#: ../src/gui/StylizingPanel.cpp:478
+msgid "Type 4"
+msgstr "タイプ 4"
+
+#: ../src/gui/StylizingPanel.cpp:479
+msgid "Type 5"
+msgstr "タイプ 5"
+
+#: ../src/gui/StylizingPanel.cpp:480
+msgid "Type 6"
+msgstr "タイプ 6"
+
+#: ../src/gui/StylizingPanel.cpp:481
+msgid "Type 7"
+msgstr "タイプ 7"
+
+#: ../src/gui/StylizingPanel.cpp:482
+msgid "Type 8"
+msgstr "タイプ 8"
+
+#: ../src/gui/StylizingPanel.cpp:483
+msgid "Type 9"
+msgstr "タイプ 9"
+
+#: ../src/gui/StylizingPanel.cpp:484
+msgid "Type 10"
+msgstr "タイプ 10"
+
+#: ../src/gui/StylizingPanel.cpp:485
+msgid "Type 11"
+msgstr "タイプ 11"
+
+#: ../src/gui/StylizingPanel.cpp:486
+msgid "Type 12"
+msgstr "タイプ 12"
+
+#: ../src/gui/StylizingPanel.cpp:487
+msgid "Type 13"
+msgstr "タイプ 13"
+
+#: ../src/gui/StylizingPanel.cpp:488
+msgid "Type 14"
+msgstr "タイプ 14"
+
+#: ../src/gui/StylizingPanel.cpp:521
+msgid "Click to vary the border automatically"
+msgstr "クリックして自動的にフレームを変更"
+
+#: ../src/gui/StylizingPanel.cpp:561
+msgid "Set Vignette Center"
+msgstr "中心位置"
+
+#: ../src/gui/UndoControlPointOverlay.cpp:79
+#: ../host_integration/photoshop/common/LeonisApplicationPhotoshop.cpp:249
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1501
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1535
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1644
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1681
+msgid "Warning"
+msgstr "注意"
+
+#. TRANSLATORS: The "%*" will be replaced by a list of items to delete
+#. (e.g. "Control Points 1, 2"). Please put a "%*" at the appropriate
+#. place in your translation.
+#: ../src/gui/UndoControlPointOverlay.cpp:126
+msgid "Delete %*"
+msgstr "削除 %*"
+
+#: ../src/gui/UndoControlPointOverlay.cpp:127
+msgid "Do you really want to delete all selected control points?"
+msgstr "選択したすべてのコントロールポイントを削除してよろしいですか？"
+
+#. TRANSLATORS: The "%*" will be replaced by a list of items to
+#. ungroup (e.g. "Control Points 1, 2"). Please put a "%*" at
+#. the appropriate place in your translation.
+#: ../src/gui/UndoControlPointOverlay.cpp:160
+msgid "Ungroup %*"
+msgstr "グループ解除 %*"
+
+#. TRANSLATORS: The "%*" will be replaced by a list of items to
+#. add (e.g. "Control Points 1, 2"). Please put a "%*" at
+#. the appropriate place in your translation.
+#: ../src/gui/UndoControlPointOverlay.cpp:191
+msgid "Add %*"
+msgstr "追加 %*"
+
+#. TRANSLATORS: The "%*" will be replaced by a list of items to
+#. duplicate (e.g. "Control Points 1, 2"). Please put a "%*" at
+#. the appropriate place in your translation.
+#: ../src/gui/UndoControlPointOverlay.cpp:202
+msgid "Duplicate %*"
+msgstr "複製 %*"
+
+#: ../src/gui/ZoneWidget.cpp:39
+msgid "Show Zone %* area"
+msgstr "ゾーン %* 領域を表示"
+
+#. TRANSLATORS: This is a text part from the installer welcome page. The key text is "text1"
+#: ../src/installer_and_LR.cpp:6
+msgid "Welcome!"
+msgstr "ようこそ。"
+
+#. TRANSLATORS: This is a text part from the installer welcome page. The key text is "text2"
+#: ../src/installer_and_LR.cpp:8
+msgid "Thank you for choosing Silver Efex Pro 2 from Google. To install your software, please click on the 'Continue' button below. The installer will automatically find the correct host locations to install Silver Efex Pro 2 to. To learn more about Silver Efex Pro 2, please visit www.niksoftware.com/sep2."
+msgstr "Google の Silver Efex Pro 2 をご利用いただきありがとうございます。ソフトウェアをインストールするには、下の「続ける」ボタンをクリックしてください。このインストーラは自動的に Silver Efex Pro 2 をインストールする正しいホストの場所を見つけます。Silver Efex Pro 2 についてのさらに詳しい情報は、www.niksoftware.com/sep2 を参照してください。"
+
+#: ../src/preset_translations.cpp:4
+msgid "001 Underexposed (EV -1)"
+msgstr "001 -1EVアンダー"
+
+#: ../src/preset_translations.cpp:5
+msgid "002 Overexposed (EV +1)"
+msgstr "002 +1EVオーバー"
+
+#: ../src/preset_translations.cpp:6
+msgid "003 High Contrast (harsh)"
+msgstr "003 高コントラスト（強）"
+
+#: ../src/preset_translations.cpp:7
+msgid "004 High Contrast (smooth)"
+msgstr "004 高コントラスト（弱）"
+
+#: ../src/preset_translations.cpp:8
+msgid "005 High Structure (harsh)"
+msgstr "005 高ストラクチャ（強）"
+
+#: ../src/preset_translations.cpp:9
+msgid "006 High Structure (smooth)"
+msgstr "006 高ストラクチャ（弱）"
+
+#: ../src/preset_translations.cpp:10
+msgid "007 High Key 1"
+msgstr "007 ハイキー 1"
+
+#: ../src/preset_translations.cpp:11
+msgid "008 High Key 2"
+msgstr "008 ハイキー 2"
+
+#: ../src/preset_translations.cpp:12
+msgid "009 Low Key 1"
+msgstr "009 ローキー 1"
+
+#: ../src/preset_translations.cpp:13
+msgid "010 Low Key 2"
+msgstr "010 ローキー 2"
+
+#: ../src/preset_translations.cpp:14
+msgid "011 Push Process (N +1.5)"
+msgstr "011 増感現像 (N +1.5)"
+
+#: ../src/preset_translations.cpp:15
+msgid "012 Push Process (N +3.0)"
+msgstr "012 増感現像 (N +3.0)"
+
+#: ../src/preset_translations.cpp:16
+msgid "013 Grad ND (EV -1)"
+msgstr "013 ニュートラルデンシティ (EV -1)"
+
+#: ../src/preset_translations.cpp:17
+msgid "014 Grad ND (EV -2)"
+msgstr "014 ニュートラルデンシティ (EV -2)"
+
+#: ../src/preset_translations.cpp:18
+msgid "015 Full Dynamic (harsh)"
+msgstr "015 フルダイナミック（強）"
+
+#: ../src/preset_translations.cpp:19
+msgid "016 Full Dynamic (smooth)"
+msgstr "015 フルダイナミック（弱）"
+
+#: ../src/preset_translations.cpp:20
+msgid "017 Full Spectrum"
+msgstr "017 色感度（-）"
+
+#: ../src/preset_translations.cpp:21
+msgid "018 Full Spectrum Inverse"
+msgstr "018 色感度（+）"
+
+#: ../src/preset_translations.cpp:22
+msgid "019 Fine Art Process"
+msgstr "019 ファインアートプロセス"
+
+#: ../src/preset_translations.cpp:23
+msgid "020 Fine Art (high key, framed)"
+msgstr "020 ファインアート（ハイキー/フレーム付）"
+
+#: ../src/preset_translations.cpp:24
+msgid "021 Triste 1"
+msgstr "021 シック 1"
+
+#: ../src/preset_translations.cpp:25
+msgid "022 Triste 2"
+msgstr "022 シック 2"
+
+#: ../src/preset_translations.cpp:26
+msgid "023 Wet Rocks"
+msgstr "023 濡れた岩"
+
+#: ../src/preset_translations.cpp:27
+msgid "024 Full Contrast and Structure"
+msgstr "024 フルコントラストストラクチャ"
+
+#: ../src/preset_translations.cpp:28
+msgid "025 Silhouette EV +0.5"
+msgstr "025 シルエット EV +0.5"
+
+#: ../src/preset_translations.cpp:29
+msgid "026 Dark Sepia"
+msgstr "026 ダークセピア"
+
+#: ../src/preset_translations.cpp:30
+msgid "027 Soft Sepia"
+msgstr "027 ソフトセピア"
+
+#: ../src/preset_translations.cpp:31
+msgid "028 Cool Tones 1"
+msgstr "028 クールトーン 1"
+
+#: ../src/preset_translations.cpp:32
+msgid "029 Cool Tones 2"
+msgstr "029 クールトーン 2"
+
+#: ../src/preset_translations.cpp:33
+msgid "030 Film Noir 1"
+msgstr "030 フィルムノワール 1"
+
+#: ../src/preset_translations.cpp:34
+msgid "031 Film Noir 2"
+msgstr "031 フィルムノワール 2"
+
+#: ../src/preset_translations.cpp:35
+msgid "032 Film Noir 3"
+msgstr "032 フィルムノワール 3"
+
+#: ../src/preset_translations.cpp:36
+msgid "033 Yellowed 1"
+msgstr "033 古色 1"
+
+#: ../src/preset_translations.cpp:37
+msgid "034 Yellowed 2"
+msgstr "033 古色 2"
+
+#: ../src/preset_translations.cpp:38
+msgid "035 Antique Plate I"
+msgstr "035 アンティークプレートI"
+
+#: ../src/preset_translations.cpp:39
+msgid "036 Antique Plate II"
+msgstr "036 アンティークプレートII"
+
+#: ../src/preset_translations.cpp:40
+msgid "037 Pinhole"
+msgstr "037 ピンホール "
+
+#: ../src/preset_translations.cpp:44
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:329
+msgid "Classic"
+msgstr "クラシック"
+
+#: ../src/preset_translations.cpp:45
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:330
+msgid "Modern"
+msgstr "モダン"
+
+#: ../src/preset_translations.cpp:46
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:331
+msgid "Vintage"
+msgstr "ヴィンテージ"
+
+#: ../host_integration/photoshop/common/LeonisApplicationPhotoshop.cpp:61
+msgid "Initial Adjustments"
+msgstr "最初の調整"
+
+#: ../host_integration/photoshop/common/LeonisApplicationPhotoshop.cpp:248
+msgid "Silver Efex Pro 2 has identified that the active layer is a Smart Object and will now operate as a Smart Filter. The Brush button will be deactivated, and the effect will be applied to the current layer."
+msgstr "現在のレイヤーはスマート オブジェクトであるため、スマート フィルタとしては使用できません。[ブラシ] ボタンは使用不可になり、効果は現在のレイヤーに適用されます。"
+
+#: ../plugin_common/activation/ActivationException.cpp:11
+#: ../plugin_common/activation/ActivationException.cpp:85
+msgid "The product key entered does not seem to be valid. Please check the key and try again."
+msgstr "入力されたプロダクトキーが正しくありません。キーを確認してもう一度入力してください。"
+
+#: ../plugin_common/activation/ActivationException.cpp:13
+msgid "Please enter a Phone Activation Code"
+msgstr "電話による認証コードを入力"
+
+#: ../plugin_common/activation/ActivationException.cpp:15
+msgid "Please enter a name"
+msgstr "名前を入力"
+
+#: ../plugin_common/activation/ActivationException.cpp:17
+msgid "Incorrect host application"
+msgstr "ホストアプリケーションが不正"
+
+#: ../plugin_common/activation/ActivationException.cpp:19
+msgid "%1 is already activated with this product key, however the host application does not match."
+msgstr "%1 はすでにこのプロダクトキーで認証されていますがホストアプリケーションが一致しません。"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/activation/ActivationException.cpp:22
+msgid "An internal error occured. Errorcode( %1 )."
+msgstr "内部エラーが発生しました。エラーコード ( %1 )"
+
+#: ../plugin_common/activation/ActivationException.cpp:30
+msgid "The Phone Activation Code entered does not seem to be valid.  Please check the code and try again."
+msgstr "入力された電話による認証コードが正しくありません。キーを確認してもう一度入力してください。"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/activation/ActivationException.cpp:33
+#: ../plugin_common/activation/ActivationException.cpp:43
+#: ../plugin_common/activation/ActivationException.cpp:52
+#: ../plugin_common/activation/ActivationException.cpp:57
+#: ../plugin_common/activation/ActivationException.cpp:64
+#: ../plugin_common/activation/ActivationException.cpp:96
+#: ../plugin_common/activation/ActivationException.cpp:106
+#: ../plugin_common/activation/ActivationException.cpp:110
+msgid "An error occurred. Errorcode( %1 )."
+msgstr "エラーが発生しました。エラーコード ( %1 )"
+
+#: ../plugin_common/activation/ActivationException.cpp:37
+msgid "The maximum number of activations for this Product Key have been reached.  Please contact Customer Support for further information."
+msgstr "このプロダクトキーの最大値まで認証済みです。テクニカルサポートに連絡してください。"
+
+#: ../plugin_common/activation/ActivationException.cpp:47
+msgid "An error occurred during the activation of the product. There might be a conflict with the installation of another program.  Please find more information in the FAQs at http://www.niksoftware.com/sep2/faq  or contact Customer Service."
+msgstr "製品の起動中にエラーが発生しました。他のプログラムとコンフリクトしている可能性があります。サポートページhttp://www.niksoftware.com/を見るか、テクニカルサポートに連絡してください。"
+
+#: ../plugin_common/activation/ActivationException.cpp:69
+#: ../plugin_common/activation/ActivationException.cpp:81
+msgid "No internet connection.  Please check your network settings."
+msgstr "インターネット接続が見つかりません。ネットワーク設定を確認してください。"
+
+#: ../plugin_common/activation/ActivationException.cpp:73
+msgid "No internet connection.  Please check your proxy settings."
+msgstr "インターネット接続が見つかりません。プロキシ設定を確認してください。"
+
+#: ../plugin_common/activation/ActivationException.cpp:77
+msgid "No internet connection.  Please check your firewall settings."
+msgstr "インターネット接続が見つかりません。ファイアウォール設定を確認してください。"
+
+#: ../plugin_common/gui/BottomBar.cpp:22
+msgid "HELP"
+msgstr "ヘルプ"
+
+#: ../plugin_common/gui/BottomBar.cpp:23
+msgid "Visit Silver Efex Pro 2 Help"
+msgstr "Silver Efex Pro 2 ヘルプを表示"
+
+#: ../plugin_common/gui/BottomBar.cpp:28
+msgid "SETTINGS"
+msgstr "設定"
+
+#: ../plugin_common/gui/BottomBar.cpp:29
+msgid "Access the Settings Window"
+msgstr "設定画面を開く"
+
+#: ../plugin_common/gui/BottomBar.cpp:38
+msgid "PREVIOUS"
+msgstr "前"
+
+#: ../plugin_common/gui/BottomBar.cpp:39
+msgid "Click here to edit the previous image"
+msgstr "クリックして前の画像を編集"
+
+#: ../plugin_common/gui/BottomBar.cpp:43
+msgid "1 of 42 images"
+msgstr "1 / 42 枚の画像"
+
+#: ../plugin_common/gui/BottomBar.cpp:48
+msgid "NEXT"
+msgstr "次"
+
+#: ../plugin_common/gui/BottomBar.cpp:49
+msgid "Click here to edit the next image"
+msgstr "クリックして前の画像を編集"
+
+#: ../plugin_common/gui/BottomBar.cpp:65
+#: ../plugin_common/gui/MessageDialog.cpp:99
+#: ../plugin_common/gui/MessageDialog.cpp:103
+#: ../plugin_common/gui/OptionsDialog.cpp:82
+msgid "OK"
+msgstr "OK"
+
+#: ../plugin_common/gui/BottomBar.cpp:66
+msgid "Click to apply the filter"
+msgstr "クリックしてフィルタを適用"
+
+#: ../plugin_common/gui/BottomBar.cpp:68
+#: ../plugin_common/gui/BottomBar.cpp:158
+msgid "SAVE"
+msgstr "保存"
+
+#: ../plugin_common/gui/BottomBar.cpp:69
+#: ../plugin_common/gui/BottomBar.cpp:159
+msgid "Click to save your image"
+msgstr "クリックして画像を保存"
+
+#: ../plugin_common/gui/BottomBar.cpp:76
+#: ../plugin_common/gui/MessageDialog.cpp:100
+#: ../plugin_common/gui/OptionsDialog.cpp:83
+msgid "CANCEL"
+msgstr "キャンセル"
+
+#. TRANSLATORS: please leave Silver Efex Pro 2 in here, its the preliminary name of the program
+#: ../plugin_common/gui/BottomBar.cpp:79
+msgid "Click to exit Silver Efex Pro 2 without applying a filter to the image"
+msgstr "画像にフィルタを適用しないで Silver Efex Pro 2 を終了"
+
+#. TRANSLATORS: please leave Silver Efex Pro 2 in here, its the preliminary name of the program
+#: ../plugin_common/gui/BottomBar.cpp:82
+msgid "Click to exit Silver Efex Pro 2 without saving your image"
+msgstr "画像を保存しないで Silver Efex Pro 2 を終了"
+
+#: ../plugin_common/gui/BottomBar.cpp:99
+msgid "BRUSH"
+msgstr "ブラシ"
+
+#: ../plugin_common/gui/BottomBar.cpp:100
+msgid "Click to apply the filter selectively to the image"
+msgstr "クリックして画像の選択部分にフィルタを適用"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program, "e.g.: 2 of 7 images"
+#: ../plugin_common/gui/BottomBar.cpp:142
+msgid "%1 of %2 images"
+msgstr "%1 / %2 画像"
+
+#: ../plugin_common/gui/BottomBar.cpp:155
+msgid "SAVE ALL"
+msgstr "すべてを保存"
+
+#: ../plugin_common/gui/BottomBar.cpp:156
+msgid "Click to apply the filter to %* images"
+msgstr "クリックして %* 画像にフィルタを適用"
+
+#: ../plugin_common/gui/BusyIndicatorWidget.h:31
+msgid "Calculating"
+msgstr "計算中"
+
+#: ../plugin_common/gui/MessageDialog.cpp:80
+msgid "Do not show again"
+msgstr "再び表示しない"
+
+#: ../plugin_common/gui/MessageDialog.cpp:95
+msgid "Yes"
+msgstr "はい"
+
+#: ../plugin_common/gui/MessageDialog.cpp:96
+msgid "No"
+msgstr "いいえ"
+
+#: ../plugin_common/gui/OptionsDialog.cpp:113
+msgid "Settings"
+msgstr "設定"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:94
+msgid "English (US)"
+msgstr "English (US)"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:96
+msgid "English (UK)"
+msgstr "English (UK)"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:98
+msgid "Deutsch"
+msgstr "Deutsch"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:100
+msgid "Francais"
+msgstr "Français"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:102
+msgid "Espanol"
+msgstr "Español"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:104
+msgid "Japanese"
+msgstr "日本語"
+
+#. TRANSLATORS: Please leave the language string as it is, since this is translated according to each language here
+#: ../plugin_common/gui/Options_dialog/LanguageControl.cpp:106
+msgid "Italiano"
+msgstr "Italiano"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogAfterOKClickSettingsPage.cpp:37
+msgid "After Clicking OK"
+msgstr "OKクリック後"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogAfterOKClickSettingsPage.cpp:38
+msgid "apply the filtered effect to the current layer"
+msgstr "現在のレイヤーにフィルタ効果を適用する"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogAfterOKClickSettingsPage.cpp:39
+msgid "apply the filtered effect to a separate layer"
+msgstr "別のレイヤーにフィルタ効果を適用する"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogAfterOKClickSettingsPage.h:34
+msgid "After clicking OK"
+msgstr "OK をクリックした後"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:43
+msgid "Default Language:"
+msgstr "既定の言語:"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:53
+msgid "Default Preview Mode:"
+msgstr "既定のプレビューモード:"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:54
+#: ../plugin_common/gui/TopBar.cpp:102
+msgid "Single image view"
+msgstr "単一画像プレビュー"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:55
+#: ../plugin_common/gui/TopBar.cpp:103
+msgid "Split preview"
+msgstr "分割プレビュー"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:56
+#: ../plugin_common/gui/TopBar.cpp:104
+msgid "Side-by-side preview"
+msgstr "並列プレビュー"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:57
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:65
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:75
+msgid "Use Last Settings"
+msgstr "前回の設定を使用する"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:61
+msgid "Default Background Color:"
+msgstr "既定の背景カラー:"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:62
+msgid "White"
+msgstr "白"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:63
+msgid "Gray"
+msgstr "グレー"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:64
+msgid "Black"
+msgstr "黒"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.cpp:69
+msgid "Default Zoom State:"
+msgstr "既定のズーム:"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGeneralSettingsPage.h:35
+msgid "Interface Settings"
+msgstr "インターフェイス設定"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGPUSettingsPage.cpp:39
+msgid "Enable GPU processing"
+msgstr "GPU 処理を利用"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGPUSettingsPage.cpp:41
+msgid "Click to use your graphics card to help process your image"
+msgstr "画像処理に使用するグラフィックカードをクリック"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGPUSettingsPage.cpp:46
+msgid "The available graphics card does not meet the requirements and therefore has been disabled. Silver Efex Pro 2 will process the images using the CPU."
+msgstr "利用のグラフィックカードは対応外のため利用できません。Silver Efex Pro 2 は CPU を使って画像処理を実行します。"
+
+#. TRANSLATORS: this is the caption for the Settings Dialog Page in which to enable/disable the use of the GPU option.
+#: ../plugin_common/gui/Options_dialog/OptionsDialogGPUSettingsPage.h:34
+msgid "GPU"
+msgstr "GPU"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:35
+msgid "Check for updates now"
+msgstr "今すぐアップデートをチェックする"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:37
+msgid "Click to check for updates now"
+msgstr "クリックして今すぐアップデートをチェックする"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:47
+msgid "Software Update Interval:"
+msgstr "アップデートのチェック:"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:61
+msgid "Checking for updates"
+msgstr "アップデートをチェックしています"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:72
+msgid "Updates found"
+msgstr "アップデートが見つかりました"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:75
+msgid "No updates available"
+msgstr "このソフトウェアは最新版です"
+
+#: ../plugin_common/gui/Options_dialog/OptionsDialogPageUpdater.cpp:107
+msgid "Software Update Settings"
+msgstr "ソフトウェアアップデート設定"
+
+#: ../plugin_common/gui/PluginTwirlerButton.cpp:52
+msgid "Toggle the effect of the section."
+msgstr "セクション効果を切り替え"
+
+#: ../plugin_common/gui/PluginTwirlerButton.cpp:53
+msgid "Reset all settings in this section to their defaults"
+msgstr "セクションの全ての設定を規定値にリセット"
+
+#: ../plugin_common/gui/SplashScreenBottom.cpp:72
+msgid "Version: "
+msgstr "バージョン: "
+
+#: ../plugin_common/gui/SplashScreenBottom.cpp:72
+msgid "Revision: "
+msgstr "改訂:"
+
+#: ../plugin_common/gui/SplashScreenBottom.cpp:73
+msgid ""
+"© 2000-2013 Google. All rights reserved."
+msgstr ""
+"© 2000-2013 Google. All rights reserved."
+
+#: ../plugin_common/gui/SplashScreenBottom.cpp:75
+msgid "Protected by one or more US Patents. 6,728,421; 6,865,300; 7,031,547; 7,602,968; 7,602,991 and other patents pending"
+msgstr "複数の US Patents で保護されています。 6,728,421; 6,865,300; 7,031,547; 7,602,968; 7,602,991 その他は申告中です。"
+
+#: ../plugin_common/gui/SplashScreenBottom.cpp:77
+msgid "Splash Screen Credits"
+msgstr "Daniel Fenner, Daniela Barten, Nils Kokemohr, Hendrik Janz, Carsten Schiemann, Nils Krückemeier, Thorsten Kraack, Thomas Schweitzer, Şükriye Das, Martin Böhme, Sönke Ludwig, Bogdan Graur, Meikel Steiding, Jens Denger, Jerlyn Jareunpoon, Denis Rice, Detlef Raddatz, Iulian Cioacá, Andreea Balan, Marian Melinte, Simone Henseler-Wilczek, Erzsebet Nyiri, Vivek Verma, Meike Bendel, Frank Schröter, André Hesse, Dirk Kaeding, Tiberiu Arhire, Christian Pesch, Nagarajan Thulasiraman, Bhuvana Vijayan, Sebastian Stan, Kevin Young, Josh Haftel"
+
+#: ../plugin_common/gui/SplashScreenBottom.cpp:77
+msgid "and many more"
+msgstr "その他"
+
+#: ../plugin_common/gui/SplashScreenDialogController.cpp:70
+msgid "The installation encountered a problem, please try to reinstall."
+msgstr "インストール中に問題が発生しました。再度インストールを試みてください。"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:33
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:105
+msgid "Product Key: "
+msgstr "プロダクトキー: "
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:36
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:80
+msgid "Enter your Product Key"
+msgstr "プロダクトキーを入力"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:39
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:81
+msgid "Name"
+msgstr "名前"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:41
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:82
+msgid "Enter your name"
+msgstr "名前を入力"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:45
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:93
+msgid "Press to activate"
+msgstr "クリックして認証"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:47
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:99
+msgid "Activate by Phone"
+msgstr "電話による認証"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:49
+msgid "Switch to phone activation"
+msgstr "電話による認証に変更"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivate.cpp:51
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:95
+msgid "Activate by Internet"
+msgstr "インターネットによる認証"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:85
+msgid "Phone Activation Code"
+msgstr "電話による認証コード"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:86
+msgid "Enter the code you received from Customer Service."
+msgstr "テクニカルサポートから受け取ったコードを入力"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:97
+msgid "Switch to internet activation"
+msgstr "インターネットによる認証に変更"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:109
+msgid "EU: +49-40-471135-0"
+msgstr "ヨーロッパ: +49-40-471135-0"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:114
+msgid "USA: +1-619-725-3150"
+msgstr "アメリカ: +1-619-725-3150"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:119
+msgid "Mo-Fr 9:00 AM - 5:00 PM (CET)"
+msgstr "月-金　9:00 AM - 5:00 PM（中央ヨーロッパ時間）"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:123
+msgid "M-F 8:30 AM - 5:00 PM (PST)"
+msgstr "月-金　8:30 AM - 5:00 PM（米国西海岸時間）"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:129
+msgid "Outside of the EU and the USA please visit: http://www.niksoftware.com/internationalsupport"
+msgstr "ヨーロッパとアメリカ以外: http://www.niksoftware.com/internationalsupport"
+
+#: ../plugin_common/gui/SplashScreenMiddleActivateAlternate.cpp:243
+msgid "Installation ID: "
+msgstr "インストール ID:"
+
+#. TRANSLATORS: Splashscreen: This is the label shown in front of the product key when the product is activated already.
+#: ../plugin_common/gui/SplashScreenMiddleActive.cpp:30
+msgid "ProductKey.Show"
+msgstr "プロダクトキー: "
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/gui/SplashScreenTop.cpp:109
+msgid "You have %1 day of your trial remaining."
+msgid_plural "You have %1 days trial left."
+msgstr[0] "体験版の残りの日数は %1 日です。"
+msgstr[1] "体験版の残りの日数は %1 日です。"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:114
+msgid "Your trial has expired."
+msgstr "体験期間が終了しました。"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/gui/SplashScreenTop.cpp:120
+msgid "%1, thank you for choosing %2."
+msgstr "%1、%2 をご利用いただきありがとうございます"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:135
+msgid "Buy"
+msgstr "購入"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:136
+msgid "Press to visit Google"
+msgstr "クリックして Google を開く"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:180
+msgid "Exit"
+msgstr "終了"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:181
+msgid "Closes the plugin"
+msgstr "プラグインを閉じる"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:183
+msgid "Close"
+msgstr "閉じる"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:184
+#: ../plugin_common/gui/SplashScreenTop.cpp:187
+msgid "Closes the splash screen"
+msgstr "スプラッシュ画面を閉じる"
+
+#: ../plugin_common/gui/SplashScreenTop.cpp:186
+msgid "Demo"
+msgstr "デモ"
+
+#: ../plugin_common/gui/TopBar.cpp:87
+msgid "Show Image Only"
+msgstr "画像のみ表示"
+
+#: ../plugin_common/gui/TopBar.cpp:88
+msgid "Show Preset Browser"
+msgstr "プリセットブラウザを表示"
+
+#: ../plugin_common/gui/TopBar.cpp:89
+msgid "Show History Browser"
+msgstr "ヒストリーブラウザを表示"
+
+#: ../plugin_common/gui/TopBar.cpp:115
+msgid "Compare"
+msgstr "比較"
+
+#: ../plugin_common/gui/TopBar.cpp:116
+msgid "Show image with former settings"
+msgstr "以前の設定で画像を表示"
+
+#: ../plugin_common/gui/TopBar.cpp:121
+msgid "Hide or view adjustment panels (Tab Key)"
+msgstr "調整パネルの表示／非表示（Tab キー）"
+
+#: ../plugin_common/gui/TopBar.cpp:126
+msgid "Change background color"
+msgstr "背景カラーを変更"
+
+#: ../plugin_common/gui/TopBar.cpp:133
+msgid "Click to toggle between Zoom and Fit To Screen (Space)"
+msgstr "クリックしてズームと全体表示を切り替え（スペース）"
+
+#: ../plugin_common/gui/TopBar.cpp:133
+msgid "Click to select a zoom percentage"
+msgstr "クリックしてズーム拡大率を選択"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:332
+#: ../plugin_common/stylebrowser/PresetData.cpp:470
+#: ../plugin_common/stylebrowser/PresetData.cpp:471
+#: ../plugin_common/stylebrowser/PresetData.cpp:493
+msgid "Favorites"
+msgstr "お気に入り"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:358
+msgid "Select %* Category"
+msgstr " %* カテゴリを選択"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:522
+msgid "Preset Categories"
+msgstr "プリセットカテゴリ"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:552
+msgid "Select Category"
+msgstr "カテゴリ選択"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:555
+msgid "Import"
+msgstr "読み込み"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:556
+msgid "Click to import a preset"
+msgstr "クリックしてプリセットを読み込み"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:557
+msgid "Add Preset"
+msgstr "プリセット追加"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:558
+msgid "Click to add a new preset"
+msgstr "クリックして新規プリセットを追加"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:576
+msgid "Click to reset tags"
+msgstr "リセットタグをクリック"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:781
+msgid "Custom Preset"
+msgstr "カスタムプリセット"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:782
+msgid "Please enter a preset name"
+msgstr "プリセット名を入力してください"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:870
+msgid "All Presets (%*)"
+msgstr "すべてのプリセット (%*)"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:873
+msgid "Search Results (%*)"
+msgstr "検索結果 (%*)"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:899
+msgid "Apply Preset %*"
+msgstr "プリセット適用 %*"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1070
+msgid "Custom Presets"
+msgstr "カスタムプリセット"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1097
+msgid "Apply Custom Preset %*"
+msgstr "カスタムプリセット適用 %*"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1146
+msgid "Imported Presets"
+msgstr "読み込んだプリセット"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1167
+msgid "Apply Imported Preset %*"
+msgstr "取り込んだプリセットを適用 %*"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1327
+msgid "Presets"
+msgstr "プリセット"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1502
+msgid "Preset can not be imported. Wrong file format."
+msgstr "プリセットを取り込めません。ファイル形式が違います。"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1536
+msgid "Are you sure you want to replace this preset?"
+msgstr "このプリセットを置き換えてよろしいですか？"
+
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1645
+#: ../plugin_common/stylebrowser/PresetBrowser.cpp:1682
+msgid "Are you sure you want to delete this preset?"
+msgstr "このプリセットを削除してよろしいですか？"
+
+#: ../plugin_common/stylebrowser/PresetImageOverlay.cpp:37
+msgid "Click to update this preset with the current settings"
+msgstr "クリックしてこのプリセットを現在の設定に更新"
+
+#: ../plugin_common/stylebrowser/PresetImageOverlay.cpp:47
+msgid "Click to delete this preset"
+msgstr "クリックしてこのプリセットを削除"
+
+#: ../plugin_common/stylebrowser/PresetImageOverlay.cpp:56
+msgid "Click to export this preset"
+msgstr "クリックしてこのプリセットを書き出し"
+
+#: ../plugin_common/stylebrowser/PresetImageWidget.cpp:223
+msgid "Add to Favorites"
+msgstr "お気に入りに追加"
+
+#: ../plugin_common/updater/UpdateManager.h:34
+msgid "Daily"
+msgstr "毎日"
+
+#: ../plugin_common/updater/UpdateManager.h:35
+msgid "Weekly"
+msgstr "毎週"
+
+#: ../plugin_common/updater/UpdateManager.h:36
+msgid "Monthly"
+msgstr "毎月"
+
+#: ../plugin_common/updater/UpdateManager.h:37
+msgid "Never"
+msgstr "実行しない"
+
+#: ../plugin_common/updater/UpdateNotificationDialog.cpp:9
+msgid "SOFTWARE UPDATES"
+msgstr "ソフトウェアアップデート"
+
+#: ../plugin_common/updater/UpdateNotificationDialog.cpp:10
+msgid "Click OK to visit the update page"
+msgstr "OK をクリックしてアップデートページを表示"
+
+#: ../stdlib/src/nik/guiext/LevelAndCurvesWidget.cpp:510
+msgid "Adjust the shadows"
+msgstr "シャドウ調整"
+
+#: ../stdlib/src/nik/guiext/LevelAndCurvesWidget.cpp:512
+msgid "Adjust the midtones"
+msgstr "中間調調整"
+
+#: ../stdlib/src/nik/guiext/LevelAndCurvesWidget.cpp:514
+msgid "Adjust the highlights"
+msgstr "ハイライト調整"
+
+#. TRANSLATORS: Please leave %*, %1, %2 etc as they are, because they are needed by the program.
+#: ../stdlib/src/nik/guiext/ZoomAndPanControl.cpp:105
+#: ../stdlib/src/nik/guiext/ZoomAndPanControl.cpp:124
+#: ../stdlib/src/nik/guiext/ZoomAndPanControl.cpp:219
+msgid "Zoom (%*)"
+msgstr "ズーム (%*)"
+
+#: ../stdlib/src/nik/updater/win/UpdaterWin.cpp:84
+#: ../stdlib/src/nik/updater/win/UpdaterWin.cpp:93
+msgid "Updater"
+msgstr "アップデータ"
+
+#: ../stdlib/src/nik/updater/win/UpdaterWin.cpp:84
+msgid ""
+"A new update is available!\n"
+" Do you want to install it now?\n"
+" In order to install the update Pyro needs to be restarted."
+msgstr ""
+"新しいアップデートがあります。!\n"
+"今すぐインストールしますか？\n"
+"アップデートをインストールすると再起動が必要です。"
+
+#: ../stdlib/src/nik/updater/win/UpdaterWin.cpp:93
+msgid "You're up to date!"
+msgstr "Silver Efex Pro 2 は最新版です。"
+
+#~ msgid "No file name provided"
+#~ msgstr "ファイル名未設定"
+
+#~ msgid "Directory to save to does not exist."
+#~ msgstr "保存場所がありません"
+
+#~ msgid "Another instance of %1 is already running. Clicking OK will close the application."
+#~ msgstr "他の %1 が実行中です。OKをクリックしてアプリケーションを終了してください。"
+
+#~ msgid "Loading Image"
+#~ msgstr "画像読み込み"
+
+#~ msgid "This image file is not supported."
+#~ msgstr "この画像ファイルはサポートしていません。"
+
+#~ msgid "Save Image as..."
+#~ msgstr "別名で保存 ..."
+
+#~ msgid "035 Antique Plate"
+#~ msgstr "035 アンティークプレート"
+
+#~ msgid "036 Pinhole"
+#~ msgstr "036 ピンホール "
+
+#~ msgid "024 Full Contrast &amp; Structure"
+#~ msgstr "024 フルコントラストストラクチャ"
+
+#~ msgid "Default"
+#~ msgstr "規定値"
+
+#~ msgid "Silver Efex Pro 2 is already activated with this product key, however the host application does not match."
+#~ msgstr "Silver Efex Pro 2 はこのプロダクトキーですでに認証済みですが、ホストアプリケーションが一致しません。"
+
+#~ msgid "English"
+#~ msgstr "English"
+
+#~ msgid "Classical"
+#~ msgstr "クラシカル"
+
+#~ msgid "Stylized"
+#~ msgstr "スタイライズ"
+
+#~ msgid "Duplicate"
+#~ msgstr "複製"
+
+#~ msgid "Delete"
+#~ msgstr "削除"
+
+#~ msgid "STYLES"
+#~ msgstr "スタイル"
+
+#~ msgid "Style"
+#~ msgstr "スタイル"
+
+#~ msgid "Image Borders Preset"
+#~ msgstr "画像フレームプリセット"
+
+#~ msgid "Contrast and Grain Dummy"
+#~ msgstr "コントラスト＆グレインダミー"
+
+#~ msgid "Toned Vignette Dummy"
+#~ msgstr "トーンヴィネットダミー"
+
+#~ msgid "Image Borders Dummy"
+#~ msgstr "画像フレームダミー"
+
+#~ msgid "Stylistic Borders Dummy"
+#~ msgstr "スタイリスティックフレームダミー"
+
+#~ msgid "Burn Edges Blue"
+#~ msgstr "周囲焼き込みブルー"
+
+#~ msgid "Structure Dummy"
+#~ msgstr "ストラクチャダミー"
+
+#~ msgid "Show Style Browser"
+#~ msgstr "スタイルブラウザを表示"
+
+#~ msgid "Style Categories"
+#~ msgstr "スタイルカテゴリ"
+
+#~ msgid "Click to import a style"
+#~ msgstr "クリックしてスタイルを取り込み"
+
+#~ msgid "Add Style"
+#~ msgstr "スタイルを追加"
+
+#~ msgid "Click to add a new style"
+#~ msgstr "クリックして新規スタイルを追加"
+
+#~ msgid "All Styles (%*)"
+#~ msgstr "すべてのスタイル (%*)"
+
+#~ msgid "Apply Style %*"
+#~ msgstr "スタイルを適用 %*"
+
+#~ msgid "Custom Styles"
+#~ msgstr "カスタムスタイル"
+
+#~ msgid "Imported Styles"
+#~ msgstr "取り込んだプリセット"
+
+#~ msgid "Styles"
+#~ msgstr "スタイル"
+
+msgid "Acknowledgments"
+msgstr "謝辞"

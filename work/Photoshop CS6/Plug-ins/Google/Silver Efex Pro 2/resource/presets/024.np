@@ -1,0 +1,86 @@
+<SilverEfexPro2_preset>
+	<group name="filter_parameters">
+		<key name="adaptiveBP" type="float" value="100"/>
+		<key name="adaptiveBrightness" type="float" value="0"/>
+		<key name="adaptiveWP" type="float" value="100"/>
+		<key name="beSizeBottom" type="float" value="0"/>
+		<key name="beSizeLeft" type="float" value="0"/>
+		<key name="beSizeRight" type="float" value="0"/>
+		<key name="beSizeTop" type="float" value="0"/>
+		<key name="beStrengthBottom" type="float" value="0"/>
+		<key name="beStrengthLeft" type="float" value="0"/>
+		<key name="beStrengthRight" type="float" value="0"/>
+		<key name="beStrengthTop" type="float" value="0"/>
+		<key name="beTransitionBottom" type="float" value="0"/>
+		<key name="beTransitionLeft" type="float" value="0"/>
+		<key name="beTransitionRight" type="float" value="0"/>
+		<key name="beTransitionTop" type="float" value="0"/>
+		<key name="borderGrunge" type="float" value="0"/>
+		<key name="borderRandom" type="float" value="0"/>
+		<key name="borderSize" type="float" value="0"/>
+		<key name="borderSpread" type="float" value="0"/>
+		<key name="borderType" type="float" value="0"/>
+		<key name="burnEdgesPresets" type="float" value="0"/>
+		<key name="colorFilterHue" type="float" value="0"/>
+		<key name="colorFilterSectionEnabled" type="float" value="1"/>
+		<key name="colorFilterStrength" type="float" value="0"/>
+		<key name="controlPointListEnabled" type="float" value="1"/>
+		<key name="filmTypesPresets" type="float" value="0"/>
+		<key name="filmTypesSectionEnabled" type="float" value="1"/>
+		<key name="fineStructure" type="float" value="60.3659"/>
+		<key name="globalBrightness" type="float" value="0"/>
+		<key name="globalContrast" type="float" value="16.9399"/>
+		<key name="globalStructure" type="float" value="0"/>
+		<key name="grainSliderSoftness" type="float" value="0"/>
+		<key name="grainSliderStrength" type="float" value="500"/>
+		<key name="hiBrightness" type="float" value="0"/>
+		<key name="hiStructure" type="float" value="0"/>
+		<key name="imageBordersPresets" type="float" value="0"/>
+		<key name="loBrightness" type="float" value="0"/>
+		<key name="loStructure" type="float" value="0"/>
+		<key name="mainControlsEnabled" type="float" value="1"/>
+		<key name="medBrightness" type="float" value="0"/>
+		<key name="medStructure" type="float" value="55.4878"/>
+		<key name="protectHighlights" type="float" value="76.7606"/>
+		<key name="protectShadows" type="float" value="74.6479"/>
+		<key name="sensB" type="float" value="0"/>
+		<key name="sensCy" type="float" value="0"/>
+		<key name="sensG" type="float" value="0"/>
+		<key name="sensMg" type="float" value="0"/>
+		<key name="sensR" type="float" value="0"/>
+		<key name="sensYe" type="float" value="0"/>
+		<key name="softContrast" type="float" value="-29.2683"/>
+		<key name="stylizingSectionEnabled" type="float" value="1"/>
+		<key name="toneHueBalance" type="float" value="0"/>
+		<key name="toneHueHigh" type="float" value="50"/>
+		<key name="toneHueLow" type="float" value="30"/>
+		<key name="toneStrengthHigh" type="float" value="0"/>
+		<key name="toneStrengthHighRelative" type="float" value="0"/>
+		<key name="toneStrengthLow" type="float" value="0"/>
+		<key name="toneStrengthLowRelative" type="float" value="1"/>
+		<key name="toningPresets" type="float" value="1"/>
+		<key name="toningStrength" type="float" value="0"/>
+		<key name="vigShape" type="float" value="2"/>
+		<key name="vigSize" type="float" value="50"/>
+		<key name="vigStrength" type="float" value="0"/>
+		<key name="vignetteCenterX" type="float" value="0.5"/>
+		<key name="vignetteCenterY" type="float" value="0.5"/>
+		<key name="vignettePresets" type="float" value="0"/>
+	</group>
+	<group name="filter_parameters_lac">
+		<key name="gamma" type="float" value="0"/>
+		<key name="highNodeX" type="float" value="1"/>
+		<key name="highNodeY" type="float" value="1"/>
+		<key name="intNodeCount" type="int" value="0"/>
+		<key name="lowNodeX" type="float" value="0"/>
+		<key name="lowNodeY" type="float" value="0"/>
+	</group>
+	<group name="general">
+		<key name="name" type="string" value="024 Full Contrast and Structure"/>
+   		<key name="tags" type="string_array">
+			<string value="All"/>
+			<string value="Modern"/>
+		</key>
+	</group>
+</SilverEfexPro2_preset>
+
