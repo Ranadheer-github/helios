@@ -16,12 +16,12 @@
 ==================================================*/
 
 body {
-          font-family:'Open Sans', sans-serif;
-    font-size:14px;
+          font-family:initial;
+    font-size:16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:'Open Sans', sans-serif;
+    font-family:inherit;
 }
 
 h1 {
@@ -190,7 +190,7 @@ font-weight: 900;
 #home {
     padding-top:130px;
     padding-bottom:200px;
-    color:#fff;
+    color:mediumvioletred;
 }
 .head-main {
     font-size:80px ;
@@ -203,7 +203,7 @@ font-weight: 900;
     padding:5px 20px 10px 20px;
 }
 .head-last {
-    font-size:20px ;
+    font-size:30px ;
     font-weight:300;
     padding:5px 20px 20px 20px;
 }
@@ -224,6 +224,7 @@ border-radius: 0px;
 }
 .team-member > img {
     float: left;
+    height: 325px;
     width: 100%;
 }
 .team-member > h3 {
@@ -392,7 +393,7 @@ font-size: 30px;
 ==================================================*/
 
 .color-bg-one {
-    background-color:rgba(0, 122, 255, 1)!important;
+    background-color:rgb(175, 34, 34)!important;
     color:#fff;
 }
 .color-white {
