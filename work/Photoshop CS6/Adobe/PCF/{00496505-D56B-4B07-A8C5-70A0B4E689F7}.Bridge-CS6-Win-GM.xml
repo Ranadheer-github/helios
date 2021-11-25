@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+	<Payload adobeCode="{00496505-D56B-4B07-A8C5-70A0B4E689F7}">
+		<!-- defaultAdobeCode for development use. -->
+		<Data key="defaultAdobeCode">Bridge-Installer-AdobeCode</Data>
+		<Data key="LicensingCode">Bridge-CS6-Win-GM</Data>
+		<Data key="BridgeTalkCode">/adobe/bridgetalk/bridge-5.064</Data>
+		<Data key="AMTConfigPath">C:\Program Files\Adobe\Adobe Bridge CS6 (64 Bit)\AMT\application.xml</Data><Data key="DefaultDriverPayload">{74EB3499-8B95-4B5C-96EB-7B342F3FD0C6}</Data><Data key="InstallDate">1335400544</Data><Data key="driverAMTConfigPath">C:\Program Files (x86)\Common Files\Adobe\Adobe Photoshop CS6\AMT_Driver\application.xml</Data><Data key="driverLEID">Photoshop-CS6-Win-GM</Data><Data key="installedLanguages">en_IL</Data></Payload>
+	<Other adobeCode="Bridge-CS6-Win-GM">
+		<Data key="EPIC_APP">Adobe Bridge</Data>
+		<Data key="EPIC_APP_0">Adobe Bridge CS6</Data>
+		<Data key="GracePeriod">10000</Data>
+		<Data key="PayloadCode">{00496505-D56B-4B07-A8C5-70A0B4E689F7}</Data></Other>
+	<Other adobeCode="/adobe/bridgetalk/bridge-5.064">
+		<Data key="Specifier">bridge-5.064</Data>
+		<Data key="WindowClassName">Bridge_WindowClass</Data>
+		<Data key="DisplayName">Bridge CS6 (64 bit)</Data>
+		<Data key="BridgeTalkVersion">2</Data>
+		<Data key="ExecutableBasename">Bridge</Data>
+		<Data key="SupportsESTK">true</Data>
+	</Other>
+</Configuration>

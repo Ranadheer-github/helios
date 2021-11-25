@@ -1,0 +1,410 @@
+<style>
+   <icon subrect="0;0;512;1024" img="styles_leonis.png" name="Table_01">
+   </icon>
+   <template name="Table_01">
+      <icon subrect="0;0;512;1024" img="styles_leonis.png">
+      </icon>
+   </template>
+   <template name="Filter-NameBGSSelected">
+      <xrect border="155;0;55;0" subrect="6;4;264;57" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="History-KnobNormal">
+      <xrect border="0;0;0;0" subrect="267;4;299;25" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="History-Ruler">
+      <xrect border="0;0;0;0" subrect="300;4;309;25" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <icon subrect="310;4;323;13" img="styles_leonis.png" name="Edges-IconLeftInactive">
+   </icon>
+   <template name="Edges-IconLeftInactive">
+      <icon subrect="310;4;323;13" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="324;4;337;13" img="styles_leonis.png" name="Edges-IconTopInactive">
+   </icon>
+   <template name="Edges-IconTopInactive">
+      <icon subrect="324;4;337;13" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="338;4;351;13" img="styles_leonis.png" name="Edges-IconRightInactive">
+   </icon>
+   <template name="Edges-IconRightInactive">
+      <icon subrect="338;4;351;13" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="352;4;365;13" img="styles_leonis.png" name="Edges-IconDownInactive">
+   </icon>
+   <template name="Edges-IconDownInactive">
+      <icon subrect="352;4;365;13" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="366;4;377;14" img="styles_leonis.png" name="History-Icon">
+   </icon>
+   <template name="History-Icon">
+      <icon subrect="366;4;377;14" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="310;14;323;23" img="styles_leonis.png" name="Edges-IconLeftActive">
+   </icon>
+   <template name="Edges-IconLeftActive">
+      <icon subrect="310;14;323;23" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="324;14;337;23" img="styles_leonis.png" name="Edges-IconTopActive">
+   </icon>
+   <template name="Edges-IconTopActive">
+      <icon subrect="324;14;337;23" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="338;14;351;23" img="styles_leonis.png" name="Edges-IconRightActive">
+   </icon>
+   <template name="Edges-IconRightActive">
+      <icon subrect="338;14;351;23" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="352;14;365;23" img="styles_leonis.png" name="Edges-IconDownActive">
+   </icon>
+   <template name="Edges-IconDownActive">
+      <icon subrect="352;14;365;23" img="styles_leonis.png">
+      </icon>
+   </template>
+   <template name="History-KnobSideBySide">
+      <xrect border="0;0;0;0" subrect="267;26;299;47" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Bar-LeftNormal">
+      <xrect border="4;0;2;0" subrect="310;28;337;46" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Bar-MidNormal">
+      <xrect border="2;0;2;0" subrect="338;28;365;46" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Bar-RightNormal">
+      <xrect border="2;0;2;0" subrect="366;28;393;46" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Bar-LeftNormalHover">
+      <xrect border="4;0;2;0" subrect="394;28;421;46" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Bar-MidNormalHover">
+      <xrect border="2;0;2;0" subrect="422;28;449;46" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Bar-RightNormalHover">
+      <xrect border="2;0;2;0" subrect="450;28;477;46" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Bar-LeftPressed">
+      <xrect border="5;0;3;0" subrect="310;47;337;65" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Bar-MidPressed">
+      <xrect border="5;0;3;0" subrect="338;47;365;65" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Bar-RightPressed">
+      <xrect border="5;0;3;0" subrect="366;47;393;65" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Bar-LeftPressedHover">
+      <xrect border="5;0;3;0" subrect="394;47;421;65" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Bar-MidPressedHover">
+      <xrect border="5;0;3;0" subrect="422;47;449;65" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Bar-RightPressedHover">
+      <xrect border="5;0;3;0" subrect="450;47;477;65" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="History-KnobSmall">
+      <xrect border="0;0;0;0" subrect="269;48;285;69" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <icon subrect="199;61;214;76" img="styles_leonis.png" name="CP-superselected">
+   </icon>
+   <template name="CP-superselected">
+      <icon subrect="199;61;214;76" img="styles_leonis.png">
+      </icon>
+   </template>
+   <template name="Color-GreyNormal">
+      <xrect border="0;0;0;0" subrect="5;62;23;80" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Color-RedNormal">
+      <xrect border="0;0;0;0" subrect="29;62;47;80" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Color-OrangeNormal">
+      <xrect border="0;0;0;0" subrect="53;62;71;80" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Color-YellowNormal">
+      <xrect border="0;0;0;0" subrect="77;62;95;80" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Color-GreenNormal">
+      <xrect border="0;0;0;0" subrect="98;62;116;80" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Color-BlueNormal">
+      <xrect border="0;0;0;0" subrect="120;62;138;80" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <icon subrect="142;62;149;69" img="styles_leonis.png" name="CP-small">
+   </icon>
+   <template name="CP-small">
+      <icon subrect="142;62;149;69" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="153;62;164;73" img="styles_leonis.png" name="CP-normal">
+   </icon>
+   <template name="CP-normal">
+      <icon subrect="153;62;164;73" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="171;62;188;79" img="styles_leonis.png" name="CP-selected">
+   </icon>
+   <template name="CP-selected">
+      <icon subrect="171;62;188;79" img="styles_leonis.png">
+      </icon>
+   </template>
+   <template name="History-normal">
+      <xrect border="0;0;0;0" subrect="267;70;299;91" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Color-GreyActive">
+      <xrect border="0;0;0;0" subrect="5;81;23;99" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Color-RedActive">
+      <xrect border="0;0;0;0" subrect="29;81;47;99" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Color-OrangeActive">
+      <xrect border="0;0;0;0" subrect="53;81;71;99" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Color-YellowActive">
+      <xrect border="0;0;0;0" subrect="77;81;95;99" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Color-GreenActive">
+      <xrect border="0;0;0;0" subrect="98;81;116;99" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <template name="Color-BlueActive">
+      <xrect border="0;0;0;0" subrect="120;81;138;99" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <icon subrect="6;102;21;115" img="styles_leonis.png" name="Sensitivity-Red">
+   </icon>
+   <template name="Sensitivity-Red">
+      <icon subrect="6;102;21;115" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="22;102;37;115" img="styles_leonis.png" name="Sensitivity-Yellow">
+   </icon>
+   <template name="Sensitivity-Yellow">
+      <icon subrect="22;102;37;115" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="38;102;53;115" img="styles_leonis.png" name="Sensitivity-Green">
+   </icon>
+   <template name="Sensitivity-Green">
+      <icon subrect="38;102;53;115" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="54;102;69;115" img="styles_leonis.png" name="Sensitivity-Torqoise">
+   </icon>
+   <template name="Sensitivity-Torqoise">
+      <icon subrect="54;102;69;115" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="70;102;85;115" img="styles_leonis.png" name="Sensitivity-Blue">
+   </icon>
+   <template name="Sensitivity-Blue">
+      <icon subrect="70;102;85;115" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="86;102;101;115" img="styles_leonis.png" name="Sensitivity-Purple">
+   </icon>
+   <template name="Sensitivity-Purple">
+      <icon subrect="86;102;101;115" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;120;65;134" img="styles_leonis.png" name="ToningPreset-01Neutral">
+   </icon>
+   <template name="ToningPreset-01Neutral">
+      <icon subrect="7;120;65;134" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;140;65;154" img="styles_leonis.png" name="ToningPreset-02SplitToners1">
+   </icon>
+   <template name="ToningPreset-02SplitToners1">
+      <icon subrect="7;140;65;154" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;160;65;174" img="styles_leonis.png" name="ToningPreset-03SplitToners2">
+   </icon>
+   <template name="ToningPreset-03SplitToners2">
+      <icon subrect="7;160;65;174" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="211;164;212;165" img="styles_leonis.png" name="styles-leonis-142">
+   </icon>
+   <template name="styles-leonis-142">
+      <icon subrect="211;164;212;165" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;180;65;194" img="styles_leonis.png" name="ToningPreset-04BlueToners1">
+   </icon>
+   <template name="ToningPreset-04BlueToners1">
+      <icon subrect="7;180;65;194" img="styles_leonis.png">
+      </icon>
+   </template>
+   <template name="Seperator-down">
+      <xrect border="0;1;0;1" subrect="273;195;275;198" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <icon subrect="7;200;65;214" img="styles_leonis.png" name="ToningPreset-05BlueToners2">
+   </icon>
+   <template name="ToningPreset-05BlueToners2">
+      <icon subrect="7;200;65;214" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;220;65;234" img="styles_leonis.png" name="ToningPreset-06BlueToners3">
+   </icon>
+   <template name="ToningPreset-06BlueToners3">
+      <icon subrect="7;220;65;234" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;240;65;254" img="styles_leonis.png" name="ToningPreset-07Coffee1">
+   </icon>
+   <template name="ToningPreset-07Coffee1">
+      <icon subrect="7;240;65;254" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;260;65;274" img="styles_leonis.png" name="ToningPreset-08Coffee2">
+   </icon>
+   <template name="ToningPreset-08Coffee2">
+      <icon subrect="7;260;65;274" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;280;65;294" img="styles_leonis.png" name="ToningPreset-09Coffee3">
+   </icon>
+   <template name="ToningPreset-09Coffee3">
+      <icon subrect="7;280;65;294" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;301;65;315" img="styles_leonis.png" name="ToningPreset-10Copper1">
+   </icon>
+   <template name="ToningPreset-10Copper1">
+      <icon subrect="7;301;65;315" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;321;65;335" img="styles_leonis.png" name="ToningPreset-11Copper2">
+   </icon>
+   <template name="ToningPreset-11Copper2">
+      <icon subrect="7;321;65;335" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;341;65;355" img="styles_leonis.png" name="ToningPreset-12Copper3">
+   </icon>
+   <template name="ToningPreset-12Copper3">
+      <icon subrect="7;341;65;355" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;361;65;375" img="styles_leonis.png" name="ToningPreset-13Selenium1">
+   </icon>
+   <template name="ToningPreset-13Selenium1">
+      <icon subrect="7;361;65;375" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;381;65;395" img="styles_leonis.png" name="ToningPreset-14Selenium2">
+   </icon>
+   <template name="ToningPreset-14Selenium2">
+      <icon subrect="7;381;65;395" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;401;65;415" img="styles_leonis.png" name="ToningPreset-15Selenium3">
+   </icon>
+   <template name="ToningPreset-15Selenium3">
+      <icon subrect="7;401;65;415" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;421;65;435" img="styles_leonis.png" name="ToningPreset-16Sepia1">
+   </icon>
+   <template name="ToningPreset-16Sepia1">
+      <icon subrect="7;421;65;435" img="styles_leonis.png">
+      </icon>
+   </template>
+   <template name="midSeparator">
+      <xrect border="0;0;0;0" subrect="201;430;206;431" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <icon subrect="7;441;65;455" img="styles_leonis.png" name="ToningPreset-17Sepia2">
+   </icon>
+   <template name="ToningPreset-17Sepia2">
+      <icon subrect="7;441;65;455" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;461;65;475" img="styles_leonis.png" name="ToningPreset-18Sepia3">
+   </icon>
+   <template name="ToningPreset-18Sepia3">
+      <icon subrect="7;461;65;475" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;493;65;507" img="styles_leonis.png" name="ToningPreset-19Cyan1">
+   </icon>
+   <template name="ToningPreset-19Cyan1">
+      <icon subrect="7;493;65;507" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;512;65;526" img="styles_leonis.png" name="ToningPreset-20Cyan2">
+   </icon>
+   <template name="ToningPreset-20Cyan2">
+      <icon subrect="7;512;65;526" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;532;65;546" img="styles_leonis.png" name="ToningPreset-21Cyan3">
+   </icon>
+   <template name="ToningPreset-21Cyan3">
+      <icon subrect="7;532;65;546" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;551;65;565" img="styles_leonis.png" name="ToningPreset-22Ambro1">
+   </icon>
+   <template name="ToningPreset-22Ambro1">
+      <icon subrect="7;551;65;565" img="styles_leonis.png">
+      </icon>
+   </template>
+   <template name="sidePanelShadow">
+      <xrect border="0;0;0;0" subrect="240;560;241;568" img="styles_leonis.png">
+      </xrect>
+   </template>
+   <icon subrect="7;571;65;585" img="styles_leonis.png" name="ToningPreset-23Ambro2">
+   </icon>
+   <template name="ToningPreset-23Ambro2">
+      <icon subrect="7;571;65;585" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="7;591;65;605" img="styles_leonis.png" name="ToningPreset-24Ambro3">
+   </icon>
+   <template name="ToningPreset-24Ambro3">
+      <icon subrect="7;591;65;605" img="styles_leonis.png">
+      </icon>
+   </template>
+   <icon subrect="8;618;66;632" img="styles_leonis.png" name="ToningPreset-25Custom">
+   </icon>
+   <template name="ToningPreset-25Custom">
+      <icon subrect="8;618;66;632" img="styles_leonis.png">
+      </icon>
+   </template>
+</style>

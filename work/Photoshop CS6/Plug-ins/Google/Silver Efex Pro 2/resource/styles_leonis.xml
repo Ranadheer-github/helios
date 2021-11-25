@@ -1,0 +1,627 @@
+<?xml version="1.0" ?>
+
+<!--
+ Structure:
+
+-->
+
+<style>
+  <include href="styles_leonis_templates.xml"/>
+  <include href="plugin_common/plugin_common_styles.xml"/>
+  <include href="plugin_common/SplashStyle.xml"/>
+  
+  <color name="SplashNotificationColorLeonis" value="0;0;0;1"/>
+  <color name="WaitIcon" value="0.81; 0.81; 0.81; 1.0" />
+  <color name="WaitIconDark" value="0.26;0.26;0.26;1.0" />
+
+
+  <part name="WaitIconLabelLight">
+    <state name="normal">
+      <text font="Default" margin="0;0;0;0" flags="center;middle" color="0.81; 0.81; 0.81; 1.0" />
+    </state>
+  </part>
+
+  <part name="WaitIconLabelDark">
+    <state name="normal">
+      <text font="Default" margin="0;0;0;0" flags="center;middle" color="0.26;0.26;0.26;1.0" />
+    </state>
+  </part>
+  
+  <part name="PresetSubTitel" action="replace">
+    <state name="normal">
+	  <text font="Arial10P" margin="0;1;0;0" flags="left;middle" color="BlackShadow" wrapmode="WrapBackEllipsis"/>
+	  <text font="Arial10P" margin="0;0;0;0" flags="left;middle" color="SubTitelColor"wrapmode="WrapBackEllipsis" />
+    </state>
+    <state name="normal.hover">
+	<text font="Arial10P" margin="0;1;0;0" flags="left;middle" color="BlackShadow" wrapmode="WrapBackEllipsis"/>
+	  <text font="Arial10P" margin="0;0;0;0" flags="left;middle" color="1;1;1;1" wrapmode="WrapBackEllipsis"/>
+    </state>
+  </part>
+  
+  <part name="FilternamePanel">
+    <state name="normal">
+        <use template="Filter-NameBGSSelected"/>
+    </state>
+  </part>
+  
+<!-- 7/Feb/2013 moved to plugin_common_styles.xml (legacy slices still present in leonis.psd!) -->
+<!--
+  <part name="HistorySliderTimeLine">
+    <state name="normal">
+      <use template="History-Ruler" />
+    </state>
+  </part>
+  <part name="HistorySliderKnobSingle">
+    <state name="normal">
+      <use template="History-normal" />
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+  </part>
+  <part name="HistorySliderKnobSideBySide">
+    <state name="normal">
+      <use template="History-KnobSideBySide" />
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+  </part> 
+-->
+  <part name="HistoryKnobPositionIndicatorButton">
+    <state name="normal">
+      <use template="History-KnobSmall"/>
+    </state>
+    <state name="activated">
+      <use state="normal"/>
+    </state>
+    <substate>
+		  <state name="pressed"></state>
+		  <state name="focused"></state>
+		</substate>
+		<substate>
+		  <state name="hover"></state>
+		</substate>
+  </part>
+  <part name="ControlPoint" action="replace">
+    <state name="normal">
+      <use template="CP-normal"/>
+    </state>
+    <substate>
+      <state name="focused">
+        <use template="CP-selected"/>
+      </state>
+    </substate>
+    <state name="normal.focused">
+      <use template="CP-selected"/>
+    </state>
+  </part>
+  <part name="ControlPointParent" action="replace">
+    <state name="normal">
+      <use template="CP-superselected"/>
+    </state>
+    <substate>
+      <state name="focused">
+        <use template="CP-selected"/>
+      </state>
+    </substate>
+    <state name="normal.focused">
+      <use template="CP-selected"/>
+    </state>
+  </part>
+  <part name="ControlPointChild" action="replace">
+    <state name="normal">
+      <use template="CP-small"/>
+    </state>
+    <substate>
+      <state name="focused">
+        <use template="CP-small"/>
+      </state>
+    </substate>
+    <state name="normal.focused">
+      <use template="CP-small"/>
+    </state>
+  </part>
+  
+  
+  <!-- Color Filter Buttons -->
+  <part name="ColorFilterButtonNeutral">
+    <substate>
+      <state name="normal">
+        <use template="Color-GreyNormal"/>
+      </state>
+      <state name="activated">
+        <use state="normal"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <substate>
+      <state name="hover">
+          <use template="Color-GreyActive"/>
+      </state>
+    </substate>
+    <state name="normal.disabled">
+  		  <use state="normal"/>
+  	</state>
+  </part>
+  <part name="ColorFilterButtonRed">
+    <substate>
+      <state name="normal">
+        <use template="Color-RedNormal"/>
+      </state>
+      <state name="activated">
+        <use state="normal"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <substate>
+      <state name="hover">
+          <use template="Color-RedActive"/>
+      </state>
+    </substate>
+    <state name="normal.disabled">
+  		  <use state="normal"/>
+  	</state>
+  </part>
+  <part name="ColorFilterButtonOrange">
+    <substate>
+      <state name="normal">
+        <use template="Color-OrangeNormal"/>
+      </state>
+      <state name="activated">
+        <use state="normal"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <substate>
+      <state name="hover">
+          <use template="Color-OrangeActive"/>
+      </state>
+    </substate>
+    <state name="normal.disabled">
+  		  <use state="normal"/>
+  	</state>
+  </part>
+  <part name="ColorFilterButtonYellow">
+    <substate>
+      <state name="normal">
+        <use template="Color-YellowNormal"/>
+      </state>
+      <state name="activated">
+        <use state="normal"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <substate>
+      <state name="hover">
+          <use template="Color-YellowActive"/>
+      </state>
+    </substate>
+    <state name="normal.disabled">
+  		  <use state="normal"/>
+  	</state>
+  </part>
+  <part name="ColorFilterButtonGreen">
+    <substate>
+      <state name="normal">
+        <use template="Color-GreenNormal"/>
+      </state>
+      <state name="activated">
+        <use state="normal"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <substate>
+      <state name="hover">
+          <use template="Color-GreenActive"/>
+      </state>
+    </substate>
+    <state name="normal.disabled">
+  		  <use state="normal"/>
+  	</state>
+  </part>
+  <part name="ColorFilterButtonBlue">
+    <substate>
+      <state name="normal">
+        <use template="Color-BlueNormal"/>
+      </state>
+      <state name="activated">
+        <use state="normal"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="pressed"></state>
+      <state name="focused"></state>
+    </substate>
+    <substate>
+      <state name="hover">
+          <use template="Color-BlueActive"/>
+      </state>
+    </substate>
+    <state name="normal.disabled">
+  		  <use state="normal"/>
+  	</state>
+  </part>
+  
+  <!--  Burning Edges Buttongroup icons-->
+  <part name="LeftEdgeButtonIcon">
+    <substate>
+      <state name="normal">
+        <use template="Edges-IconLeftInactive"/>
+      </state>
+      <state name="activated">
+        <use template="Edges-IconLeftActive"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover"></state>        
+    </substate>
+   </part>
+  <part name="TopEdgeButtonIcon">
+    <substate>
+      <state name="normal">
+        <use template="Edges-IconTopInactive"/>
+      </state>
+      <state name="activated">
+        <use template="Edges-IconTopActive"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover"></state>        
+    </substate>
+   </part>
+  <part name="RightEdgeButtonIcon">
+    <substate>
+      <state name="normal">
+        <use template="Edges-IconRightInactive"/>
+      </state>
+      <state name="activated">
+        <use template="Edges-IconRightActive"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover"></state>        
+    </substate>
+   </part>
+  <part name="BottomEdgeButtonIcon">
+    <substate>
+      <state name="normal">
+        <use template="Edges-IconDownInactive"/>
+      </state>
+      <state name="activated">
+        <use template="Edges-IconDownActive"/>
+      </state>
+    </substate>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover"></state>        
+    </substate>
+   </part>
+   
+   <!-- Zoning Control Stuff -->
+  <color name="ZoneColor0" value="0.96;0.96;0.03;1"/>
+  <color name="ZoneColor1" value="0.93;0.78;0.07;1"/>
+  <color name="ZoneColor2" value="0.93;0.49;0.07;1"/>
+  <color name="ZoneColor3" value="0.93;0.35;0.07;1"/>
+  <color name="ZoneColor4" value="0.93;0.2;0.07;1"/>
+  <color name="ZoneColor5" value="0.93;0.07;0.07;1"/>
+  <color name="ZoneColor6" value="0.77;0.05;0.05;1"/>
+  <color name="ZoneColor7" value="0.61;0.04;0.18;1"/>
+  <color name="ZoneColor8" value="0.46;0.03;0.32;1"/>
+  <color name="ZoneColor9" value="0.17;0.03;0.46;1"/>
+  <color name="ZoneColor10" value="0.04;0.04;0.62;1"/>
+  <template name="ZoneNumberText0"> <text font="Default" flags="center;middle" color="0.33;0.33;0.33;1"/>  </template>
+  <template name="ZoneNumberText1"> <text font="Default" flags="center;middle" color="0.39;0.39;0.39;1"/>  </template>
+  <template name="ZoneNumberText2"> <text font="Default" flags="center;middle" color="0.46;0.46;0.46;1"/>  </template>
+  <template name="ZoneNumberText3"> <text font="Default" flags="center;middle" color="0.52;0.52;0.52;1"/>  </template>
+  <template name="ZoneNumberText4"> <text font="Default" flags="center;middle" color="0.59;0.59;0.59;1"/>  </template>
+  <template name="ZoneNumberText5"> <text font="Default" flags="center;middle" color="0.66;0.66;0.66;1"/>  </template>
+  <template name="ZoneNumberText0Hi"> <text font="Default" flags="center;middle" color="ZoneColor0"/> </template>
+  <template name="ZoneNumberText1Hi"> <text font="Default" flags="center;middle" color="ZoneColor1"/> </template>
+  <template name="ZoneNumberText2Hi"> <text font="Default" flags="center;middle" color="ZoneColor2"/> </template>
+  <template name="ZoneNumberText3Hi"> <text font="Default" flags="center;middle" color="ZoneColor3"/> </template>
+  <template name="ZoneNumberText4Hi"> <text font="Default" flags="center;middle" color="ZoneColor4"/> </template>
+  <template name="ZoneNumberText5Hi"> <text font="Default" flags="center;middle" color="ZoneColor5"/> </template>
+  <template name="ZoneNumberText6Hi"> <text font="Default" flags="center;middle" color="ZoneColor6"/> </template>
+  <template name="ZoneNumberText7Hi"> <text font="Default" flags="center;middle" color="ZoneColor7"/> </template>
+  <template name="ZoneNumberText8Hi"> <text font="Default" flags="center;middle" color="ZoneColor8"/> </template>
+  <template name="ZoneNumberText9Hi"> <text font="Default" flags="center;middle" color="ZoneColor9"/> </template>
+  <template name="ZoneNumberText10Hi"> <text font="Default" flags="center;middle" color="ZoneColor10"/> </template>
+  <part name="ZoneButton0">
+    <state name="normal">
+      <colorrect color="0;0;0;1"/>
+      <use template="ZoneNumberText0" />
+    </state>
+    <state name="activated">
+      <colorrect color="0;0;0;1"/>
+      <colorrect color="ZoneColor0" outline="1"/>
+      <use template="ZoneNumberText0Hi"/>
+    </state>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover">
+      <colorrect color="ZoneColor0" outline="1"/>
+        <use template="ZoneNumberText0Hi"/>
+      </state>        
+    </substate>
+   </part>
+   <part name="ZoneButton1">
+    <state name="normal">
+      <colorrect color="0.1;0.1;0.1;1"/>
+      <use template="ZoneNumberText1" />
+    </state>
+    <state name="activated">
+      <colorrect color="0.1;0.1;0.1;1"/>
+      <colorrect color="ZoneColor1" outline="1"/>
+      <use template="ZoneNumberText1Hi"/>
+    </state>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover">
+      <colorrect color="ZoneColor1" outline="1"/>
+        <use template="ZoneNumberText1Hi"/>
+      </state>        
+    </substate>
+   </part>
+   <part name="ZoneButton2">
+    <state name="normal">
+      <colorrect color="0.2;0.2;0.2;1"/>
+      <use template="ZoneNumberText2" />
+    </state>
+    <state name="activated">
+      <colorrect color="0.2;0.2;0.2;1"/>
+      <colorrect color="ZoneColor2" outline="1"/>
+      <use template="ZoneNumberText2Hi"/>
+    </state>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover">
+      <colorrect color="ZoneColor2" outline="1"/>
+        <use template="ZoneNumberText2Hi"/>
+      </state>        
+    </substate>
+   </part>
+   <part name="ZoneButton3">
+    <state name="normal">
+      <colorrect color="0.3;0.3;0.3;1"/>
+      <use template="ZoneNumberText3" />
+    </state>
+    <state name="activated">
+      <colorrect color="0.3;0.3;0.3;1"/>
+      <colorrect color="ZoneColor3" outline="1"/>
+      <use template="ZoneNumberText3Hi"/>
+    </state>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover">
+      <colorrect color="ZoneColor3" outline="1"/>
+        <use template="ZoneNumberText3Hi"/>
+      </state>        
+    </substate>
+   </part>
+   <part name="ZoneButton4">
+    <state name="normal">
+      <colorrect color="0.4;0.4;0.4;1"/>
+      <use template="ZoneNumberText4" />
+    </state>
+    <state name="activated">
+      <colorrect color="0.4;0.4;0.4;1"/>
+      <colorrect color="ZoneColor4" outline="1"/>
+      <use template="ZoneNumberText4Hi"/>
+    </state>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover">
+      <colorrect color="ZoneColor4" outline="1"/>
+        <use template="ZoneNumberText4Hi"/>
+      </state>        
+    </substate>
+   </part>
+     <part name="ZoneButton5">
+    <state name="normal">
+      <colorrect color="0.5;0.5;0.5;1"/>
+      <use template="ZoneNumberText5" />
+    </state>
+    <state name="activated">
+      <colorrect color="0.5;0.5;0.5;1"/>
+      <colorrect color="ZoneColor5" outline="1"/>
+      <use template="ZoneNumberText5Hi"/>
+    </state>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover">
+      <colorrect color="ZoneColor5" outline="1"/>
+        <use template="ZoneNumberText5Hi"/>
+      </state>        
+    </substate>
+   </part>
+   <part name="ZoneButton6">
+    <state name="normal">
+      <colorrect color="0.59;0.59;0.59;1"/>
+      <use template="ZoneNumberText1" />
+    </state>
+    <state name="activated">
+      <colorrect color="0.59;0.59;0.59;1"/>
+      <colorrect color="ZoneColor6" outline="1"/>
+      <use template="ZoneNumberText6Hi"/>
+    </state>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover">
+      <colorrect color="ZoneColor6" outline="1"/>
+        <use template="ZoneNumberText6Hi"/>
+      </state>        
+    </substate>
+   </part>
+   <part name="ZoneButton7">
+    <state name="normal">
+      <colorrect color="0.68;0.68;0.68;1"/>
+      <use template="ZoneNumberText2" />
+    </state>
+    <state name="activated">
+      <colorrect color="0.68;0.68;0.68;1"/>
+      <colorrect color="ZoneColor7" outline="1"/>
+      <use template="ZoneNumberText7Hi"/>
+    </state>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover">
+      <colorrect color="ZoneColor7" outline="1"/>
+        <use template="ZoneNumberText7Hi"/>
+      </state>        
+    </substate>
+   </part>
+   <part name="ZoneButton8">
+    <state name="normal">
+      <colorrect color="0.78;0.78;0.78;1"/>
+      <use template="ZoneNumberText3" />
+    </state>
+    <state name="activated">
+      <colorrect color="0.78;0.78;0.78;1"/>
+      <colorrect color="ZoneColor8" outline="1"/>
+      <use template="ZoneNumberText8Hi"/>
+    </state>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover">
+      <colorrect color="ZoneColor8" outline="1"/>
+        <use template="ZoneNumberText8Hi"/>
+      </state>        
+    </substate>
+   </part>
+   <part name="ZoneButton9">
+    <state name="normal">
+      <colorrect color="0.88;0.88;0.88;1"/>
+      <use template="ZoneNumberText4" />
+    </state>
+    <state name="activated">
+      <colorrect color="0.88;0.88;0.88;1"/>
+      <colorrect color="ZoneColor9" outline="1"/>
+      <use template="ZoneNumberText9Hi"/>
+    </state>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover">
+      <colorrect color="ZoneColor9" outline="1"/>
+        <use template="ZoneNumberText9Hi"/>
+      </state>        
+    </substate>
+   </part>
+   <part name="ZoneButton10">
+    <state name="normal">
+      <colorrect color="0.98;0.98;0.98;1"/>
+      <use template="ZoneNumberText5" />
+    </state>
+    <state name="activated">
+      <colorrect color="0.98;0.98;0.98;1"/>
+      <colorrect color="ZoneColor10" outline="1"/>
+      <use template="ZoneNumberText10Hi"/>
+    </state>
+    <substate>
+      <state name="focused"></state>
+      <state name="pressed"></state>
+    </substate>
+    <substate>
+      <state name="hover">
+      <colorrect color="ZoneColor10" outline="1"/>
+        <use template="ZoneNumberText10Hi"/>
+      </state>        
+    </substate>
+   </part>
+
+   <part name="ProgressBarBackground">
+     <state name="normal">
+       <colorrect cornerradius="0" color="0.55;0.55;0.55;1" />
+     </state>
+   </part>
+
+   <part name="ProgressBarBar">
+     <state name="normal">
+       <colorrect cornerradius="0" color="0.4;0.4;0.4;1"/>
+     </state>
+   </part>
+
+   <color name="ProgressBarPercentage" value="1;1;1;1"/>   
+
+	<part name="SplashNotification">
+	  <state name="normal">
+	  <text font="SplashScreenBottomF" margin="0;0;0;0" flags="left;top" color="SplashNotificationColorLeonis" wrapmode="WrapWord"/>
+	  </state>
+	</part>
+</style>
+
+  

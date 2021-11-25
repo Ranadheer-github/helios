@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+	<Payload adobeCode="{83463106-DD1C-4FE5-A61C-DF6715472AD4}">
+		<!-- defaultAdobeCode for development use. -->
+		<Data key="defaultAdobeCode">AdobeExtensionManager-Installer-AdobeCode</Data>
+		<Data key="LicensingCode">ExMan-CS6-Win-GM</Data>
+		<Data key="BridgeTalkCode">/adobe/bridgetalk/exman-6.0</Data>
+		<Data key="AMTConfigPath">C:\Program Files (x86)\Adobe\Adobe Extension Manager CS6\AMT\application.xml</Data><Data key="DefaultDriverPayload">{74EB3499-8B95-4B5C-96EB-7B342F3FD0C6}</Data><Data key="InstallDate">1335400442</Data><Data key="driverAMTConfigPath">C:\Program Files (x86)\Common Files\Adobe\Adobe Photoshop CS6\AMT_Driver\application.xml</Data><Data key="driverLEID">Photoshop-CS6-Win-GM</Data><Data key="installedLanguages">en_IL</Data></Payload>
+	<Other adobeCode="/adobe/bridgetalk/exman-6.0">
+		<Data key="Specifier">exman-6.0</Data>
+		<Data key="BridgeTalkVersion">2</Data>
+		<Data key="ExecutableBasename">Adobe Extension Manager CS6</Data>
+		<Data key="DisplayName">Adobe Extension Manager CS6</Data>
+		<Data key="WindowClassName">_macr_package_manager_frame_window_CS6</Data>
+		<Data key="BundleIdentifier">com.adobe.exman</Data>
+	</Other>
+</Configuration>
