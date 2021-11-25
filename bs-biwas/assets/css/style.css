@@ -227,6 +227,11 @@ border-radius: 0px;
     height: 325px;
     width: 100%;
 }
+.team-member1 > img {
+    float: left;
+    height:218px;
+    width: 100%;
+}
 .team-member > h3 {
     background: rgba(252, 64, 101, 1);
     bottom: 25px;
